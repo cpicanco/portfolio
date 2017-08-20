@@ -1,0 +1,84 @@
+en:
+  title: 'Free-mtrix software'
+  date-string: 'from November to December, 2016.'
+  image: '/media/free_mtrix/logo.jpg'
+  style: 'section-top'
+  description: >
+    <a href="https://github.com/lacs-ufpa/free-mtrix">Free-mtrix</a> is a couple of softwares written
+    for the Laboratory of Social Behavior and Cultural Selection at Universidade Federal do Pará, Brazil.
+    The software allows designing and presentation of social experiments based on tasks similar to the ones reported by
+    Vichi, Andery and Glenn (2009). In such tasks, each participant can choose visual elements
+    of a matrix and then the software determines which individual and social consequences will be presented.
+
+    <br><br>
+    <b>Designer</b> is the software used to design social experiments and laboratory micro-cultures.
+    To design your experiment, all you need to do is to fill in a short form (~ 10min).
+    The form uses a behavior analytic terminology, making it intuitive for researches of this field.
+    At the end, a configuration file containing the experiment becomes available and ready for use,
+    arquiving or further editing, as needed. 
+
+    <br><br>
+    <b>Runner</b> is the software used to run configuration files.
+    The program will read the file and then manage, present and record the experimental task.
+    The program has a built-in chat allowing distant participants to interact.
+    Choices, other experimental data and chatting are recorded automaticly in real time.
+    The ZMQ library allows the program to be executed in a single machine,
+    for tests for example, or in machines of a local network.
+
+    <br><br>
+    Free-mtrix is free software (<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL3</a>)
+    and all generated data is open and accessible in plain text.
+
+    <br><br>
+    Technically speaking, the program was designed to study macro and metacontingencies, as well as
+    to study concurrency between individual and social contingencies.
+  extras: |
+    <p>For details about the macro and metacontingencies, please see:<p>
+    <blockquote>
+      <div class="self-font">Vichi, C., Andery, M. A. P. A., &amp; Glenn, S. S. (2009). A metacontingency experiment: the effects of contingent consequences on patterns of interlocking contingencies reinforcement.&#32;
+      <i>Behavioral and Social Issues</i>,&#32;<i>18</i>,&#32;41-57. <a href="http://dx.doi.org/10.5210/bsi.v18i1.2292">doi: 10.5210/bsi.v18i1.2292</a></div>
+    </blockquote> 
+
+pt-BR:
+  title: 'Software Free-mtrix'
+  date-string: 'de Novembro à Dezembro de 2016.'
+  image: '/media/free_mtrix/logo.jpg'
+  style: 'section-top'
+  description: >
+    <a href="https://github.com/lacs-ufpa/free-mtrix">Free-mtrix</a> é um par de programas de computador
+    escritos para o LACS-UFPA (Laboratório de Comportamento Social e Seleção Cultural da
+    Universidade Federal do Pará). Eles permitem o planejamento e a apresentação de experimentos baseados em tarefas de
+    escolha semelhantes àquelas documentadas por Vichi, Andery e Glenn (2009). Cada participante pode escolher elementos
+    de uma matrix e o cientista determina quais serão as consequências individuais apresentadas a cada participante
+    bem como quais serão as consequências sociais apresentadas ao grupo.
+
+    <br><br>
+    O programa <b><i>Designer</i></b> é usado para o planejamento de experimentos
+    sociais por meio do preenchimento de um formulário pelo pesquisador.
+    O formulário é curto (~10 min) e utiliza a terminologia da análise do comportamento,
+    tornando-o intuitivo aos pesquisadores da área.
+    Todo o processo de preenchimento é salvo automaticamente. Ao final, um arquivo de configuração do experimento
+    é disponibilizado para uso, reuso, arquivamento ou edição.
+    
+    <br><br>
+    Por meio dos arquivos de configuração, o programa <b><i>Runner</i></b> é usado para a apresentação de experimentos
+    aos participantes de um pesquisa e para a interação entre eles por meio de um chat.
+    O registro das escolhas e da interação é automático e em tempo real.
+    Por meio da magnífica biblioteca <a href="http://zeromq.org/">ZMQ</a>, o programa pode ser executado em um único computador, para testes por exemplo,
+    ou pode ser facilmente configurado em uma rede local com múltiplos computadores.
+    
+    <br><br>
+    Free-mtrix é livre (<a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL3</a>)
+    e todo os dados gerados são registrados em um formato de texto plano, aberto e acessível.
+    
+    <br><br>
+    Usando um jargão técnico, o programa foi feito para
+    o estudo experimental de macro e metacontingências, bem como para
+    o estudo de concorrência entre contingências individuais e sociais.
+
+  extras: |
+    <p>Para mais detalhes sobre macro e metacontingências, ver:<p>
+    <blockquote>
+      <div class="self-font">Vichi, C., Andery, M. A. P. A., &amp; Glenn, S. S. (2009). A metacontingency experiment: the effects of contingent consequences on patterns of interlocking contingencies reinforcement.&#32;
+      <i>Behavioral and Social Issues</i>,&#32;<i>18</i>,&#32;41-57. <a href="http://dx.doi.org/10.5210/bsi.v18i1.2292">doi: 10.5210/bsi.v18i1.2292</a></div>
+    </blockquote> 

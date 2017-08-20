@@ -1,0 +1,27 @@
+en:
+  title: 'Eye movements correlated with the Feature-Positive Effect'
+  date-string: 'since Apr, 2014.'
+  image: '/media/fpe/fpe.jpeg'
+  style: 'section-top'
+  description: >
+    Ongoing doctoral project. It aims to replicate the feature-positive effect with human participants
+    and to describe typical eye movements potentially correlated to it. This project is using the
+    <a href="http://pupil-labs.com/">Pupil platform</a> to track eye movements and an open source
+    <a class="page-scroll" href="#id-20140310">Stimulus Control</a> software to run behavioral experiments.
+    The lab relies on a single computer and a simple DIY response button. Regardless of that,
+    a more complex apparatus is being evaluated, adding basic ergonomic furniture, an extra computer,
+    a projector and a DIY projection screen to the setup.
+
+pt-BR:
+  title: 'Movimentos oculares correlacionados com o Efeito de aspecto positivo (Feature-Positive Effect)'
+  date-string: 'desde Abril, 2014.'
+  image: '/media/fpe/fpe.jpeg'
+  style: 'section-top'
+  description: >
+    Projeto de doutorado em andamento. O objetivo é de replicar o efeito com participantes humanos e
+    descrever movimentos oculares típicos potencialmente correlacionados. Este projeto tem usado a
+    <a href="http://pupil-labs.com/">plataforma Pupil</a> para rastrear os movimentos dos olhos a um software livre de
+    <a class="page-scroll" href="#id-20140310">controle de estímulos</a> para a execução de experimentos comportamentais.
+    O laboratório depende de um único computador e um botão de respostas DIY. A despeito disso, um aparato
+    mais complexo tem sido avaliado, adicionando mobília ergonômica básica, um computador adicional, um projetor
+    e uma tela de projeção DIY.

@@ -1,0 +1,45 @@
+en:
+  title: 'Music by heart'
+  subtitle: 'Sing an inspiring song.'
+  header: '"A song for you" (Leon Russell).'
+  date-string: 'Dec, 2013.'
+  icon: 'ac-fa ac-fa-heart'
+  description: >
+    Inspired by the Ray Charles and The Carpenters records.   
+    Produced, recorded, mixed and masterized at Estúdio Livre.
+
+  widget: |
+    <div class="dropdown">
+      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-music"> Listen to the song!</i> 
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+          <li><a class="fa fa-soundcloud" href="https://soundcloud.com/carlitusbatera/leon-russell-a-song-for-you-by"> Soundcloud</a></li>
+          <li class="divider"></li>
+          <li><iframe width="200" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/104171755&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe></li>
+      </ul>
+    </div>
+
+pt-BR:
+  title: 'Música de cór'
+  subtitle: 'Cante uma música inspiradora.'
+  header: '"A song for you" (Leon Russell).'
+  date-string: 'Dezembro, 2013.'
+  icon: 'ac-fa ac-fa-heart'
+  description: >
+    A presente versão foi inspirada nas versões de Ray Charles e The Carpenters.   
+    Ela foi produzida, gravada, mixada e masterizada no Estúdio Livre.
+
+  widget: |
+    <div class="dropdown">
+      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-music"> Ouça a música!</i> 
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+          <li><a class="fa fa-soundcloud" href="https://soundcloud.com/carlitusbatera/leon-russell-a-song-for-you-by"> Soundcloud</a></li>
+          <li class="divider"></li>
+          <li><iframe width="200" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/104171755&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe></li>
+      </ul>
+    </div>

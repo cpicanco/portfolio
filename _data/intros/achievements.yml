@@ -1,0 +1,30 @@
+en:
+  content: >
+    Achievements are a simple way to present
+    extra information about professional or
+    personal projects not listed on the page
+    <a href='/en/projects.html'
+    title='My professional projects'>Projects</a>.
+    It is common practice in electronic games to guide players
+    to new challenges through Achievements.
+    In games, they will generally have a catchy title,
+    a command in the active voice,
+    a symbol and a description.
+    I also included an extended description
+    with links to the products of my activities.
+    Hope you like!
+
+pt-BR:
+  content: >
+    Conquistas são uma maneira singela de apresentar
+    informações extras sobre projetos profissionais
+    ou pessoais que não constam na página
+    <a href='/pt-br/projects.html'
+    title='Meus projetos profissionais'>Projetos</a>.
+    É uma prática comum em jogos eletrônicos guiar os
+    jogadores a novos desafios por meio de Conquistas.
+    Nos jogos, elas geralmente possuem um título de efeito,
+    um comando na voz ativa, um símbolo e uma descrição.
+    Tomei a liberdade de incluir uma descrição extendida
+    com links para os produtos das atividades que realizei.
+    Espero que você goste!

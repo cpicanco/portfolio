@@ -1,0 +1,40 @@
+yarray: []
+mpaginate: 3
+year: 2017
+author: 'Rafael Picanço'
+url: http://portfolio.rafael.picanco.nom.br
+exclude: ['.gitignore',
+          'CNAME',
+          'portfolio.sublime-project',
+          'portfolio.sublime-workspace',
+          'Gemfile',
+          'Gemfile.lock',
+          'Gruntfile.js',
+          'LICENSE.md',
+          'README.md',
+          'package.json',
+          'css/src/',
+          'css/min/',
+          'js/src/',
+          'node_modules/',
+          'python/',
+          'vendor',
+          'tests.html',
+          'nodejs'
+          ]
+defaults:
+  -
+    scope:
+      path: ''
+    values:
+      author: 'Rafael Picanço'
+  -
+    scope:
+      path: 'pt-br'
+    values:
+      language: pt-BR
+  -
+    scope:
+      path: 'en'
+    values:
+      language: en

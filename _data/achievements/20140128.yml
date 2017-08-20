@@ -1,0 +1,60 @@
+en:
+  title: 'DIY pupil!'
+  subtitle: 'Assemble a Pupil Dev Headset.'
+  header: 'Pupil Dev Headset is a Pupil Labs tool.'
+  date-string: 'since Jan 28, 2014, as a member of the Pupil Community.'
+  icon: 'ac-fa ac-fa-dot-circle-o'
+  description: >
+    The Pupil Dev headset have been a necessary hardware for my doctoral project.   
+    
+    Pupil Labs is a german company by Moritz Kassner,
+    William Patera and Andreas Bulling.
+    The company provides accessible open source tools for eye tracking and egocentric vision research.
+    They are awesome.
+
+  widget: |
+    <div class="dropdown">
+      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-image"> See it</i> 
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+        <li><a href="https://github.com/pupil-labs/pupil/wiki/Getting-Pupil-Hardware">Pupil Dev Guide</a></li>
+        <li><a href="https://pupil-labs.com/">Pupil Labs Website</a></li>
+        <li><a href="https://github.com/pupil-labs/">Pupil Labs GitHub</a></li>
+        <li><a href="https://groups.google.com/forum/#!forum/pupil-discuss">Pupil Labs Google Group</a></li>
+        <li class="divider"></li>
+        <img alt="wearing-pupil-dev" width="200" height="relative" src="/media/achievements/wearing-pupil-dev.jpg"></img>
+      </ul>
+    </div>
+
+pt-BR:
+  title: 'DIY pupilo!'
+  subtitle: 'Monte um Pupil Dev.'
+  header: 'Pupil Dev é uma ferramenta da Pupil Labs.'
+  date-string: 'desde 28 de Janeiro, 2014, como um membro da Comunidade Pupil.'
+  icon: 'ac-fa ac-fa-dot-circle-o'
+  description: >
+    Pupil Dev tem sido um hardware necessário ao meu projeto de doutorado.   
+    
+    Pupil Labs é uma empresa alemã por Moritz Kassner,
+    William Patera e Andreas Bulling.
+    A empresa oferece ferramentas de código aberto acessíveis
+    para pesquisas sobre rastreamento dos olhos e visão egocêntrica (<i>eye tracking and egocentric vision research</i>).
+    Eles são maravilhosos.
+
+  widget: |
+    <div class="dropdown">
+      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-image"> Veja-o</i> 
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+        <li><a href="https://github.com/pupil-labs/pupil/wiki/Getting-Pupil-Hardware">Pupil Dev - Guia</a></li>
+        <li><a href="https://pupil-labs.com/">Pupil Labs - Website</a></li>
+        <li><a href="https://github.com/pupil-labs/">Pupil Labs - GitHub</a></li>
+        <li><a href="https://groups.google.com/forum/#!forum/pupil-discuss">Pupil Labs - Google Group</a></li>
+        <li class="divider"></li>
+        <img alt="wearing-pupil-dev" width="200" height="relative" src="/media/achievements/wearing-pupil-dev.jpg"></img>
+      </ul>
+    </div>

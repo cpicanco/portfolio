@@ -1,0 +1,57 @@
+<!--Copyright (c) 2015-2016 Carlos Rafael Fernandes Picanço.-->
+<!DOCTYPE html>
+<html lang="{{ page.language }}">
+  {% include head.html %}
+  <body>
+    {% include nav.html %}
+      <div class="container">
+  {% assign intro = site.data.intros.publications[page.language] %}
+        <div class="Page-header">
+          <h3>{{ intro.journal_article }}</h3>
+        </div>
+        <hr>
+  {% assign sorted_publications = site.data.publications | sort %}
+  {% for pub in sorted_publications reversed %}
+    {% assign publication = pub[1] %}
+    {% if publication.type == 'article-journal' %}
+        <blockquote>
+          <div class="self-font">
+            <div>{{ publication[page.language].html | replace: '..','.' | replace: '  ',' '}}</div>
+          </div>
+          <hr>
+          <ul class="list-inline">
+            <li><a href="{{ publication.url }}">{{ intro.url }}</a></li>
+      {% if publication.doi != null %}
+            <li><p>|</p></li>
+            <li><p>Altmetric:</p></li>
+            <li><div data-badge-popover="right" data-badge-type="bar" data-doi="{{ publication.doi }}" data-hide-no-mentions="true" class="altmetric-embed"></div></li>
+      {% endif %}
+          </ul>         
+        </blockquote> 
+    {% endif %}
+
+    {% if publication.type == 'bachelor-thesis' %}
+      {% assign bachelor_thesis = publication %}
+    {% endif %}
+
+    {% if publication.type == 'master-thesis' %}
+      {% assign master_thesis = publication %}
+    {% endif %}
+  {% endfor %}
+
+    {% include thesis.html intro=intro.bachelor_thesis entry=bachelor_thesis urlname=intro.url %}
+
+    {% include thesis.html intro=intro.master_thesis entry=master_thesis urlname=intro.url %}
+
+
+      </div><!-- /.container -->
+
+    {% include footer.html %}
+
+    {% include global_scripts.html %}
+    
+    <!-- Altmetric JavaScript -->
+    <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+  </body>
+</html>

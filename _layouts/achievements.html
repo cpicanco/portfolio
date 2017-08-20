@@ -1,0 +1,41 @@
+<!--Copyright (c) 2015-2016 Carlos Rafael Fernandes Picanço.-->
+<!DOCTYPE html>
+<html lang="{{ page.language }}">
+  {% include head.html %}
+  <body style='padding-top: 50px;'>
+   {% include nav.html %}
+    <div class="container">
+      <p style="margin-top: 20px; font-family: 'Lucida Console', Monaco, monospace; padding-top: 1am">{{ site.data.intros.achievements[page.language].content }}</p>
+      <hr>
+      <ul class='timeline'>
+  {% assign sorted_achievements = site.data.achievements | sort %}
+  {% for ac in sorted_achievements reversed %}
+  {% assign achievement = ac[1][page.language] %}
+        <li>
+          <div class='achievement ac-size-2x {{ achievement.icon }}' >
+              <p class='achievement-title'>{{ achievement.title }}</p>
+              <p>{{ achievement.subtitle }}</p>
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">{{ achievement.header }}</h4>
+              <p><small class="text-muted"><i class="fa fa-clock-o"></i> {{ achievement.date-string }}</small></p>
+            </div>
+            <div class="timeline-body">
+              {{ achievement.description | markdownify  }}
+        {% if achievement.widget != null %}
+              <hr>
+              {{ achievement.widget }}
+        {% endif %}
+            </div>
+          </div>
+        </li>
+  {% endfor %}
+      </ul>
+    </div><!-- /.container -->
+
+    {% include footer.html %}
+
+    {% include global_scripts.html %}
+  </body>
+</html>

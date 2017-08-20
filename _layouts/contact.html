@@ -1,0 +1,122 @@
+<!--Copyright (c) 2015-2016 Carlos Rafael Fernandes Picanço.-->
+<!DOCTYPE html>
+<html lang="{{ page.language }}">
+  {% include head.html %}
+  <body>
+    {% include nav.html %}
+    <div class="container">
+      <div class="starter-template">        
+      {% if page.language == 'en' %}
+        <h3>Be Social!</h3>
+      {% elsif page.language == 'pt-BR' %}
+        <h3>Socialize!</h3>
+      {% endif %}
+
+        <hr>
+
+        <div class="row text-muted">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ul class="list-inline text-center">
+              <li>
+                <a href="https://geape-ufpa.academia.edu/CarlosRafael">
+                  <span class="fa-stack fa-lg fa-3x" title="academia" data-toggle="tooltip" data-placement="bottom">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="ai ai-academia fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.researchgate.net/profile/Carlos_Picanco">
+                  <span class="fa-stack fa-lg fa-3x" title="Research Gate" data-toggle="tooltip" data-placement="bottom">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="ai ai-researchgate fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.zotero.org/cpicanco/">
+                  <span class="fa-stack fa-lg fa-3x" title="Zotero" data-toggle="tooltip" data-placement="bottom">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="ai ai-zotero-square fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="row text-muted">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ul class="list-inline text-center">
+              <li>
+                <a href="https://github.com/cpicanco">
+                  <span class="fa-stack fa-lg fa-3x" title="GitHub" data-toggle="tooltip" data-placement="bottom">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a href="http://codereview.stackexchange.com/users/62263/cpicanco">
+                  <span class="fa-stack fa-lg fa-3x" title="Code Review" data-toggle="tooltip" data-placement="bottom">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-stack-exchange fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>                
+          </div>
+        </div>
+        
+        <div class="row text-muted">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ul class="list-inline text-center">
+              <li>
+                <a href="https://soundcloud.com/carlitusbatera">
+                  <span class="fa-stack fa-lg fa-3x" title="Soundcloud" data-toggle="tooltip" data-placement="bottom">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://twitter.com/crpicanco">
+                  <span class="fa-stack fa-lg fa-3x" title="Twitter" data-toggle="tooltip" data-placement="bottom">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>                
+          </div>
+        </div>
+
+        <div class="row text-muted">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ul class="list-inline text-center" >
+              <li>
+                <a href="/media/e-mail.jpg">
+                  <span class="fa-stack fa-lg fa-3x" title="e-mail" data-toggle="tooltip" data-placement="bottom">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>                
+          </div>
+        </div>
+      </div><!-- /.starter-template -->
+    </div><!-- /.container -->
+
+    {% include footer.html %}
+
+    {% include global_scripts.html %}
+
+    <script type="text/javascript">$(function(){$('[data-toggle="tooltip"]').tooltip()})</script>
+
+  </body>
+</html>

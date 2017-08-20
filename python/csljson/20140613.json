@@ -1,0 +1,55 @@
+{
+    "DOI": "10.1007/s40732-014-0035-x", 
+    "URL": "http://link.springer.com/article/10.1007/s40732-014-0035-x", 
+    "abstract": "A multiple-exemplar identity matching-to-sample baseline was established to encourage development of generalized identity matching-to-sample (IDMTS) performances in three adult male capuchins. Mask (blank comparison) or Shuffled S- procedures were used to promote select (sample-S+) control in baseline relations and to assess stimulus control relations in generalized IDMTS tests. The IDMTS baseline comprised eight 3-stimulus sets or four 4-stimulus sets. Probe trials with new stimulus sets were substituted for baseline sets in successive testing sessions and subsequently converted to new baseline relations. All monkeys exhibited high accuracy on generalized IDMTS tests. A monkey who was given the Mask procedure in training and tests showed generalized IDMTS with select relations predominating. Two monkeys who were given training and testing with the Shuffled S- procedure performed somewhat better on Shuffled S- IDMTS test trials than on test trials that contained nonshuffled IDMTS trials, thus suggesting that exclusion of familiar nonmatching comparison stimuli from baseline in Shuffled S- test trials contributed to the higher accuracy scores with the former procedure. Development of select relations appeared to be a positive predictor of development of generalized IDMTS.", 
+    "accessed": {
+        "raw": "2015-02-18"
+    }, 
+    "author": [
+        {
+            "family": "Brino", 
+            "given": "Ana Leda Faria"
+        }, 
+        {
+            "family": "Galv&atilde;o", 
+            "given": "Olavo Farias"
+        }, 
+        {
+            "family": "Pican&ccedil;o", 
+            "given": "Carlos Rafael Fernandes"
+        }, 
+        {
+            "family": "Barros", 
+            "given": "Romariz Silva"
+        }, 
+        {
+            "family": "Souza", 
+            "given": "Carlos Barbosa Alves"
+        }, 
+        {
+            "family": "Goulart", 
+            "given": "Paulo Ronney Kilpp"
+        }, 
+        {
+            "family": "McIlvane", 
+            "given": "William J"
+        }
+    ], 
+    "container-title": "The Psychological Record", 
+    "id": "2025135/QJSTUZ75", 
+    "issue": "4", 
+    "issued": {
+        "date-parts": [
+            [
+                "2014"
+            ]
+        ], 
+        "raw": "2014-06-13"
+    }, 
+    "journalAbbreviation": "Psychol Rec", 
+    "language": "en", 
+    "page": "693-702", 
+    "title": "Generalized Identity Matching-to-Sample After Multiple-Exemplar Training in Capuchin Monkeys", 
+    "type": "article-journal", 
+    "volume": "64"
+}

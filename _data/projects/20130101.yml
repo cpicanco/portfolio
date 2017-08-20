@@ -1,0 +1,76 @@
+en:
+  title: 'Experimental School for Primates'
+  date-string: 'from 2005 to 2013.'
+  image: '/media/eep/logo.jpg'
+  style: 'section-end'
+  description: >
+    <a href="http://www.ufpa.br/eep/english/projeto.html">The Experimental School for Primates</a>
+    lab is a branch of the
+    <a href="http://www.inctecce.com.br/en/">National Institute of Science and
+    Technology on Behavior Cognition and Education (INCT-ECCE)</a>.
+    The school is located at <a href="http://www.portal.ufpa.br/">Universidade Federal do Pará</a>, Brazil.
+    It aims to teach, mainly to non-human primates, pre-symbolic or language like skills.
+    The "school" metaphor have been used inside a basic research environment to refer to an
+    individualized school curriculum, built from simple to complex tasks. Research relies on single subject
+    design and different procedural strategies for establishing prerequisites. Students are not forced to study,
+    they receive classes only if they choose to. As a consequence of it, teachers relies on meticulously programmed
+    procedures based on food presentation to give the best learning experience as possible to their students.
+    Hence, no extended food deprivation periods are maintained and all students are well feed twice a day,
+    with free water, fruits, ration, vegetables and supplements. These circunstances gives an approximation
+    to real life challenges, specially when humans with severely delayed development are the students.
+    Automated and individualized teaching procedures are the main products of this basic research environment.
+    To make this happens, a lot of effort was done by the team in order to make software and hardware solutions.
+    It is worth noting that I was able to cooperate with the computer scientists, by testing their software,
+    discussing good practices and strategies, and even implementing the features I needed to my own work.
+    I am very pround of having been able to help others to make progress on their work too.
+    Finally, I am very pround of have been a teacher of the Experimental School for Primates.
+
+  extras: |
+    <p>For a more detailed description of the scope of this research topic:</p>
+    <blockquote>
+      <div class="self-font">McIlvane, W. J., Dube, W. V., Serna, R. W., Lionello-DeNolf, K. M., Barros, R. S., &amp; Galvão, O. F. (2011). Some Current Dimensions of Translational Behavior Analysis: From Laboratory Research to Intervention for Persons with Autism Spectrum Disorders. In E. A. Mayville &amp; J. A. Mulick (Eds.)  
+      <i>Behavioral foundations of effective autism treatment</i>, (pp. 155–181). Cornwall-on-Hudson, NY: Sloan Publishing.&#32;</div>
+      <hr>
+      <ul class="list-inline">
+        <li><a href="http://www.sloanpublishing.com/mayville">Book</a></li>
+      </ul>
+    </blockquote> 
+
+pt-BR:
+  title: 'Escola Experimental de Primatas'
+  date-string: 'de 2005 a 2013.'
+  image: '/media/eep/logo.jpg'
+  style: 'section-end'
+  description: >
+    O laboratório da <a href="http://www.ufpa.br/eep/english/projeto.html">Escola Experimental de Primatas</a>
+    é um braço do <a href="http://www.inctecce.com.br/en/">Instituto Nacional de Ciência e Tecnologia sobre
+    Comportamento, Cognição e Ensino  (INCT-ECCE)</a>. A escola está localizada na
+    <a href="http://www.portal.ufpa.br/">Universidade Federal do Pará</a>, Brasil. Seu objetivo é ensinar,
+    principalmente a primatas não humanos, habilidades entendidas como pré-simbólicas ou parecidas com linguagem.
+    A metáfora da "escola" tem sido utilizada em um ambiente de pesquisa básica para referir-se a um currículo de
+    ensino individualizado, construído de tarefas simples para complexas, nesta ordem. O planejamento de pesquisa
+    ocorre por meio de delineamentos com cada sujeito como o seu próprio controle. Ela depende de diferentes
+    estratégias metodológicas para a construção de pré-requisitos. Os estudantes não são forçados a estudar.
+    Eles recebem aulas apenas se assim escolhem fazer. Como consequência disso, os professores dependem de
+    procedimentos meticulosamente programados baseados em apresentação de comida para dar a melhor experiência
+    de aprendizagem aos seus estudantes. Assim, não são mantidos períodos extensos de privação e todos os alunos
+    são bem alimentados duas vezes ao dia, com porções de frutas, ração, vegetais, suplementos e com livre acesso
+    à água. Essas circunstâncias se aproximam de desafios da vida real, especialmente quando pessoas com
+    desenvolvimento severamente atrasado são os estudates. Procedimentos automatizados e individualizados são os
+    principais produtos desse ambiente de pesquisa básica. Para fazer isso acontecer, muito esforço foi realizado
+    pela equipe no sentido de desenvolver soluções de hardware e software. É digno de nota eu ter sido capaz de
+    cooperar com cientistas da computação, seja testando softwares, seja discutindo boas práticas e estratégias,
+    e inclusive implementando as funcionalidades necessárias para o meu próprio trabalho. Tenho muito orgulho de
+    ter ajudado outros a usufruir dos produtos do meu trabalho. Por fim, tenho muito orgulho de ter sido um
+    professor da Escola Experimental de Primatas.
+  
+  extras: |
+    <p>Para uma descrição mais detalhada do escopo desse tópico de pesquisa:</p>
+    <blockquote>
+      <div class="self-font">McIlvane, W. J., Dube, W. V., Serna, R. W., Lionello-DeNolf, K. M., Barros, R. S., &amp; Galvão, O. F. (2011). Some Current Dimensions of Translational Behavior Analysis: From Laboratory Research to Intervention for Persons with Autism Spectrum Disorders. In E. A. Mayville &amp; J. A. Mulick (Eds.)  
+      <i>Behavioral foundations of effective autism treatment</i>, (pp. 155–181). Cornwall-on-Hudson, NY: Sloan Publishing.&#32;</div>
+      <hr>
+      <ul class="list-inline">
+        <li><a href="http://www.sloanpublishing.com/mayville">Livro</a></li>
+      </ul> 
+    </blockquote> 

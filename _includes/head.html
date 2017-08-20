@@ -1,0 +1,71 @@
+<!-- Head -->        
+{% if page.language == 'en' %}
+  {% capture description %}{{ page.author }}'s Portfolio, {{ page.title }}, behavioral scientist, enthusiastic programmer and freelance drummer.{% endcapture %}
+{% elsif page.language == 'pt-BR' %}
+  {% capture description %}Portfólio de {{ page.author }}, {{ page.title }}, cientista do comportamento, programador entusiasta e baterista freelance.{% endcapture %}
+{% endif %}
+
+{% capture an_image %}{{ site.url }}/media/rafael-picanco-portfolio.png{% endcapture %}
+{% capture LINK %}{{ site.url }}{{ page.url }}{% endcapture %}
+
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# profile: http://ogp.me/ns/article#">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ description }}">
+    <meta name="author" content="{{ page.author }}">
+
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:type" content="profile">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="{{ LINK | remove:'index.html' }}">
+    <meta property="og:image" content="{{ an_image }}">
+    <meta property="og:image:width" content="850">
+    <meta property="og:image:height" content="450">
+  {% if page.language == 'en' %}
+    <meta property="og:locale" content="en_US">
+  {% elsif page.language == 'pt-BR' %}
+    <meta property="og:locale" content="pt_BR">
+  {% endif %}
+    <meta property="og:site_name" content="{{ page.author }}'s Portfolio">
+    <meta property="fb:profile_id" content="1651005333">
+    <meta property="fb:app_id" content="302184056577324" />
+
+    <!-- Twitter Card properties -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:creator" content="@crpicanco">
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:image" content="{{ an_image }}">
+    <meta name="twitter:image:width" content="850">
+    <meta name="twitter:image:height" content="450">
+
+    <title>{{ page.author }} | {{ page.title }}</title>
+
+    <link rel="image_src" href="{{ an_image }}" >
+    <link rel="canonical" href="{{ LINK | remove:'index.html' }}">
+    <link rel="icon" href="/media/favicon.ico">
+
+    <!-- Bootstrap core CSS -->
+    <!-- Custom styles for Starter template -->
+    <!-- Custom styles for the Stick Footer template -->
+    <!-- Custom fonts -->
+    <!-- Custom styles -->
+  {% if page.title == 'Achievements' or page.title == 'Conquistas' %}
+    <link href="/css/portfolio-styles-achievements.concat.css" rel="stylesheet">
+  {% else %}
+    <link href="/css/portfolio-styles.concat.css" rel="stylesheet">
+  {% endif %}  
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--<script src="../js/ie-emulation-modes-warning.js"></script>-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>

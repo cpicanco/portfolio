@@ -1,0 +1,42 @@
+en:
+  title: 'Stimulus Control Software'
+  date-string: 'since Mar 10, 2014.'
+  image: '/media/scapp/stimulus_control.ico'
+  style: 'section-top'
+  description: >
+    The <a href="https://github.com/cpicanco/stimulus_control">tool</a> is a work in progress and can be extended
+    to run a wide range of behavioral experiments. Currently, it can be used to design, present, archive and record
+    some complex feature-positive experiments and simple eye orientation experiments. It aims to allow, with a few
+    clicks and basic background, fast experiment design. It supports sounds (using the
+    <a href="http://www.un4seen.com/">Bass</a> library), videos (using the LCLVLC component and the
+    <a href="https://wiki.videolan.org/LibVLC/">libvlc</a> library) and images (jpg, bmp) as stimuli
+    (antecedents, consequences). It supports a wide range of response requisities, or technically
+    "schedules of reinforcements" (FR, FI, VR, VI, FT, FI, DRH, DRL, DRO, multi components, etc).
+    There are Object Oriented Classes implemented to present trials as Text Messages/Instructions, Simple Discriminations
+    and Conditional Dicriminations. Stimuli can be presented either successively or simultaneously.
+    Mouse (or touch) tracking is implemented in these two last classes. "Discrete Trials" or "Free Operant"
+    designs are possible too. It was designed to be cross plataform; currently tested under Windows (7, 8 and 10), Crunchbang 11,
+    Ubuntu (13.10 and 14.04) and Debian 8. It is an open source (GPL3) application writen in Object Free Pascal (Lazarus 1.6.0, FPC 3.0.0).
+    
+pt-BR:
+  title: 'Software Stimulus Control'
+  date-string: 'desde 10 de Março, 2014.'
+  image: '/media/scapp/stimulus_control.ico'
+  style: 'section-top'
+  description: >
+    A <a href="https://github.com/cpicanco/stimulus_control">ferramenta</a> é um trabalho em construção e pode ser
+    extendida para executar um amplo espectro de experimentos comportamentais. Em seu estado atual, ela pode ser usada
+    para o planejamento, apresentação, arquivamento e registro de experimentos complexos sobre o efeito de aspecto
+    positivo e experimentos simples de orientação visual. A ferramenta tem como objetivo permitir a programação
+    rápida de experimentos, exigindo poucos clicks e um conhecimento prévio básico sobre seu funcionamento. Ela
+    suporta a execução de sons (utilizando a biblioteca <a href="http://www.un4seen.com/">Bass</a>), videos
+    (por meio do component LCLVLC e da biblioteca <a href="https://wiki.videolan.org/LibVLC/">libvlc</a> )
+    e imagens (jpg, bmp) como estímulos (antecedentes, ou consequentes). Ela suporta diversos tipos de requisitos
+    de respostas, ou tecnicamente, esquemas de reforçamento (FR, FI, VR, VI, FT, FI, DRH, DRL, DRO, componentes
+    múltiplos, etc). Há classes já implementadas para a execução de Textos/Mensagens, Discriminações simples e
+    Discriminações condicionais como tentativas. Os estímulos podem ser apresentados tanto sucessivamente quanto
+    simultaneamente. Rastreamento de clicks no mouse (ou toques sobre telas sensíveis) foi implementado nessas duas
+    últimas classes. Planejamentos do tipo "Tentativa discreta" ou "Operante livre" também são possíveis. A ferramenta
+    tem sido desenvolvida para ser multi plataforma; ela foi compilada no Windows (7, 8 e 10), no Crunchbang 11,
+    no Ubuntu (13.10 e 14.10) e no Debian 8. Trata-se de uma ferramenta livre e gratuita (GPL3) escrita
+    em Object Free Pascal (Lazarus 1.6.0, FPC 3.0.0).

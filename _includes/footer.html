@@ -1,0 +1,20 @@
+<!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted text-center">
+
+        {% if page.language == 'en' %}
+          &copy; Carlos Rafael Fernandes Picanço, {{ site.year }}.<br>
+          Build with the <a href="http://getbootstrap.com/">Bootstrap framework</a>.<br>
+          Hosted by <a href="http://pages.github.com/">GitHub Pages</a>.<br>
+          Generated with <a href="http://jekyllrb.com/">Jekyll</a>.
+        {% elsif page.language == 'pt-BR' %}
+          &copy; Carlos Rafael Fernandes Picanço, {{ site.year }}.<br>
+          Feito com o framework <a href="http://getbootstrap.com/">Bootstrap</a>.<br>
+          Hospedado no <a href="http://pages.github.com/">GitHub Pages</a>.<br>
+          Gerado com o <a href="http://jekyllrb.com/">Jekyll</a>.
+        {% endif %}
+
+        </p>
+      </div>
+    </footer>

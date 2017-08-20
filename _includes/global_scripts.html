@@ -1,0 +1,77 @@
+<!-- JQuery may conflict with Bootstrap, they said -->        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+          if (typeof jQuery === 'undefined') {
+            document.write(unescape('%3Cscript%20src%3D%22/js/jquery.min.js%22%3E%3C/script%3E'));
+          };
+        </script>
+      <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster 
+        http://encosia.com/3-reasons-why-you-should-let-google-host-jquery-for-you/
+        http://stackoverflow.com/questions/26192897/should-i-use-bootstrap-from-cdn-or-make-a-copy-on-my-server
+      -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script>
+          if (typeof($.fn.modal) === 'undefined') {
+            document.write(unescape('%3Cscript%20src%3D%22/js/bootstrap.min.js%22%3E%3C/script%3E'));
+          };
+        </script>
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="/js/ie10-viewport-bug-workaround.min.js"></script>
+
+        <!-- Google Analitics -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-59877002-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+
+        <!-- Google Knowledge Graph -->
+    {% if page.layout == 'Post' %}
+    {% capture post_tags %}{% for tag in page.tags %}{{ tag }}, {% endfor %}{% endcapture %}
+        <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Article",
+          "author": "{{ page.author }}",
+          "name": "{{ page.title }}",
+          "articleSection": "{{ post_tags | append:'-' | remove_first: ', -' }}",
+          "datePublished": "{{ page.date | date:'%Y-%m-%d' }}",
+          "headline": "{{ page.excerpt }}",
+          {% if page.image == null %}
+          "image": "{{ site.url }}/media/blog/in-flagellis-clean.png"
+          {% else %}
+          "image": "{{ site.url }}/media/blog/{{ page.image }}"
+          {% endif %}
+        }
+        </script>
+    {% else %}
+        <script type="application/ld+json">
+        {
+          "@context" : "http://schema.org",
+          "@type" : "Person",
+          "name" : "{{ page.author }}",
+          "jobTitle": "Doctoral student",
+          "image": "{{ site.url }}/media/rafael-picanco-perfil.jpg",
+          "affiliation": "Universidade Federal do Pará",
+          "url" : "{{ site.url }}{{ page.url | remove:'index.html' }}",
+          "sameAs" : [
+              "https://plus.google.com/100568018502354753364",
+            "https://twitter.com/crpicanco",
+            "https://www.facebook.com/rafael.picanco",
+            "https://soundcloud.com/carlitusbatera",
+            "https://github.com/cpicanco",
+            "https://geape-ufpa.academia.edu/CarlosRafael", 
+            "https://www.researchgate.net/profile/Carlos_Picanco",
+            "https://www.zotero.org/cpicanco/",
+            "http://codereview.stackexchange.com/users/62263/cpicanco"
+          ]
+        }
+        </script>
+    {% endif %}

@@ -1,0 +1,27 @@
+{
+    "URL": "http://dx.doi.org/10.13140/RG.2.1.1385.0082", 
+    "abstract": "Successive matching-to-sample (go/no-go) has been pointed out as an effective procedure to reduce stimulus control digressions in conditional relation training with non-humans. Other studies suggest the comparison between (symmetrical and non symetrical) conditional discrimination acquisition curves as a way to evaluate properties of equivalence relations. This study aimed to evaluate the potential of using both procedures above mentioned in evaluating the property of symmetry in four capuchin monkeys (Sapajus spp). Stimulus presentation, activation of devices, and response recording were automatically controlled by software. Subjects were maintained under conditions approved by IBAMA. By mean of an &#8220;ABAB&#8221; single subject design, the acquisition of symmetrical (A) and non-symmetrical (B) conditional discriminations were compared. In both Condition A and B, conditional relations A-B and B-A were simultaneously trained so that in every condition, four new arbitrary conditional discriminations (with new stimuli arbitrarily related) were presented. When symmetrical, positive combinations were A1-B1, A2-B2, B1-A1, and B2-A2, and negative combinations were A1-B2, A2-B1, B1-A2 and B2-A1. When non-symmetrical, positive combinations were A1-B1, A2-B2, B1-A2, and B2-A1, and negative combinations were A1-B2, A2-B1, B1-A1 e B2-A2. Two of the four subjects (Neg&atilde;o e Bongo) completed que acquisition of one (Bongo) or two (Neg&atilde;o) sets of conditional relations (Conditions A-symmetrical and B-non-symmetrical) for the evaluation of the viability of the procedure to verify the property of symmetry. Data demonstrate that the method here reported detected the presence of the property of symmetry in the conditional relations leraned by Neg&atilde;o and its absence in the conditional relations learned by Bongo. Data are inconclusive for the other two subjects. One detailed analysis of the performance of each subject and its measures is also presented.", 
+    "author": [
+        {
+            "family": "Pican&ccedil;o", 
+            "given": "Carlos Rafael Fernandes"
+        }
+    ], 
+    "event-place": "Bel&eacute;m, PA, Brasil", 
+    "genre": "Disserta&ccedil;&atilde;o de mestrado", 
+    "id": "2025135/QS6254GM", 
+    "issued": {
+        "date-parts": [
+            [
+                "2013"
+            ]
+        ], 
+        "raw": "2013-09-16"
+    }, 
+    "language": "pt-BR", 
+    "number-of-pages": "46", 
+    "publisher": "Universidade Federal do Par&aacute;", 
+    "publisher-place": "Bel&eacute;m, PA, Brasil", 
+    "title": "Avalia&ccedil;&atilde;o de simetria por compara&ccedil;&atilde;o de treinos de emparelhamento ao modelo sucessivo (go/no-go)", 
+    "type": "thesis"
+}

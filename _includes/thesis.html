@@ -1,0 +1,14 @@
+<!-- Thesis -->
+        <div class="Page-header">
+          <h3>{{ include.intro }}</h3>
+        </div>
+        <hr> 
+        <blockquote>
+          <div class="self-font">
+            <div class="csl-entry">{{ include.entry[page.language].html | replace: '..','.' | replace: '  ',' ' }}</div>
+          </div>
+          <hr>
+          <ul class="list-inline">
+            <li><a href="{{ include.entry.url }}">{{ include.urlname }}</a></li>
+          </ul> 
+        </blockquote> 

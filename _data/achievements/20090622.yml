@@ -1,0 +1,87 @@
+en:
+  title: 'Into the code.'
+  subtitle: 'Start programming.'
+  header: 'How did I start coding?'
+  date-string: 'learning since 2009.'
+  icon: 'ac-fa ac-fa-code'
+  description: >
+    As a psychology undergraduate,
+    my first program was an Excel VBA Macro to format raw data and analyse the formated data.
+    Then, I moved to an Excel VBA macro that generated *.INI configuration
+    files used to run experimental sessions in a software called EAM. 
+    From those macros, I learnt the very basics on sintax, semantic and logic.   
+    
+    During my master degree,
+    the next challenge would be to understand the code of the EAM software (< 2000 ln),
+    written by Drausio Capobianco with Delphi 7,
+    in order to write a GUI to generate the configuration files and automate some lab routines.
+    From that challenge I learnt about functional programming, oop,
+    algorithms, memory management and more sintax, semantic and logic (for example, Delphi, R).   
+    
+    Now as doctoral student, I thought I could implement new experiments,
+    new analytical methods and start an eye tracking research lab from scratch.
+    From that experience, I am learning about work collaboratively online,
+    open source, open science, prototyping, computer vision, calculus, statistics,
+    and more sintax, semantic and logic
+    (for example, Git, Free Pascal and Python).   
+    
+    Learning the basics on HTML, I also write this site using Jekyll generator,
+    Bootstrap framework and custom jQuery, CSS and Javascript.   
+    
+    However, I am not a computer scientist, of course.
+    I am a behavioral scientist with programming skills.   
+
+  widget: |
+    <div class="dropdown">
+      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-external-link"> Useful Links</i> 
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+        <li><a href="https://github.com/cpicanco">My GitHub</a></li>
+      </ul>
+    </div>
+
+pt-BR:
+  title: 'Dentro do código.'
+  subtitle: 'Comece a programar.'
+  header: 'Como eu comecei a programar?'
+  date-string: 'aprendendo desde 2009.'
+  icon: 'ac-fa ac-fa-code'
+  description: >
+    Como um aluno de psicologia,
+    o meu primeiro programa foi uma macro de Excel em VBA.
+    Ela formatava dados brutos e analisava os dados formatados.
+    Em seguida, eu escrevi uma macro que gerava arquivos de configuração *.INI
+    usados para rodar sessões experimentais em um programa chamado EAM.
+    Escrevendo essas macros eu aprendi realmente o básico sobre sintaxe, semântica e lógica.   
+    
+    Durante o meu mestrado,
+    o desafio seguinte seria entender o código do programa EAM (< 2000 ln),
+    escrito por Drausio Capobianco com o Delphi 7,
+    afim de escrever uma GUI para gerar os arquivos de configuração e automatizar algumas rotinas de laboratório.
+    Deste desafio, eu aprendi sobre programação funcional, orientação ao objeto,
+    algoritmos, gerenciamento de memória e mais sintaxe, semântica e lógica (e.g., Delphi, R).   
+    
+    Agora como estudante de doutorado, eu pensei que poderia implementar novos experimentos,
+    novos métodos de análise e começar um laboratório de rastreamento dos olhos.
+    Assim eu venho aprendendo sobre trabalhar colaborativamente online,
+    código aberto, ciência aberta, programas protótipos, visão computacional, cálculo, estatística
+    e mais sintaxe, semântica e lógica (e.g., Git, Free Pascal e Python).   
+    
+    Aprendendo o básico sobre HTML, eu também escrevi este site usando o generador Jekyll,
+    o framework Bootstrap, e código customizado em jQuery/Javascript e CSS.    
+    
+    Entretanto, não sou um cientista da computação, é claro.
+    Sou um cientista do comportamento com habilidades de programação.   
+
+  widget: |
+    <div class="dropdown">
+      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-external-link"> Links úteis</i> 
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+        <li><a href="https://github.com/cpicanco">Meu GitHub</a></li>
+      </ul>
+    </div>

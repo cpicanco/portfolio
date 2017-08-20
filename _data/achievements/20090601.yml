@@ -1,0 +1,68 @@
+en:
+  title: 'Le Matin des Magiciens.'
+  subtitle: 'Complete the drums of this full length album.'
+  header: "Album, 'O Despertar dos Mágicos'."
+  date-string: 'released in 2009 by Malachai, via Ná Figueredo.'
+  icon: 'ac-fa ac-fa-sun-o'
+  description: >
+    My first full length album as a drummer.   
+    
+    Malachai fed this album with music produced during the 60s and 70s,
+    specially those made in Brazil, in the US and in the UK.
+    Kind of mixing Os Mutantes with The Band and The Who,
+    the band was a self driven experimentation,
+    known by its live jams being dressed to character.
+    
+    Thou shall not die without listen to the album.   
+    
+    By the way, 'Le Matin des Magiciens', in french, refers to the book
+    written by Louis Pauwels and Jacques Bergier in 1960,
+    that inspired the name of the album.
+    There is an english translation too: 'The Morning of the Magicians'.
+
+  widget: |
+    <div class="dropdown">
+      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-music"> Listen to the album!</i> 
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+          <li><a class="fa fa-soundcloud" href="https://soundcloud.com/malachai"> Soundcloud</a></li>
+          <li class="divider"></li>
+          <li><iframe width="200" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/54962736&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe></li>
+      </ul>
+    </div>
+
+pt-BR:
+  title: 'Le Matin des Magiciens.'
+  subtitle: 'Conclua a bateria desse álbum completo.'
+  header: "Álbum 'O Despertar dos Mágicos'."
+  date-string: 'lançado em 2009 por Malachai via Ná Figueredo.'
+  icon: 'ac-fa ac-fa-sun-o'
+  description: >
+    Meu primeiro álbum completo como baterista.   
+    
+    Malachai alimentou esse álbum com a música produzida durante as décadas de 60 e 70,
+    especialmente aquela feita no Brasil, nos Estados Unidos e na Inglaterra.
+    Meio que misturando Os Mutantes com The Band e The Who, a banda foi uma experimentação auto dirigida,
+    conhecida por suas jams ao vivo vestidas à caráter.
+    
+    Não morrais vós antes de o album ouvirdes.   
+    
+    Por sinal, 'Le Matin des Magiciens', em francês, refere-se ao livro
+    escrito por Louis Pauwels e Jacques Bergier em 1960,
+    que inspirou o título do álbum.
+    Há uma tradução do livro para o português com o mesmo nome.
+
+  widget: |
+    <div class="dropdown">
+      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-music"> Ouça o album!</i> 
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+          <li><a class="fa fa-soundcloud" href="https://soundcloud.com/malachai"> Soundcloud</a></li>
+          <li class="divider"></li>
+          <li><iframe width="200" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/54962736&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe></li>
+      </ul>
+    </div>

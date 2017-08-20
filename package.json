@@ -1,0 +1,27 @@
+{
+  "name": "cpicanco.github.io",
+  "version": "1.0.0",
+  "description": "Rafael Picanço's portfolio.",
+  "main": "index.html",
+  "scripts": {
+    "test": "cpicanco_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpicanco/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Carlos Rafael Fernandes Picanço",
+  "license": "MIT",
+  "homepage": "https://github.com/cpicanco/portfolio",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-cssmin": "^0.13.0",
+    "grunt-contrib-uglify": "^0.9.2",
+    "grunt-shell": "~1.1.2",
+    "gulp-dependencies-changed": "^1.0.2"
+  }
+}

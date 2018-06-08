@@ -1,27 +1,94 @@
 en:
   title: 'Eye movements correlated with the Feature-Positive Effect'
-  date-string: 'since Apr, 2014.'
+  date-string: 'from 2014 to 2018. '
   image: '/media/fpe/fpe.jpeg'
   style: 'section-top'
   description: >
-    Ongoing doctoral project. It aims to replicate the feature-positive effect with human participants
-    and to describe typical eye movements potentially correlated to it. This project is using the
-    <a href="http://pupil-labs.com/">Pupil platform</a> to track eye movements and an open source
-    <a class="page-scroll" href="#id-20140310">Stimulus Control</a> software to run behavioral experiments.
-    The lab relies on a single computer and a simple DIY response button. Regardless of that,
-    a more complex apparatus is being evaluated, adding basic ergonomic furniture, an extra computer,
-    a projector and a DIY projection screen to the setup.
+    My doctorate was a challenging and rewarding basic research endeavor.
+    The Positive Aspect Effect allows one to predict that some people will learn faster
+    than others during some tasks; it has implications for the understanding of selective attention.
+    My purpose was to replicate the effect and to describe correlated eye movements.
+    This was done by tracking ocular movements of human participants performing
+    tasks whose objetive was distinguish between two arrangement of figures.
+    I am very proud to have been able to set up my own eye tracking laboratory based on the
+    <a href="http://pupil-labs.com/">Pupil plataform</a>
+    and have integrated my own
+    <a class="page-scroll" href="#id-20140310">stimulus presentation program</a>
+    to this platform. You can see the abstract of the thesis by clicking on the button below.
+    
+  extras: |
+    <div class="dropdown">
+      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-eye"> Abstract</i> 
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+      Feature-positive (FP) and feature-negative (FN) stimulus arrangements involve common
+      elements (A) and a distinctive element (B). These are used in simple discriminative tasks
+      (go/no-go), in which there is AB+ reinforcement and AA- extinction for FP group, whereas
+      there is AA+ reinforcement and AB- extinction for FN group. The feature-positive effect is
+      shown when the FP group is faster than the FN group in developing discriminations. The
+      feature-positive effect literature has documented auto-shaped observing responses under the
+      control of the distinctive stimulus. However, such responses have been inferred from artificial
+      motor responses to external devices. Four studies were conducted aimed at replicating the
+      feature-positive effect with adult humans, measuring it by means of the discriminative index,
+      the latency and the proportion of natural observation of stimuli arrangements. First, a
+      preliminary study evaluated and confirmed that a monocular eye-tracker was sufficient to
+      detect subtle changes in the proportion of observation at the discriminative stimuli, as a
+      consequence of the (conditioned) reinforcement effect intrinsic to them, which was,
+      hypothetically, an essential component of the feature positive effect. Remaining studies
+      replicated the feature positive effect, Study 2 and 3 with group designs and Study 4 with a
+      single-subject design. The stimuli of the FP and FN arrangements were observed in a
+      regularly and predictably different manner, with more observation of the distinctive stimulus
+      during AB+ arrangements in Study 2 and Study 3. However, more observation of the
+      distinctive stimuli was not necessary in Study 4 with which a stronger feature positive effect
+      occurred.
+      </ul>
+    </div>
+
 
 pt-BR:
   title: 'Movimentos oculares correlacionados com o Efeito de aspecto positivo (Feature-Positive Effect)'
-  date-string: 'desde Abril, 2014.'
+  date-string: 'de 2014 à 2018.'
   image: '/media/fpe/fpe.jpeg'
   style: 'section-top'
   description: >
-    Projeto de doutorado em andamento. O objetivo é de replicar o efeito com participantes humanos e
-    descrever movimentos oculares típicos potencialmente correlacionados. Este projeto tem usado a
-    <a href="http://pupil-labs.com/">plataforma Pupil</a> para rastrear os movimentos dos olhos a um software livre de
-    <a class="page-scroll" href="#id-20140310">controle de estímulos</a> para a execução de experimentos comportamentais.
-    O laboratório depende de um único computador e um botão de respostas DIY. A despeito disso, um aparato
-    mais complexo tem sido avaliado, adicionando mobília ergonômica básica, um computador adicional, um projetor
-    e uma tela de projeção DIY.
+
+    Meu doutorado foi um empreendimento de pesquisa básica desafiador e gratificante.
+    O Efeito de Aspecto Positivo permite prever que algumas pessoas aprenderão mais rápido do que outras
+    e seu estudo possui implicações para a compreensão da atenção seletiva.
+    O meu objetivo foi de replicar o efeito e descrever movimentos oculares correlacionados.
+    Isso foi feito rastreando movimentos oculares de participantes humanos realizando tarefas
+    cujo o objetivo era distinguir entre dois arranjos de figuras.
+    Tenho muito orgulho de ter sido capaz de montar meu próprio laboratório de rastreamento
+    ocular baseado na <a href="http://pupil-labs.com/">plataforma Pupil</a> e de ter integrado
+    o meu próprio <a class="page-scroll" href="#id-20140310">programa de apresentação de estímulos</a>
+    a essa plataforma. Você pode ver o resumo da tese clicando no botão abaixo.
+
+  extras: |
+    <div class="dropdown">
+      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-eye"> Resumo</i> 
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+      Aspecto-positivo (FP) e aspecto-negativo (FN) são arranjos compostos por estímulos comuns
+      (A) e estímulos distintivos (B). No aspecto-positivo, há reforçamento AB+ e extinção AA-.
+      No aspecto-negativo, há reforçamento AA+ e extinção AB- (FN). O efeito de aspecto positivo
+      ocorre quando as discriminações FP são estabelecidas mais rapidamente do que as
+      discriminações FN. A literatura sobre esse efeito tem documentado automodelagem de
+      respostas de observação sob controle do estímulo distintivo. Contudo, tais respostas tem sido
+      inferidas a partir de resultados de respostas motoras. Conduzimos quatro estudos com o
+      objetivo de replicar o efeito de aspecto distintivo com humanos adultos, mensurando-o por
+      meio do índice discriminativo, da latência e da proporção de observação visual dos estímulos.
+      Primeiramente, um estudo preliminar avaliou e confirmou que um rastreador monocular era
+      suficiente para detectar mudanças na proporção de observação resultantes do efeito do
+      reforçamento (condicionado) intrínseco aos estímulos discriminativos (em tese, componente
+      essencial do efeito de aspecto positivo). Os três outros estudos replicaram o efeito de aspecto
+      positivo, dois com delineamentos de grupo e o último com delineamento intra-sujeito. Os
+      estímulos dos arranjos FP e FN eram observados de maneira regularmente e previsivelmente
+      diferente, com mais observação do estímulo distintivo no primeiro arranjo no Estudo 2 e
+      Estudo 3. Entretanto, mais observação do estímulo distintivo não foi necessária no Estudo 4,
+      no qual o efeito de aspecto positivo foi mais robusto.
+      </ul>
+    </div>

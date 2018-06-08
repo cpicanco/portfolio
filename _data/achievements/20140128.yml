@@ -19,10 +19,10 @@ en:
         <span class="caret"></span>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dLabel">
-        <li><a href="https://github.com/pupil-labs/pupil/wiki/Getting-Pupil-Hardware">Pupil Dev Guide</a></li>
-        <li><a href="https://pupil-labs.com/">Pupil Labs Website</a></li>
-        <li><a href="https://github.com/pupil-labs/">Pupil Labs GitHub</a></li>
-        <li><a href="https://groups.google.com/forum/#!forum/pupil-discuss">Pupil Labs Google Group</a></li>
+        <li><a href="https://docs.pupil-labs.com/#diy">Pupil Dev Guide</a></li>
+        <li><a href="https://pupil-labs.com/">Pupil Labs' Website</a></li>
+        <li><a href="https://github.com/pupil-labs/">Pupil Labs' GitHub</a></li>
+        <li><a href="https://docs.pupil-labs.com/#community">Pupil Labs' Community</a></li>
         <li class="divider"></li>
         <img alt="wearing-pupil-dev" width="200" height="relative" src="/media/achievements/wearing-pupil-dev.jpg"></img>
       </ul>
@@ -50,10 +50,10 @@ pt-BR:
         <span class="caret"></span>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dLabel">
-        <li><a href="https://github.com/pupil-labs/pupil/wiki/Getting-Pupil-Hardware">Pupil Dev - Guia</a></li>
+        <li><a href="https://docs.pupil-labs.com/#diy">Pupil Dev - Passo-a-Passo</a></li>
         <li><a href="https://pupil-labs.com/">Pupil Labs - Website</a></li>
         <li><a href="https://github.com/pupil-labs/">Pupil Labs - GitHub</a></li>
-        <li><a href="https://groups.google.com/forum/#!forum/pupil-discuss">Pupil Labs - Google Group</a></li>
+        <li><a href="https://docs.pupil-labs.com/#community">Pupil Labs - Comunidade</a></li>
         <li class="divider"></li>
         <img alt="wearing-pupil-dev" width="200" height="relative" src="/media/achievements/wearing-pupil-dev.jpg"></img>
       </ul>

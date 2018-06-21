@@ -61,12 +61,17 @@
     {% if publication.type == 'master-thesis' %}
       {% assign master_thesis = publication %}
     {% endif %}
+        
+    {% if publication.type == 'doctoral-thesis' %}
+      {% assign doctoral_thesis = publication %}
+    {% endif %}
   {% endfor %}
   
     {% include thesis.html intro=intro.bachelor_thesis entry=bachelor_thesis urlname=intro.url %}
 
     {% include thesis.html intro=intro.master_thesis entry=master_thesis urlname=intro.url %}
 
+    {% include thesis.html intro=intro.doctoral_thesis entry=doctoral_thesis urlname=intro.url %}
 
       </div><!-- /.container -->
 

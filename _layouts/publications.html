@@ -29,7 +29,31 @@
           </ul>         
         </blockquote> 
     {% endif %}
-
+  {% endfor %}  
+ 
+        <div class="Page-header">
+          <h3>{{ intro.book_chapter }}</h3>
+        </div>
+        <hr>  
+  {% for pub in sorted_publications reversed %} 
+    {% assign publication = pub[1] %}
+    {% if publication.type == 'book-chapter' %}
+        <blockquote>
+          <div class="self-font">
+            <div>{{ publication[page.language].html | replace: '..','.' | replace: '  ',' '}}</div>
+          </div>
+          <hr>
+          <ul class="list-inline">
+            <li><a href="{{ publication.url }}">{{ intro.url }}</a></li>
+      {% if publication.doi != null %}
+            <li><p>|</p></li>
+            <li><p>Altmetric:</p></li>
+            <li><div data-badge-popover="right" data-badge-type="bar" data-doi="{{ publication.doi }}" data-hide-no-mentions="true" class="altmetric-embed"></div></li>
+      {% endif %}
+          </ul>         
+        </blockquote>
+    {% endif %}
+        
     {% if publication.type == 'bachelor-thesis' %}
       {% assign bachelor_thesis = publication %}
     {% endif %}
@@ -38,7 +62,7 @@
       {% assign master_thesis = publication %}
     {% endif %}
   {% endfor %}
-
+  
     {% include thesis.html intro=intro.bachelor_thesis entry=bachelor_thesis urlname=intro.url %}
 
     {% include thesis.html intro=intro.master_thesis entry=master_thesis urlname=intro.url %}

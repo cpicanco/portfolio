@@ -1,0 +1,28 @@
+pt-BR:
+  title: 'Quase lá concurseiro! (Psicologia Comportamental)'
+  subtitle: 'Seja aprovado em um concurso público para professor universitário'
+  header: 'Psicologia Comportamental'
+  date-string: '2018'
+  icon: 'fas fa-award'
+  description: >
+    Fui aprovado em 11º lugar no primeiro concurso público para professor universitário que realizei.
+    
+    O tema do concurso era Psicologia Comportamental,
+    e foi realizado na Universidade Estadual de Feira de Santana, BA.   
+    
+    A banca do concurso era composta por:
+    Prof. Dr. Fabrício de Souza (Presidente)
+    Prof. Dr. Denis Roberto Zamignani
+    Maria Júlia Ferreira Xavier Ribeiro
+    
+  widget: |
+    <div class="dropdown">
+      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-image"> Veja o Resultado</i> 
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+        <li><a href="/media/20180501_concurso_uefs.pdf">Resultado Final</a></li>
+        <li><a href="http://csa.uefs.br/index.php/professor181/inicial/">Website da Instituição</a></li>
+      </ul>
+    </div>

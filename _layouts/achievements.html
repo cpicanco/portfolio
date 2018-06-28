@@ -11,7 +11,7 @@
   {% assign sorted_achievements = site.data.achievements | sort %}
   {% for ac in sorted_achievements reversed %}
     {% assign achievement = ac[1][page.language] %}
-    {% if achievement.title != '' %}
+    {% if achievement.title != null %}
         <li>
           <div class='achievement ac-size-2x {{ achievement.icon }}' >
               <p class='achievement-title'>{{ achievement.title }}</p>

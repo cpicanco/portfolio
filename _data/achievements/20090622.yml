@@ -3,7 +3,7 @@ en:
   subtitle: 'Start programming.'
   header: 'How did I start coding?'
   date-string: 'learning since 2009.'
-  icon: 'ac-fa ac-fa-code'
+  icon: 'fas fa-code'
   description: >
     As a psychology undergraduate,
     my first program was an Excel VBA Macro to format raw data and analyse the formated data.
@@ -34,7 +34,7 @@ en:
   widget: |
     <div class="dropdown">
       <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fa fa-external-link"> Useful Links</i> 
+        <i class="fas fa-external-link-alt"> Useful Links</i> 
         <span class="caret"></span>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dLabel">
@@ -47,7 +47,7 @@ pt-BR:
   subtitle: 'Comece a programar.'
   header: 'Como eu comecei a programar?'
   date-string: 'aprendendo desde 2009.'
-  icon: 'ac-fa ac-fa-code'
+  icon: 'fas fa-code'
   description: >
     Como um aluno de psicologia,
     o meu primeiro programa foi uma macro de Excel em VBA.
@@ -78,7 +78,7 @@ pt-BR:
   widget: |
     <div class="dropdown">
       <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fa fa-external-link"> Links úteis</i> 
+        <i class="fas fa-external-link-alt"> Links úteis</i> 
         <span class="caret"></span>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dLabel">

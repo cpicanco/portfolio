@@ -10,7 +10,8 @@
       <ul class='timeline'>
   {% assign sorted_achievements = site.data.achievements | sort %}
   {% for ac in sorted_achievements reversed %}
-  {% assign achievement = ac[1][page.language] %}
+    {% assign achievement = ac[1][page.language] %}
+    {% if achievement.title != '' %}
         <li>
           <div class='achievement ac-size-2x {{ achievement.icon }}' >
               <p class='achievement-title'>{{ achievement.title }}</p>
@@ -23,10 +24,11 @@
             </div>
             <div class="timeline-body">
               {{ achievement.description | markdownify  }}
-        {% if achievement.widget != null %}
+      {% if achievement.widget != null %}
               <hr>
               {{ achievement.widget }}
-        {% endif %}
+      {% endif %}
+    {% endif %}
             </div>
           </div>
         </li>

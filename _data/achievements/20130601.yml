@@ -3,7 +3,7 @@ en:
   subtitle: "Complete the drums of this full length album."
   header: "Album, 'Música Popular Roqueira'."
   date-string: 'released in 2013 by Iza, via Soundcloud.'
-  icon: 'ac-fa ac-fa-hand-peace-o'
+  icon: 'fas fa-hand-peace'
   description: >
     Iza sings, plays the guitars and composes since she was 14 years old.
     Besides being a musician and lyricist in the project that receives her name,
@@ -21,11 +21,11 @@ en:
   widget: |
     <div class="dropdown">
       <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fa fa-music"> Listen to the album!</i> 
+        <i class="fas fa-music"> Listen to the album!</i> 
         <span class="caret"></span>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dLabel">
-          <li><a class="fa fa-soundcloud" href="https://soundcloud.com/izamusic/sets/m-sica-popular-roqueira"> Soundcloud</a></li>
+          <li><a class="fab fa-soundcloud" href="https://soundcloud.com/izamusic/sets/m-sica-popular-roqueira"> Soundcloud</a></li>
           <li class="divider"></li>
           <li><iframe width="200" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/15563569&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=true"></iframe></li>
       </ul>
@@ -36,7 +36,7 @@ pt-BR:
   subtitle: 'Termine a bateria do album MPR.'
   header: "Álbum, Música Popular Roqueira."
   date-string: 'lançado em 2013 by Iza, via Soundcloud.'
-  icon: 'ac-fa ac-fa-hand-peace-o'
+  icon: 'fas fa-hand-peace'
   description: >
     Iza canta, toca e compõe desde os 14 anos.
     Além de musicista e letrista no projeto que recebe seu nome, é mãe e professora. 
@@ -50,11 +50,11 @@ pt-BR:
   widget: |
     <div class="dropdown">
       <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fa fa-music"> Ouça o album!</i> 
+        <i class="fas fa-music"> Ouça o album!</i> 
         <span class="caret"></span>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dLabel">
-          <li><a class="fa fa-soundcloud" href="https://soundcloud.com/izamusic/sets/m-sica-popular-roqueira"> Soundcloud</a></li>
+          <li><a class="fab fa-soundcloud" href="https://soundcloud.com/izamusic/sets/m-sica-popular-roqueira"> Soundcloud</a></li>
           <li class="divider"></li>
           <li><iframe width="200" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/15563569&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=true"></iframe></li>
       </ul>

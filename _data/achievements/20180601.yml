@@ -1,0 +1,28 @@
+pt-BR:
+  title: 'Quase lá concurseiro! (Análise Experimental do Comportamento)'
+  subtitle: 'Seja aprovado em um concurso público para professor universitário'
+  header: 'Análise Experimental do Comportamento'
+  date-string: '2018'
+  icon: 'fas fa-award'
+  description: >
+    Fui aprovado em 3º lugar no segundo concurso público para professor universitário que realizei.
+    
+    O tema do concurso era Análise Experimental do Comportamento, Edital 33/2018,
+    e foi realizado na Universidade Federal do Pará, PA.   
+    
+    A banca do concurso era composta por:
+    Prof. Dr. Carlos Barbosa Alves de Souza (Presidente)
+    Prof. Dr. Carlos Eduardo Costa
+    Prof. Dr. Grauben José Alves de Assis
+    
+  widget: |
+    <div class="dropdown">
+      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-image"> Veja o Resultado</i> 
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+        <li><a href="/media/20180601_concurso_ufpa.pdf">Resultado Final</a></li>
+        <li><a href="http://ceps.ufpa.br">Website da Instituição</a></li>
+      </ul>
+    </div>

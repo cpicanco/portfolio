@@ -18,15 +18,15 @@ en:
     From that challenge I learnt about functional programming, oop,
     algorithms, memory management and more sintax, semantic and logic (for example, Delphi, R).   
     
-    Now as doctoral student, I thought I could implement new experiments,
-    new analytical methods and start an eye tracking research lab from scratch.
-    From that experience, I am learning about work collaboratively online,
+    As doctoral student, I implemented new experiments,
+    new analytical methods and assembled an eye tracking research lab from scratch.
+    From that experience, I learnt about work collaboratively online,
     open source, open science, prototyping, computer vision, calculus, statistics,
     and more sintax, semantic and logic
     (for example, Git, Free Pascal and Python).   
     
-    Learning the basics on HTML, I also write this site using Jekyll generator,
-    Bootstrap framework and custom jQuery, CSS and Javascript.   
+    Learning the basics on HTML, I also wrote this site using the Jekyll generator,
+    the Bootstrap framework and custom jQuery, CSS and Javascript.   
     
     However, I am not a computer scientist, of course.
     I am a behavioral scientist with programming skills.   
@@ -53,24 +53,27 @@ pt-BR:
     o meu primeiro programa foi uma macro de Excel em VBA.
     Ela formatava dados brutos e analisava os dados formatados.
     Em seguida, eu escrevi uma macro que gerava arquivos de configuração *.INI
-    usados para rodar sessões experimentais em um programa chamado EAM.
-    Escrevendo essas macros eu aprendi realmente o básico sobre sintaxe, semântica e lógica.   
+    usados para rodar sessões experimentais em um programa chamado EAM,
+    escrito por Drausio Capobianco com o Delphi 7.
+    Escrevendo essas macros eu aprendi realmente o básico sobre sintaxe, semântica e lógica de programação.   
     
     Durante o meu mestrado,
-    o desafio seguinte seria entender o código do programa EAM (< 2000 ln),
-    escrito por Drausio Capobianco com o Delphi 7,
-    afim de escrever uma GUI para gerar os arquivos de configuração e automatizar algumas rotinas de laboratório.
-    Deste desafio, eu aprendi sobre programação funcional, orientação ao objeto,
+    o desafio seguinte seria entender o código do programa EAM (< 2000 ln). O objetivo
+    era escrever uma interface gráfica para gerar os arquivos de configuração do das sessões experimentais
+    e automatizar algumas rotinas de laboratório.
+    Com esse desafio eu aprendi sobre programação funcional, orientação ao objeto,
     algoritmos, gerenciamento de memória e mais sintaxe, semântica e lógica (e.g., Delphi, R).   
     
-    Agora como estudante de doutorado, eu pensei que poderia implementar novos experimentos,
-    novos métodos de análise e começar um laboratório de rastreamento dos olhos.
-    Assim eu venho aprendendo sobre trabalhar colaborativamente online,
-    código aberto, ciência aberta, programas protótipos, visão computacional, cálculo, estatística
+    Essa experiência me permitiu substancial autonomia como estudante de doutorado.
+    Eu implementei novos experimentos,
+    novos métodos de análise e montei um laboratório de rastreamento dos olhos.
+    Também aprendi como trabalhar colaborativamente online,
+    assim como aprendi sobre código aberto, ciência aberta, programas protótipos,
+    visão computacional, cálculo, estatística
     e mais sintaxe, semântica e lógica (e.g., Git, Free Pascal e Python).   
     
-    Aprendendo o básico sobre HTML, eu também escrevi este site usando o generador Jekyll,
-    o framework Bootstrap, e código customizado em jQuery/Javascript e CSS.    
+    Nesse percurso, eu também aprendi o básico sobre Web Design (HTML5, jQuery/Javascript e CSS),
+    o que me permitiu escrever este site usando o gerador Jekyll e o framework Bootstrap.    
     
     Entretanto, não sou um cientista da computação, é claro.
     Sou um cientista do comportamento com habilidades de programação.   

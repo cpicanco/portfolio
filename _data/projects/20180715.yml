@@ -1,0 +1,93 @@
+en:
+  title: 'Software Memory Test'
+  date-string: 'July 2018.'
+  image: '/media/memtest/01-cover.png'
+  style: 'section-top'
+  description: >
+    I wrote, in two weeks, the software that will present the experimental task correspondent
+    to the master's research of Ravi Moreira Lima de Castro, who has 
+    François Tonneau (PPGTPC - Universidade Federal do Pará - Brazil) as his advisor.
+    The experimental design includes two conditions.
+    The first one presents stimulus-stimulus pairings and a memory test by means of a likert scale.
+    The second presents stimulus-stimulus pairings and memory tests by means of matching to sample tasks.
+    <br><br>
+    The software runs on Windows and Linux.
+
+  extras: |
+    <div class="dropdown">
+      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-eye"> Veja o programa</i> 
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+        <p>(1) First of all, the experimenter is expected to choose a condition and to fill a participant's name before clicking at the start button:</p>
+        <img class="img-responsive center-block" src="/media/memtest/01-cover.png" alt="Experiment configuration."/>
+        <br>
+        <br>
+        <p>(2) A message presented to participants during the experiment:</p>
+        <img class="img-responsive center-block" src="/media/memtest/02-messages.png" alt="A message presented to a participant."/>
+        <br>
+        <br>
+        <p>(3) A stimulus-stimulus pairing during the experiment: (wait for the stimuli!)</p>
+        <img class="img-responsive center-block" src="/media/memtest/03-ss.gif" alt="Stimulus pairing example."/>
+        <br>
+        <br>
+        <p>(4) A likert scale during the experiment:</p>
+        <img class="img-responsive center-block" src="/media/memtest/04-likert.png" alt="Likert scale example."/>
+        <br>
+        <br>
+        <p>(5) An example of matching to sample during the experiment:</p>
+        <img class="img-responsive center-block" src="/media/memtest/05-MTS.png" alt="MTS example."/>
+      </ul>
+    </div>
+
+pt-BR:
+  title: 'Software Teste de memória'
+  date-string: 'Julho, 2018.'
+  image: '/media/memtest/01-cover.png'
+  style: 'section-top'
+  description: >
+    Escrevi, em duas semanas, o programa de computador que apresentará a tarefa do
+    trabalho de mestrado de Ravi Moreira Lima de Castro, orientado pelo professor
+    François Tonneau (PPGTPC - Universidade Federal do Pará). O delineamento experimental
+    envolve duas condições. A primeira envolve pareamento estímulo-estímulo intercalados com testes de memória
+    por meio de uma escala likert. A segunda envolve pareamento estímulo-estímulo
+    intercalados com testes de memória por meio de pareamento ao modelo.
+    <br><br>
+    O programa exige do aluno apenas a seleção da condição experimental e inclusão do nome do participante.
+    Todo o restante da tarefa é automaticamente configurado pelo programa. Todas as configurações são salvas
+    para fins de arquivamento. 
+    <br><br>
+    Dois relatórios tabulados são gerados e podem ser abertos por meio do Excel, Gnumeric, etc.
+    Um relatório detalhado com as estampas de tempo dos eventos comportamentais e ambientais e
+    um relatório resumido contendo acertos e erros que pode ser facilmente analisados pelo próprio aluno.
+    <br><br>
+    O programa pode ser executado no Windows e no Linux.
+
+  extras: |
+    <div class="dropdown">
+      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-eye"> Veja o programa</i> 
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dLabel">
+        <p>(1) Primeiro o aluno escolhe a condição e preenche o nome do participante antes de iniciar o experimento apertando no botão "Começar":</p>
+        <img class="img-responsive center-block" src="/media/memtest/01-cover.png" alt="O aluno escolhe a condição e preenche o nome do participante."/>
+        <br>
+        <br>
+        <p>(2) Um exemplo de mensagem apresentada ao participante durante o experimento:</p>
+        <img class="img-responsive center-block" src="/media/memtest/02-messages.png" alt="Um exemplo de mensagem apresentada ao participante."/>
+        <br>
+        <br>
+        <p>(3) Um exemplo de pareamento durante o experimento: (aguarde os estímulos aparacerem!)</p>
+        <img class="img-responsive center-block" src="/media/memtest/03-ss.gif" alt="Um exemplo de pareamento apresentado ao participante."/>
+        <br>
+        <br>
+        <p>(4) Um exemplo de escala likert durante o experimento:</p>
+        <img class="img-responsive center-block" src="/media/memtest/04-likert.png" alt="Um exemplo de escala likert apresentada ao participante."/>
+        <br>
+        <br>
+        <p>(5) Um exemplo de emparelhamento ao modelo durante o experimento:</p>
+        <img class="img-responsive center-block" src="/media/memtest/05-MTS.png" alt="Um exemplo de emparelhamento ao modelo apresentado ao participante."/>
+      </ul>
+    </div>

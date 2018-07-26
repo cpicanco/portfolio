@@ -1,0 +1,40 @@
+en:
+  title: 'A pure JavaScript infrastructure for remote experiments'
+  date-string: 'July 2018.'
+  image: '/media/mem.png'
+  style: 'section-top'
+  description: >
+    I wrote, in thre days, a pure JavaScript infrastructure for running experiments in the participant's browser.
+
+    <br><br>
+
+    The researcher sends a link of the experiment to participants.
+    A participant must consent before participanting. Next, one can
+    login and start the experiment. In the end, data of a completed
+    experiment is sent by e-mail to the researcher.
+
+    <br><br>
+
+    <a href="https://teste.rafael.picanco.nom.br">You can preview a demo here.</a>
+
+pt-BR:
+  title: 'Uma infraestrutura em JavaScript puro para experimentos remotos'
+  date-string: 'Julho 2018.'
+  image: '/media/mem.png'
+  style: 'section-top'
+  description: >
+    Escrevi, em três dias, uma infraestrutura em JavaScript puro
+    para rodar experimentos no navegar de participantes.
+
+    <br><br>
+
+    O pesquisador envia o link do experimento para um participante e ele pode
+    ler e aceitar o Termo de Consentimento Livre e Esclarecido. Após aceitar, 
+    ele pode clicar em "Fazer login" e iniciar o experimento. Ao final, um email
+    é enviado ao pesquisador com os dados do experimento concluído. 
+
+ 
+    <br><br>
+   
+    
+    <a href="https://teste.rafael.picanco.nom.br">Você pode ver uma prévia da solução aqui.</a>

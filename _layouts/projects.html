@@ -1,4 +1,4 @@
-<!--Copyright (c) 2015-2016 Carlos Rafael Fernandes Picanço.-->
+<!--Copyright (c) 2015-2018 Carlos Rafael Fernandes Picanço.-->
 <!DOCTYPE html>
 <html lang="{{ page.language }}">
   {% include head.html %}
@@ -21,14 +21,7 @@
         <!-- Central Content -->
         <div class="col-xs-10">
           {% include projects-styles.html %}
-          <div class='credential'>
-            <img class="img-responsive" src="/media/rafael-picanco-perfil-thumbnail.jpg" alt="Rafael Picanço" />
-            <h1>Rafael Picanço</h1>
-            <h2>{{ site.data.intros.projects[page.language].credential }}</h2>
-            <hr>
-            <p>{{ site.data.intros.projects[page.language].content }}</p>
-          </div>
-          <hr>
+
       {% for project_data in sorted_projects reversed %}
         {% assign filename = project_data[0] %}  
         {% assign project = project_data[1][page.language] %}          

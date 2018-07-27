@@ -1,0 +1,64 @@
+<!--Copyright (c) 2015-2018 Carlos Rafael Fernandes Picanço.-->
+<!DOCTYPE html>
+<html lang="{{ page.language }}">
+  <link rel="icon" href="/media/favicon.ico">
+  {% include head.html %}
+  <body>
+    {% include nav.html %}
+    <div class="container" style="margin-top: 1vmin;">
+      <div class="row">
+        <!-- Central Content -->
+        <div id="first-row-1-col" class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div id="first-row-item-text">
+            <h2>{{ site.data.intros.services[page.language].title }}</h2>
+          </div>  
+        </div><!-- End Central Content -->
+
+        <!-- Central Content -->
+        <div id="first-row-2-col" class="col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <img id="first-row-img-item" class="img-responsive" src="/media/rafael-picanco-perfil-thumbnail.jpg" alt="Rafael Picanço"> 
+        </div><!-- End Central Content -->
+        
+        <div id="first-row-3col" class="col-xl-2 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <div class='credential' style="color: white; font-height:12px">
+            <h2>Rafael Picanço</h2>
+            <h3>{{ site.data.intros.services[page.language].credential }}</h3>
+            <hr>
+            <p style="font-family:cursive;font-size: 14px">{{ site.data.intros.services[page.language].content }}</p>
+          </div>  
+        </div><!-- End Central Content -->
+      </div>
+    </div>
+<!-- 
+    <div class="container" style="margin-top: 1vmin; margin-bottom: 30vmin;">
+      <div class="row">
+    
+        <div class="col-md-5 col-xs-12" style="background-color: white; background-color:rgba(255, 255, 255, 0.8 )">
+          <div class='credential'>
+            <h2>Programação de experimentos psicológicos</h2>
+            <hr>
+            <p>Tempo de desenvolvimento</p>
+            <hr>
+            <p>40h/mês - R$ 600,00</p>
+          </div>  
+        </div>
+
+        <div class="col-md-1 col-xs-12" style="background-color: transparent;">  
+        </div>
+
+        <div class="col-md-6 col-xs-12" style="background-color: white; background-color:rgba(255, 255, 255, 0.8 )" >
+          <div class='credential'>
+            <hr>
+            <p>{{ site.data.intros.services[page.language].content }}</p>
+            <hr>
+          </div>  
+        </div>
+      </div>
+    </div>    --> 
+
+    {% include footer.html %}
+    {% include global_scripts.html %}
+    {% include scrolling_nav_scripts.html %}
+    
+  </body>
+</html>

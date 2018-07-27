@@ -56,7 +56,12 @@
     <link href="/css/portfolio-styles-achievements.concat.css" rel="stylesheet">
   {% else %}
     <link href="/css/portfolio-styles.concat.css" rel="stylesheet">
+  {% endif %} 
+
+  {% if page.title == 'Serviços' or page.title == 'Services' %}
+    <link href="/css/services.css" rel="stylesheet">
   {% endif %}  
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->

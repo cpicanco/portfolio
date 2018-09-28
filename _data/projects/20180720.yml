@@ -4,7 +4,7 @@ en:
   image: '/media/mem.png'
   style: 'section-top'
   description: >
-    I wrote, in thre days, a pure JavaScript infrastructure for running experiments in the participant's browser.
+    I wrote, in three days, a pure JavaScript infrastructure for running experiments in the participant's browser.
 
     <br><br>
 
@@ -15,7 +15,7 @@ en:
 
     <br><br>
 
-    <a href="https://teste.rafael.picanco.nom.br">You can preview a demo here.</a>
+    <a href="https://memorytest.rafael.picanco.nom.br">You can preview a demo here.</a>
 
 pt-BR:
   title: 'Uma infraestrutura em JavaScript puro para experimentos remotos'
@@ -37,4 +37,4 @@ pt-BR:
     <br><br>
    
     
-    <a href="https://teste.rafael.picanco.nom.br">Você pode ver uma prévia da solução aqui.</a>
+    <a href="https://memorytest.rafael.picanco.nom.br">Você pode ver uma prévia da solução aqui.</a>

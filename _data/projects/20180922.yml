@@ -1,0 +1,39 @@
+en:
+  title: 'Keystone, a program for Observation Research'
+  date-string: 'September, 22, 2018.'
+  image: '/media/blue-bird.png'
+  style: 'section-top'
+  description: >
+    I wrote, in a day (with some fixes afterwards),
+    a program for Behavioral Observation Research in which
+    it was necessary to count events by visual inspection of videos.
+
+    <br><br>
+
+    The program was inspired by <a href="https://www.boris.unito.it/">Boris</a>.
+    Boris does not supports adding visual cues to help in the counting process.
+    We found that visual cues increases interobserver concordancy
+    (especially when it necessary to speed-up videos).
+    Keystone allows the researcher to load png files with transparency as visual cues overlayed on top of videos.
+    For example, if you need to count bicycles, an observer can be instructed to count
+    a bicycle only if such one had crossed a red line used as a visual cue.
+
+pt-BR:
+  title: 'Keystone, um programa para pesquisa observacional'
+  date-string: '22 de Setembro de 2018.'
+  image: '/media/blue-bird.png'
+  style: 'section-top'
+  description: >
+    Escrevi, em um dia (com alguns ajustes posteriormente),
+    um programa para uma pesquisa de observação comportamental
+    na qual era necessário contar eventos inspecionando videos visualmente.
+
+    <br><br>
+
+    O programa foi inspirado por <a href="https://www.boris.unito.it/">Boris</a>.
+    Boris não suporta a adição de dicas visuais para ajudar no processo de contagem.
+    Temos encontrado maior concordância entre observadores usando dicas visuais,
+    (especialmente quando é necessário acelerar os videos).
+    Keystone permite ao pesquisador carregar arquivos png com transparência como dicas visuais sobrepostas sobre videos.
+    Por exemplo, se você precisa contar bicicletas, pode instruir um observador a contar
+    apenas quando uma delas atravessar uma linha usada como dica visual.

@@ -52,15 +52,15 @@ pt-BR:
     François Tonneau (PPGTPC - Universidade Federal do Pará). O delineamento experimental
     envolve duas condições. A primeira envolve pareamento estímulo-estímulo intercalados com testes de memória
     por meio de uma escala likert. A segunda envolve pareamento estímulo-estímulo
-    intercalados com testes de memória por meio de pareamento ao modelo.
+    intercalado com testes de memória por meio de pareamento ao modelo.
     <br><br>
     O programa exige do aluno apenas a seleção da condição experimental e inclusão do nome do participante.
-    Todo o restante da tarefa é automaticamente configurado pelo programa. Todas as configurações são salvas
-    para fins de arquivamento. 
+    Todo o restante da tarefa é automaticamente configurado pelo programa.
+    Todas as configurações geradas automaticamente são arquivadas um arquivo de texto. 
     <br><br>
     Dois relatórios tabulados são gerados e podem ser abertos por meio do Excel, Gnumeric, etc.
-    Um relatório detalhado com as estampas de tempo dos eventos comportamentais e ambientais e
-    um relatório resumido contendo acertos e erros que pode ser facilmente analisados pelo próprio aluno.
+    Um relatório detalhado com o tempo dos eventos comportamentais e ambientais e
+    um relatório resumido contendo acertos e erros podem ser facilmente analisados pelo próprio aluno.
     <br><br>
     O programa pode ser executado no Windows e no Linux.
 

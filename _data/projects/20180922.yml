@@ -33,7 +33,7 @@ pt-BR:
     O programa foi inspirado por <a href="https://www.boris.unito.it/">Boris</a>.
     Boris não suporta a adição de dicas visuais para ajudar no processo de contagem.
     Temos encontrado maior concordância entre observadores usando dicas visuais
-    (especialmente quando é necessário acelerar os videos).
+    (especialmente quando é necessário acelerar videos de longa duração).
     Keystone permite ao pesquisador carregar arquivos png com transparência como dicas visuais sobrepostas sobre videos.
     Por exemplo, se você precisa contar bicicletas, pode instruir um observador a contar
     apenas quando uma delas atravessar uma linha usada como dica visual.

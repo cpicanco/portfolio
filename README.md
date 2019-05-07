@@ -20,10 +20,4 @@ Finally, some [Academicons](http://jpswalsh.github.io/academicons/) were used.
 
 # License and copyright
 
-Following files, directories and their contents (including directories, subdirectories and files) are copyright Carlos Rafael Fernandes Picanço. You must not reuse anything therein without my explicit permission:
-
-* _data/
-* _site/
-* media/
-
-All other files and directories are licensed under the [MIT](http://www.opensource.org/licenses/mit-license.php) license unless explicitly stated.
+Please, do not reuse my name and other personal information. Everything else is licensed under the [MIT](http://www.opensource.org/licenses/mit-license.php) license unless explicitly stated.

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  
+  <url>
+    <loc>http://portfolio.rafael.picanco.nom.br/pt-br/achievements.html</loc>
+  
+    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://portfolio.rafael.picanco.nom.br/portfolio/en/achievements.html" />
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://portfolio.rafael.picanco.nom.br/pt-br/achievements.html" />
+  
+  </url>
+
+
+  
+  <url>
+    <loc>http://portfolio.rafael.picanco.nom.br/en/achievements.html</loc>
+  
+    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://portfolio.rafael.picanco.nom.br/portfolio/pt-br/achievements.html" />
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://portfolio.rafael.picanco.nom.br/en/achievements.html" />
+  
+  
+  </url>
+
+
+  
+  <url>
+    <loc>http://portfolio.rafael.picanco.nom.br/pt-br/contact.html</loc>
+  
+    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://portfolio.rafael.picanco.nom.br/portfolio/en/contact.html" />
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://portfolio.rafael.picanco.nom.br/pt-br/contact.html" />
+  
+  </url>
+
+
+  
+  <url>
+    <loc>http://portfolio.rafael.picanco.nom.br/en/contact.html</loc>
+  
+    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://portfolio.rafael.picanco.nom.br/portfolio/pt-br/contact.html" />
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://portfolio.rafael.picanco.nom.br/en/contact.html" />
+  
+  
+  </url>
+
+
+  
+  <url>
+    <loc>http://portfolio.rafael.picanco.nom.br/</loc>
+  
+    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>1.0</priority>
+  
+  
+  
+  </url>
+
+
+  
+  <url>
+    <loc>http://portfolio.rafael.picanco.nom.br/pt-br/projects.html</loc>
+  
+    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://portfolio.rafael.picanco.nom.br/portfolio/en/projects.html" />
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://portfolio.rafael.picanco.nom.br/pt-br/projects.html" />
+  
+  </url>
+
+
+  
+  <url>
+    <loc>http://portfolio.rafael.picanco.nom.br/en/projects.html</loc>
+  
+    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://portfolio.rafael.picanco.nom.br/portfolio/pt-br/projects.html" />
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://portfolio.rafael.picanco.nom.br/en/projects.html" />
+  
+  
+  </url>
+
+
+  
+  <url>
+    <loc>http://portfolio.rafael.picanco.nom.br/pt-br/publications.html</loc>
+  
+    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://portfolio.rafael.picanco.nom.br/portfolio/en/publications.html" />
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://portfolio.rafael.picanco.nom.br/pt-br/publications.html" />
+  
+  </url>
+
+
+  
+  <url>
+    <loc>http://portfolio.rafael.picanco.nom.br/en/publications.html</loc>
+  
+    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://portfolio.rafael.picanco.nom.br/portfolio/pt-br/publications.html" />
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://portfolio.rafael.picanco.nom.br/en/publications.html" />
+  
+  
+  </url>
+
+
+  
+  <url>
+    <loc>http://portfolio.rafael.picanco.nom.br/pt-br/services.html</loc>
+  
+    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://portfolio.rafael.picanco.nom.br/portfolio/en/services.html" />
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://portfolio.rafael.picanco.nom.br/pt-br/services.html" />
+  
+  </url>
+
+
+  
+  <url>
+    <loc>http://portfolio.rafael.picanco.nom.br/en/services.html</loc>
+  
+    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://portfolio.rafael.picanco.nom.br/portfolio/pt-br/services.html" />
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://portfolio.rafael.picanco.nom.br/en/services.html" />
+  
+  
+  </url>
+
+
+  
+  <url>
+    <loc>http://portfolio.rafael.picanco.nom.br/sitemap.xml</loc>
+  
+    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+  
+  </url>
+
+
+</urlset>

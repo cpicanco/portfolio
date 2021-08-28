@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:300');
+.container .row {
+  font-family: 'Arima Madurai', cursive
+}
+
+body { 
+  background: url(../../media/header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#first-row-1-col{
+  background-size:cover;
+  background-color: white;
+  background-color:rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+#first-row-item-text{
+  color:white;
+}
+
+#first-row-2-col{
+  background-color: transparent;
+}
+
+#first-row-img-item{
+  margin: 0 auto;
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+#first-row-3-col{
+
+}

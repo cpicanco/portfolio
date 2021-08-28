@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap:http://portfolio.rafael.picanco.nom.br/sitemap.xml

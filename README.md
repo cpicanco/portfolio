@@ -1,6 +1,6 @@
 ## portfolio.rafael.picanco.nom.br
 
-[![Build Status](https://travis-ci.org/cpicanco/portfolio.svg?branch=master)](https://travis-ci.org/cpicanco/portfolio)
+![GitHub Actions](https://github.com/cpicanco/portfolio/actions/workflows/jekyll.yml/badge.svg)
 
 This site uses [Bootstrap](http://getbootstrap.com/)!
  - it is awesome!

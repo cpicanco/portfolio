@@ -1,0 +1,44 @@
+li.filter-item{
+  display: none; /* Hidden by default */
+}
+
+section{
+  display:block;
+  float:left;
+  border:2px solid green;
+  width:100%;
+  border-radius:4px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+.red {
+  background-color: #ffb2b2;
+}
+
+.blue {
+  background-color: #b2b7ff
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}

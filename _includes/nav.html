@@ -26,70 +26,50 @@
           <ul class="nav navbar-nav">
             {% case page.title %}
               {% when 'Serviços' %}
-                <li class="self-active"><a class="page-scroll" href="#">Serviços</a></li>
                 <li><a href="/pt-br/projects.html">Projetos</a></li>
                 <li><a href="/pt-br/publications.html">Publicações</a></li>
                 <li><a href="/pt-br/achievements.html">Conquistas</a></li>
-                <li><a href="/pt-br/contact.html">Contatos</a></li>    
+                <li><a href="https://blog.rafael.picanco.nom.br/pt-br/about/">Contato</a></li>    
 
               {% when 'Projetos' %}
-                <li class="self-highlight"><a href="/pt-br/services.html">Serviços</a></li>
                 <li class="self-active"><a class="page-scroll" href="#">Projetos</a></li>
                 <li><a href="/pt-br/publications.html">Publicações</a></li>
+                <li><a href="http://lattes.cnpq.br/9925169248427338">Currículo Lattes</a></li>
                 <li><a href="/pt-br/achievements.html">Conquistas</a></li>
-                <li><a href="/pt-br/contact.html">Contatos</a></li>
+                <li><a href="https://blog.rafael.picanco.nom.br/pt-br/about/">Contato</a></li>
 
               {% when 'Publicações' %}
-                <li class="self-highlight"><a href="/pt-br/services.html">Serviços</a></li>
                 <li><a href="/pt-br/projects.html">Projetos</a></li>
                 <li class="self-active"><a href="#">Publicações</a></li>
                 <li><a href="http://lattes.cnpq.br/9925169248427338">Currículo Lattes</a></li>
                 <li><a href="/pt-br/achievements.html">Conquistas</a></li>
-                <li><a href="/pt-br/contact.html">Contato</a></li>
+                <li><a href="https://blog.rafael.picanco.nom.br/pt-br/about/">Contato</a></li>
 
               {% when 'Conquistas' %}
-                <li class="self-highlight"><a href="/pt-br/services.html">Serviços</a></li>
                 <li><a href="/pt-br/projects.html">Projetos</a></li>
                 <li><a href="/pt-br/publications.html">Publicações</a></li>
+                <li><a href="http://lattes.cnpq.br/9925169248427338">Currículo Lattes</a></li>
                 <li class="self-active"><a href="#">Conquistas</a></li>
-                <li><a href="/pt-br/contact.html">Contato</a></li>
-
-              {% when 'Contato' %}
-                <li class="self-highlight"><a href="/pt-br/services.html">Serviços</a></li>
-                <li><a href="/pt-br/projects.html">Projetos</a></li>
-                <li><a href="/pt-br/publications.html">Publicações</a></li>
-                <li><a href="/pt-br/achievements.html">Conquistas</a></li>
-                <li class="self-active"><a href="#">Contatos</a></li>
-              {% when 'Services' %}
-                <li class="self-active"><a class="page-scroll" href="#">Services</a></li>
-                <li><a href="/en/projects.html">Projects</a></li>
-                <li><a href="/en/publications.html">Publications</a></li>
-                <li><a href="/en/achievements.html">Achievements</a></li>
-                <li><a href="/en/contact.html">Contact</a></li>    
+                <li><a href="https://blog.rafael.picanco.nom.br/pt-br/about/">Contato</a></li>    
 
               {% when 'Projects' %}
                 <li class="self-active"><a class="page-scroll" href="#">Projects</a></li>
                 <li><a href="/en/publications.html">Publications</a></li>
                 <li><a href="/en/achievements.html">Achievements</a></li>
-                <li><a href="/en/contact.html">Contact</a></li>
+                <li><a href="https://blog.rafael.picanco.nom.br/en/about/">Contact</a></li>
                 
               {% when 'Publications' %}
                 <li><a href="/en/projects.html">Projects</a></li>
                 <li class="self-active"><a href="#">Publications</a></li>
                 <li><a href="/en/achievements.html">Achievements</a></li>
-                <li><a href="/en/contact.html">Contact</a></li>
+                <li><a href="https://blog.rafael.picanco.nom.br/en/about/">Contact</a></li>
               
               {% when 'Achievements' %}
                 <li><a href="/en/projects.html">Projects</a></li>
                 <li><a href="/en/publications.html">Publications</a></li>
                 <li class="self-active"><a href="#">Achievements</a></li>
-                <li><a href="/en/contact.html">Contact</a></li>
+                <li><a href="https://blog.rafael.picanco.nom.br/en/about/">Contact</a></li>
 
-              {% when 'Contact' %}
-                <li><a href="/en/projects.html">Projects</a></li>
-                <li><a href="/en/publications.html">Publications</a></li>
-                <li><a href="/en/achievements.html">Achievements</a></li>
-                <li class="self-active"><a href="#">Contact</a></li>
             {% endcase %}
             
             <li><a href="http://blog.rafael.picanco.nom.br/{{ page.language | downcase }}/">Blog</a></li>

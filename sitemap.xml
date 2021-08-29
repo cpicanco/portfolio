@@ -9,7 +9,7 @@
   <url>
     <loc>http://portfolio.rafael.picanco.nom.br/pt-br/achievements.html</loc>
   
-    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+    <lastmod>2021-08-29T03:52:20+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -31,7 +31,7 @@
   <url>
     <loc>http://portfolio.rafael.picanco.nom.br/en/achievements.html</loc>
   
-    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+    <lastmod>2021-08-29T03:52:20+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -51,53 +51,9 @@
 
   
   <url>
-    <loc>http://portfolio.rafael.picanco.nom.br/pt-br/contact.html</loc>
-  
-    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
-  
-    <changefreq>monthly</changefreq>
-  
-    <priority>0.8</priority>
-  
-  
-  
-    <xhtml:link rel="alternate"
-                hreflang="en"
-                href="http://portfolio.rafael.picanco.nom.br/portfolio/en/contact.html" />
-    <xhtml:link rel="alternate"
-                hreflang="pt-BR"
-                href="http://portfolio.rafael.picanco.nom.br/pt-br/contact.html" />
-  
-  </url>
-
-
-  
-  <url>
-    <loc>http://portfolio.rafael.picanco.nom.br/en/contact.html</loc>
-  
-    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
-  
-    <changefreq>monthly</changefreq>
-  
-    <priority>0.8</priority>
-  
-  
-    <xhtml:link rel="alternate"
-                hreflang="pt-BR"
-                href="http://portfolio.rafael.picanco.nom.br/portfolio/pt-br/contact.html" />
-    <xhtml:link rel="alternate"
-                hreflang="en"
-                href="http://portfolio.rafael.picanco.nom.br/en/contact.html" />
-  
-  
-  </url>
-
-
-  
-  <url>
     <loc>http://portfolio.rafael.picanco.nom.br/</loc>
   
-    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+    <lastmod>2021-08-29T03:52:20+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -112,7 +68,7 @@
   <url>
     <loc>http://portfolio.rafael.picanco.nom.br/pt-br/projects.html</loc>
   
-    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+    <lastmod>2021-08-29T03:52:20+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -134,7 +90,7 @@
   <url>
     <loc>http://portfolio.rafael.picanco.nom.br/en/projects.html</loc>
   
-    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+    <lastmod>2021-08-29T03:52:20+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -156,7 +112,7 @@
   <url>
     <loc>http://portfolio.rafael.picanco.nom.br/pt-br/publications.html</loc>
   
-    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+    <lastmod>2021-08-29T03:52:20+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -178,7 +134,7 @@
   <url>
     <loc>http://portfolio.rafael.picanco.nom.br/en/publications.html</loc>
   
-    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+    <lastmod>2021-08-29T03:52:20+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -198,53 +154,9 @@
 
   
   <url>
-    <loc>http://portfolio.rafael.picanco.nom.br/pt-br/services.html</loc>
-  
-    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
-  
-    <changefreq>monthly</changefreq>
-  
-    <priority>0.8</priority>
-  
-  
-  
-    <xhtml:link rel="alternate"
-                hreflang="en"
-                href="http://portfolio.rafael.picanco.nom.br/portfolio/en/services.html" />
-    <xhtml:link rel="alternate"
-                hreflang="pt-BR"
-                href="http://portfolio.rafael.picanco.nom.br/pt-br/services.html" />
-  
-  </url>
-
-
-  
-  <url>
-    <loc>http://portfolio.rafael.picanco.nom.br/en/services.html</loc>
-  
-    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
-  
-    <changefreq>monthly</changefreq>
-  
-    <priority>0.8</priority>
-  
-  
-    <xhtml:link rel="alternate"
-                hreflang="pt-BR"
-                href="http://portfolio.rafael.picanco.nom.br/portfolio/pt-br/services.html" />
-    <xhtml:link rel="alternate"
-                hreflang="en"
-                href="http://portfolio.rafael.picanco.nom.br/en/services.html" />
-  
-  
-  </url>
-
-
-  
-  <url>
     <loc>http://portfolio.rafael.picanco.nom.br/sitemap.xml</loc>
   
-    <lastmod>2021-08-28T09:03:04+00:00</lastmod>
+    <lastmod>2021-08-29T03:52:20+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   

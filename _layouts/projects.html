@@ -4,40 +4,49 @@
   {% include head.html %}
   <body data-spy="scroll" data-target="#Scrollspy">
     {% include nav.html %}
-    <div class="container" style='font-family: "Lucida Console", Monaco, monospace;'>
+    <div class="container" style="font-family: 'Lucida Console', Monaco, monospace;">
       <div class="row">
         <!-- Left Pills-->
         <div class="col-xs-1" id="Scrollspy">
           <ul class="nav nav-pills" data-spy="affix">
-            <li class=""><a class="page-scroll" href="#"></a></li>
-        {% assign sorted_projects = site.data.projects | sort %}
-        {% for project_data in sorted_projects reversed %}
-          {% assign filename = project_data[0] %}
-            <li class=""><a class="page-scroll" href="#id-{{ filename }}"></a></li>
-        {% endfor %}          
+            <li class="">
+              <a class="page-scroll" href="#"></a>
+            </li>
+            {% assign sorted_projects = site.data.projects | sort %}
+            {% for project_data in sorted_projects reversed %}
+              {% assign filename = project_data[0] %}
+              <li class="">
+                <a class="page-scroll" href="#id-{{ filename }}"></a>
+              </li>
+            {% endfor %}
           </ul>
-        </div> <!-- End Left Pills-->
-
-        <!-- Central Content -->
+        </div>
+        <!-- End Left Pills-->
+        
+                <!-- Central Content -->
         <div class="col-xs-10">
           {% include projects-styles.html %}
 
-      {% for project_data in sorted_projects reversed %}
-        {% assign filename = project_data[0] %}  
-        {% assign project = project_data[1][page.language] %}          
-          <!-- #id-{{ filename }} -->
-          <section id="id-{{ filename }}" class="{{ project.style }}">
-            <div class="page-header self-header-project">
-              <h4>{{ project.title }}</h4>
-              <h5 class="text-muted"><i class="far fa-clock"></i> {{ project.date-string }}</h5>
-            </div>
-            <img data-holder-rendered="true" src="{{ project.image }}" style="width: 200px; height: 200px;" data-src="holder.js/200x200" class="img-thumbnail" alt="200x200">
-            <div class='well' ><p>{{ project.description }}</p></div>
-          {% if project.extras != null %}
-            {{ project.extras }}
-          {% endif %}
-          </section><!--/#id-{{ filename }}-->  
-      {% endfor %}    
+          {% for project_data in sorted_projects reversed %}
+            {% assign filename = project_data[0] %}
+            {% assign project = project_data[1][page.language] %}
+            <!-- #id-{{ filename }} -->
+            <section id="id-{{ filename }}" class="{{ project.style }}">
+              <div class="page-header self-header-project">
+                <h4>{{ project.title }}</h4>
+                <h5 class="text-muted">
+                  <i class="far fa-clock"></i>
+                  {{ project.date-string }}</h5>
+              </div>
+              <img data-holder-rendered="true" src="{{ project.image }}" style="width: 200px; height: 200px;" data-src="holder.js/200x200" class="img-thumbnail" alt="200x200">
+              <div class="well">
+                <p>{{ project.description }}</p>
+              </div>
+              {% if project.extras != null %}
+                {{ project.extras }}
+              {% endif %}
+            </section><!--/#id-{{ filename }}-->
+          {% endfor %}
         </div><!-- End Central Content -->
       </div>
     </div>
@@ -45,6 +54,6 @@
     {% include footer.html %}
     {% include global_scripts.html %}
     {% include scrolling_nav_scripts.html %}
-    
+
   </body>
 </html>

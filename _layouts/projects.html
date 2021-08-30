@@ -10,13 +10,13 @@
         <div class="col-xs-1" id="Scrollspy">
           <ul class="nav nav-pills" data-spy="affix">
             <li class="">
-              <a class="page-scroll" href="#"></a>
+              <a class="page-scroll" href="#">.</a>
             </li>
             {% assign sorted_projects = site.data.projects | sort %}
             {% for project_data in sorted_projects reversed %}
               {% assign filename = project_data[0] %}
               <li class="">
-                <a class="page-scroll" href="#id-{{ filename }}"></a>
+                <a class="page-scroll" href="#id-{{ filename }}">{{ filename }}</a>
               </li>
             {% endfor %}
           </ul>

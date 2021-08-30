@@ -1,0 +1,97 @@
+{% assign intro = site.data.intros.publications[page.language] %}
+{% assign card = include.card[page.language] %}
+
+<li class="filter-item {{ include.card.category }}">
+
+{% case include.card.category %}
+  {% when 'achievement' %}
+    <div class="achievements ac-size-2x {{ card.icon }}">
+      <p class="achievements-title">{{ card.title }}</p>
+      <p>{{ card.subtitle }}</p>
+    </div>
+    <div class="timeline-panel">
+      <div class="timeline-heading">
+        <h4 class="timeline-title">{{ card.header }}</h4>
+        <p>
+          <small class="text-muted">
+            <i class="far fa-clock"></i>
+            {{ card.date-string }}</small>
+        </p>
+      </div>
+      <div class="timeline-body">
+        {{ card.description | markdownify  }}
+        {% if card.widget != null %}
+          <hr>
+          {{ card.widget }}
+        {% endif %}
+      </div>
+    </div>
+    
+
+  {% when 'project' %}
+    <section id="id-{{ filename }}" class="{{ card.style }}">
+      <div class="page-header self-header-project">
+        <h4>{{ card.title }}</h4>
+        <h5 class="text-muted">
+          <i class="far fa-clock"></i>
+          {{ card.date-string }}</h5>
+      </div>
+      <img data-holder-rendered="true" src="{{ card.image }}" style="width: 200px; height: 200px;" data-src="holder.js/200x200" class="img-thumbnail" alt="200x200">
+      <div class="well">
+        <p>{{ card.description }}</p>
+      </div>
+      {% if card.extras != null %}
+        {{ card.extras }}
+      {% endif %}
+    </section><!--/#id-{{ filename }}-->
+
+
+  {% when 'publication' %}
+    {% case include.card.type %}
+      {% when 'article-journal', 'book-chapter' %}
+        <blockquote>
+          <div class="self-font">
+            <div>{{ card.html | replace: '..','.' | replace: '  ',' '}}</div>
+          </div>
+          <hr>
+          <ul class="list-inline">
+            <li>
+              <a href="{{ include.card.url }}">{{ intro.url }}</a>
+            </li>
+            {% if include.card.doi != null %}
+              <li>
+                <p>|</p>
+              </li>
+              <li>
+                <p>Altmetric:</p>
+              </li>
+              <li>
+                <div data-badge-popover="right" data-badge-type="bar" data-doi="{{ include.card.doi }}" data-hide-no-mentions="true" class="altmetric-embed"></div>
+              </li>
+            {% endif %}
+          </ul>
+        </blockquote>
+
+
+      {% when 'bachelor-thesis', 'master-thesis', 'doctoral-thesis' %}
+        <div class="Page-header">
+          <h3>{{ intro[include.card.type] }}</h3>
+        </div>
+        <hr>
+        <blockquote>
+          <div class="self-font">
+            <div class="csl-entry">{{ card.html | replace: '..','.' | replace: '  ',' ' }}</div>
+          </div>
+          <hr>
+          <ul class="list-inline">
+            <li>
+              <a href="{{ include.card.url }}">{{ intro.url }}</a>
+            </li>
+          </ul>
+        </blockquote> 
+
+  {% endcase %} <!-- card.type -->
+
+{% endcase %} <!-- card.category -->
+
+</li>

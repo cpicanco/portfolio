@@ -1,43 +1,53 @@
-<!--Copyright (c) 2015-2018 Carlos Rafael Fernandes Picanço.-->
+<!--Copyright (c) 2015-2021 Carlos Rafael Fernandes Picanço.-->
 <!DOCTYPE html>
 <html lang="{{ page.language }}">
   {% include head.html %}
-  <body style='padding-top: 50px;'>
-   {% include nav.html %}
+  <body style="padding-top: 50px;">
+    
+    {% include nav.html %}
+
     <div class="container">
       <p style="margin-top: 20px; font-family: 'Lucida Console', Monaco, monospace; padding-top: 1am">{{ site.data.intros.achievements[page.language].content }}</p>
       <hr>
-      <ul class='timeline'>
-  {% assign sorted_achievements = site.data.achievements | sort %}
-  {% for ac in sorted_achievements reversed %}
-    {% assign achievement = ac[1][page.language] %}
-    {% if achievement.title != null %}
-        <li>
-          <div class='achievement ac-size-2x {{ achievement.icon }}' >
-              <p class='achievement-title'>{{ achievement.title }}</p>
-              <p>{{ achievement.subtitle }}</p>
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">{{ achievement.header }}</h4>
-              <p><small class="text-muted"><i class="far fa-clock"></i> {{ achievement.date-string }}</small></p>
-            </div>
-            <div class="timeline-body">
-              {{ achievement.description | markdownify  }}
-      {% if achievement.widget != null %}
-              <hr>
-              {{ achievement.widget }}
-      {% endif %}
-            </div>
-          </div>
-        </li>
-    {% endif %}
-  {% endfor %}
-      </ul>
-    </div><!-- /.container -->
+      <section>
+        {% assign timeline_data = "" | split: ',' %}
+        {% for achievement in site.data.achievements %}
+          {% assign timeline_data = timeline_data | push: achievement %}
+        {% endfor %}
 
+        {% for project in site.data.projects %}
+          {% assign timeline_data = timeline_data | push: project %}
+        {% endfor %}       
+
+        {% for publication in site.data.publications %}
+          {% assign timeline_data = timeline_data | push: publication %}
+        {% endfor %}  
+
+        {% assign timeline_data = timeline_data | sort %}
+
+
+        <div id="filter-container">
+          <button class="btn active" onclick="filterSelection('all')">
+            Tudo</button>
+          <button class="btn" onclick="filterSelection('achievement')">
+            Conquistas</button>
+          <button class="btn" onclick="filterSelection('project')">
+            Projetos</button>
+          <button class="btn" onclick="filterSelection('publication')">
+            Publicação</button>
+        </div>
+
+        <ul class="timeline">
+          {% for data in timeline_data reversed %}
+            {% assign card = data[1] %}
+            {% include timeline_card.html card=card %}
+          {% endfor %}
+        </ul>
+      <section></div><!-- /.container -->
+
+    <script src="/js/filtering.js"></script>
+    
     {% include footer.html %}
-
     {% include global_scripts.html %}
   </body>
 </html>

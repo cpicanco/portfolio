@@ -51,38 +51,18 @@
   <meta content="850" name="twitter:image:width">
   <meta content="450" name="twitter:image:height">
 
-  <title>{{ page.author }}
-    |
-    {{ page.title }}</title>
+  <title>{{ page.author }}|{{ page.title }}</title>
 
   <link rel="image_src" href="{{ an_image }}">
   <link rel="canonical" href="{{ LINK | remove:'index.html' }}">
   <link href="/media/favicon.ico" rel="icon">
 
-  <!-- Bootstrap core CSS -->
-      <!-- Custom styles for Starter template -->
-      <!-- Custom styles for the Stick Footer template -->
-      <!-- Custom fonts -->
-      <!-- Custom styles -->
-  {% if page.title == 'Achievements' or page.title == 'Conquistas' %}
-    <link href="/css/portfolio-styles-achievements.concat.css" rel="stylesheet">
-  {% else %}
-    <link href="/css/portfolio-styles.concat.css" rel="stylesheet">
-  {% endif %}
-
-  {% if page.title == 'Serviços' or page.title == 'Services' %}
-    <link href="/css/services.css" rel="stylesheet">
-  {% endif %}
-
-  <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" rel="stylesheet">
-
-  <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-      <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-      <!--<script src="../js/ie-emulation-modes-warning.js"></script>-->
-  
-      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <link href="/css/bootstrap.css" rel="stylesheet">
+  <link href="/css/portfolio.css" rel="stylesheet">
+  {% case page.title %}
+    {% when 'Achievements', 'Conquistas' %}      
+      <link href="/css/achievements.css" rel="stylesheet">
+      <link href="/css/fonts.css" rel="stylesheet">
+    {% else %}
+  {% endcase %}
 </head>

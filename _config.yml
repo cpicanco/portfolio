@@ -13,7 +13,6 @@ exclude: ['.gitignore',
           'LICENSE.md',
           'README.md',
           'package.json',
-          'css/src/',
           'css/min/',
           'js/src/',
           'node_modules/',
@@ -38,3 +37,17 @@ defaults:
       path: 'en'
     values:
       language: en
+      
+plugins:
+  - jemoji
+
+sass:
+    sass_dir: _sass
+    style: compressed
+    sourcemap: never
+
+assets:
+  autoprefixer:
+    browsers:
+    - "last 2 versions"
+    - "IE > 9"

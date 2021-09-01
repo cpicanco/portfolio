@@ -1,14 +1,15 @@
-<!-- Head -->
 {% if page.language == 'en' %}
   {% capture description %}
     {{ page.author }}'s Portfolio,
     {{ page.title }}, behavioral scientist, enthusiastic programmer and freelance drummer.
   {% endcapture %}
+  {% assign content_language = 'en_US' %}
 {% elsif page.language == 'pt-BR' %}
   {% capture description %}Portfólio de
     {{ page.author }},
     {{ page.title }}, cientista do comportamento, programador entusiasta e baterista freelance.
   {% endcapture %}
+  {% assign content_language = 'pt_BR' %}
 {% endif %}
 
 {% capture an_image %}
@@ -18,38 +19,37 @@
   {{ site.url }}{{ page.url }}
 {% endcapture %}
 
+<!-- Head -->
 <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# profile: https://ogp.me/ns/article#">
   <meta charset="utf-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ description }}">
   <meta name="author" content="{{ page.author }}">
 
   <!-- Open Graph meta tags -->
   <meta property="og:title" content="{{ page.title }}">
-  <meta content="profile" property="og:type">
+  <meta property="og:type" content="profile" >
   <meta property="og:description" content="{{ description }}">
   <meta property="og:url" content="{{ LINK | remove:'index.html' }}">
   <meta property="og:image" content="{{ an_image }}">
-  <meta content="850" property="og:image:width">
-  <meta content="450" property="og:image:height">
-  {% if page.language == 'en' %}
-    <meta content="en_US" property="og:locale">
-  {% elsif page.language == 'pt-BR' %}
-    <meta content="pt_BR" property="og:locale">
-  {% endif %}
+  <meta property="og:image:width" content="850">
+  <meta property="og:image:height" content="450">
+  <meta property="og:locale" content="{{ content_language }}">
   <meta property="og:site_name" content="{{ page.author }}'s Portfolio">
-  <meta content="1651005333" property="fb:profile_id">
-  <meta content="179917338701622" property="fb:app_id"/>
+
+  <!-- Facebook properties -->
+  <meta property="fb:profile_id" content="1651005333">
+  <meta property="fb:app_id"content="179917338701622"/>
 
   <!-- Twitter Card properties -->
-  <meta content="summary_large_image" name="twitter:card">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ page.title }}">
-  <meta content="@crpicanco" name="twitter:creator">
+  <meta name="twitter:creator" content="@crpicanco" >
   <meta name="twitter:description" content="{{ description }}">
   <meta name="twitter:image" content="{{ an_image }}">
-  <meta content="850" name="twitter:image:width">
-  <meta content="450" name="twitter:image:height">
+  <meta name="twitter:image:width" content="850" >
+  <meta name="twitter:image:height" content="450">
 
   <title>{{ page.author }}|{{ page.title }}</title>
 

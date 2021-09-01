@@ -1,85 +1,164 @@
-/*!
- * Timeline source thanks to:
- * http://codepen.io/betdream/pen/Ifvbi/
- */
-.timeline 
-	list-style: none
-	padding: 20px 0 20px 0
-	position: relative
+$top-direction: 0
+$left-direction: 1
+$bottom-direction: 2
+$right-direction: 3
+$base-color: white
 
-	&:before 
-		background-color: #eeeeee
-		content: ""
-		position: absolute
-		margin-left: -1.5px
-		top: 0
-		left: 50px
-		bottom: 0
-		width: 3px
-	
-	>li 
-		margin-bottom: 50px
-		position: relative
+@mixin link-base
+  content: " "
+  display: table
 
-		&:before 
-			content: " "
-			display: table
-			content: " "
-			display: table
-		
-		&:after 
-			content: " "
-			display: table
-			clear: both
-			content: " "
-			display: table
-			clear: both
-		
-		>.timeline-panel 
-			top: 15px
-			left: 50px
-			margin-right: 50px
-			max-width: 350px
-			float: none
-			border: 1px solid #d4d4d4
-			border-radius: 2px
-			padding: 20px
-			position: relative
-			-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175)
-			-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175)
-			box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175)
+@mixin panel-pseudo-triangule($direction, $size: 42px)
+  @if $direction > 3
+    @error "$direction must be $top-direction, $left-direction,$bottom-direction or $right-direction"
 
-			&:before 
-				position: absolute
-				top: -21px;
-				display: inline-block
-				border-left: 21px solid transparent
-				border-right: 21px solid transparent
-				border-bottom: 21px solid #ccc
-				content: ""
-			
-			&:after 
-				position: absolute
-				top: -20px;
-				display: inline-block
-				border-left: 21px solid transparent
-				border-right: 21px solid transparent
-				border-bottom: 21px solid #fff
-				content: ""
+  @if $direction < 0
+    @error "$direction must be $top-direction, $left-direction,$bottom-direction or $right-direction"
 
-.timeline-title 
-	margin-top: 0
-	color: inherit
+  $half: $size/2
 
-.timeline-body 
-	>p 
-		margin-bottom: 0
-		+ 
-			p 
-				margin-top: 5px
-			
-	>ul 
-		margin-bottom: 0
-	
-	br 
-		margin-bottom: 15px
+  content: ""
+  // display: inline-block
+  position: absolute
+  top: -$half
+  @if $direction == $top-direction // top
+    border-top: 0 solid $base-color    
+    border-left: $half solid transparent
+    border-right: $half solid transparent
+    border-bottom: $half solid $base-color
+  
+  @if $direction == $left-direction // left
+    border-top: $half solid transparent    
+    border-left: 0 solid $base-color
+    border-right: $half solid $base-color
+    border-bottom: $half solid transparent
+  
+  @if $direction == $bottom-direction // bottom
+    border-top: $half solid $base-color    
+    border-left: $half solid transparent
+    border-right: $half solid transparent
+    border-bottom: 0 solid $base-color
+
+  @if $direction == $right-direction // right
+    border-top: $half solid transparent
+    border-left: $half solid $base-color
+    border-right: 0 solid $base-color
+    border-bottom: $half solid transparent
+
+.timeline
+  list-style: none
+  padding: 20px 0 20px 0
+  position: relative
+
+  &:before
+    background-color: #eeeeee
+    content: ""
+    position: absolute
+    margin-left: -1.5px
+    top: 0
+    left: 50px
+    bottom: 0
+    width: 3px
+
+  & > li
+    margin-bottom: 100px
+    position: relative
+
+  & > li section
+    &:before
+      @include link-base
+    
+    &:after
+      @include link-base
+      clear: both
+
+    & > .timeline-panel
+      background-color: $base-color		
+      top: 15px
+      left: 55px
+      margin-right: 50px
+      max-width: 350px
+      float: none
+      border: 1px solid #d4d4d4		
+      border-radius: 2px
+      padding: 20px
+      position: relative
+      -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175)
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175)
+    
+      &:before 
+        @include panel-pseudo-triangule($top-direction)
+   
+      &:after
+        @include panel-pseudo-triangule($top-direction)
+    
+    & > .timeline-badge
+      color: $base-color
+      width: 50px
+      height: 50px
+      font-size: 2em
+      text-align: center
+      line-height: 50px
+      position: absolute
+      top: -55px
+      left: 50px
+      margin-left: -25px
+      background-color: #999999
+      z-index: 1
+      border-top-right-radius: 50%;
+      border-top-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      border-bottom-left-radius: 50%;
+
+    &.timeline-inverted > .timeline-panel
+      float: right
+
+      &:before
+        border-left-width: 0
+        border-right-width: 15px
+        left: -15px
+        right: auto
+      
+      &:after
+        border-left-width: 0
+        border-right-width: 14px
+        left: -14px
+        right: auto
+    
+
+.timeline-badge
+  .primary
+    background-color: #2e6da4 !important
+
+.timeline-badge
+  .success
+    background-color: #3f903f !important
+
+.timeline-badge
+  .warning
+    background-color: #f0ad4e !important
+
+.timeline-badge
+  .danger
+    background-color: #d9534f !important
+
+.timeline-badge
+  .info
+    background-color: #5bc0de !important
+
+.timeline-title
+  margin-top: 0
+  color: inherit
+
+.timeline-body
+  > p
+  margin-bottom: 0
+
+  > ul
+  margin-bottom: 0
+
+.timeline-body > p + p
+  margin-top: 5px
+
+.timeline-body br
+  margin-bottom: 15px

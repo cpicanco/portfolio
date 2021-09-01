@@ -17,13 +17,7 @@ en:
     <a class="page-scroll" href="#id-20140310">stimulus presentation program</a>
     to this platform. You can see the abstract of the thesis by clicking on the button below.
     
-  extras: |
-    <div class="dropdown">
-      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fa fa-eye"> Abstract</i> 
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dLabel">
+  element_content: |
       Feature-positive (FP) and feature-negative (FN) stimulus arrangements involve common
       elements (A) and a distinctive element (B). These are used in simple discriminative tasks
       (go/no-go), in which there is AB+ reinforcement and AA- extinction for FP group, whereas
@@ -44,8 +38,6 @@ en:
       during AB+ arrangements in Study 2 and Study 3. However, more observation of the
       distinctive stimuli was not necessary in Study 4 with which a stronger feature positive effect
       occurred.
-      </ul>
-    </div>
 
 
 pt-BR:
@@ -66,13 +58,7 @@ pt-BR:
     o meu próprio <a class="page-scroll" href="#id-20140310">programa de apresentação de estímulos</a>
     a essa plataforma. Você pode ver o resumo da tese clicando no botão abaixo.
 
-  extras: |
-    <div class="dropdown">
-      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fa fa-eye"> Resumo</i> 
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dLabel">
+  element_content: |
       Aspecto-positivo (FP) e aspecto-negativo (FN) são arranjos compostos por estímulos comuns
       (A) e estímulos distintivos (B). No aspecto-positivo, há reforçamento AB+ e extinção AA-.
       No aspecto-negativo, há reforçamento AA+ e extinção AB- (FN). O efeito de aspecto positivo
@@ -91,5 +77,3 @@ pt-BR:
       diferente, com mais observação do estímulo distintivo no primeiro arranjo no Estudo 2 e
       Estudo 3. Entretanto, mais observação do estímulo distintivo não foi necessária no Estudo 4,
       no qual o efeito de aspecto positivo foi mais robusto.
-      </ul>
-    </div>

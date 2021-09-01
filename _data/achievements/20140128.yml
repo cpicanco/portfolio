@@ -13,21 +13,14 @@ en:
     The company provides accessible open source tools for eye tracking and egocentric vision research.
     They are awesome.
 
-  widget: |
-    <div class="dropdown">
-      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fas fa-image"> See it</i> 
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dLabel">
-        <li><a href="https://docs.pupil-labs.com/#diy">Pupil Dev Guide</a></li>
-        <li><a href="https://pupil-labs.com/">Pupil Labs' Website</a></li>
-        <li><a href="https://github.com/pupil-labs/">Pupil Labs' GitHub</a></li>
-        <li><a href="https://docs.pupil-labs.com/#community">Pupil Labs' Community</a></li>
-        <li class="divider"></li>
-        <img alt="wearing-pupil-dev" width="200" height="relative" src="/media/achievements/wearing-pupil-dev.jpg"></img>
-      </ul>
-    </div>
+  element_content: |
+    <li><a class="dropdown-item" href="https://docs.pupil-labs.com/#diy">Pupil Dev Guide</a></li>
+    <li><a class="dropdown-item" href="https://pupil-labs.com/">Pupil Labs' Website</a></li>
+    <li><a class="dropdown-item" href="https://github.com/pupil-labs/">Pupil Labs' GitHub</a></li>
+    <li><a class="dropdown-item" href="https://docs.pupil-labs.com/#community">Pupil Labs' Community</a></li>
+    <li class="divider"></li>
+    <img class="dropdown-item" alt="wearing-pupil-dev" width="200" height="relative" src="/media/achievements/wearing-pupil-dev.jpg"></img>
+
 
 pt-BR:
   title: 'DIY pupilo!'
@@ -44,18 +37,10 @@ pt-BR:
     para pesquisas sobre rastreamento dos olhos e visão egocêntrica (<i>eye tracking and egocentric vision research</i>).
     Eles são maravilhosos.
 
-  widget: |
-    <div class="dropdown">
-      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fas fa-image"> Veja-o</i> 
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dLabel">
-        <li><a href="https://docs.pupil-labs.com/#diy">Pupil Dev - Passo-a-Passo</a></li>
-        <li><a href="https://pupil-labs.com/">Pupil Labs - Website</a></li>
-        <li><a href="https://github.com/pupil-labs/">Pupil Labs - GitHub</a></li>
-        <li><a href="https://docs.pupil-labs.com/#community">Pupil Labs - Comunidade</a></li>
-        <li class="divider"></li>
-        <img alt="wearing-pupil-dev" width="200" height="relative" src="/media/achievements/wearing-pupil-dev.jpg"></img>
-      </ul>
-    </div>
+  element_content: |
+    <li><a class="dropdown-item" href="https://docs.pupil-labs.com/#diy">Pupil Dev - Passo-a-Passo</a></li>
+    <li><a class="dropdown-item" href="https://pupil-labs.com/">Pupil Labs - Website</a></li>
+    <li><a class="dropdown-item" href="https://github.com/pupil-labs/">Pupil Labs - GitHub</a></li>
+    <li><a class="dropdown-item" href="https://docs.pupil-labs.com/#community">Pupil Labs - Comunidade</a></li>
+    <li class="divider"></li>
+    <img class="dropdown-item" alt="wearing-pupil-dev" width="200" height="relative" src="/media/achievements/wearing-pupil-dev.jpg"></img>

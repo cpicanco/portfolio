@@ -32,16 +32,9 @@ en:
     However, I am not a computer scientist, of course.
     I am a behavioral scientist with programming skills.   
 
-  widget: |
-    <div class="dropdown">
-      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fas fa-external-link-alt"> Useful Links</i> 
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dLabel">
-        <li><a href="https://github.com/cpicanco">My GitHub</a></li>
-      </ul>
-    </div>
+  element_content: |
+    <li><a class="dropdown-item" href="https://github.com/cpicanco">My GitHub</a></li>
+
 
 pt-BR:
   title: 'Dentro do código.'
@@ -79,13 +72,6 @@ pt-BR:
     Entretanto, não sou um cientista da computação, é claro.
     Sou um cientista do comportamento com habilidades de programação.   
 
-  widget: |
-    <div class="dropdown">
-      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fas fa-external-link-alt"> Links úteis</i> 
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dLabel">
-        <li><a href="https://github.com/cpicanco">Meu GitHub</a></li>
-      </ul>
-    </div>
+  element_content: |
+    <li><a class="dropdown-item" href="https://github.com/cpicanco">Meu GitHub</a></li>
+

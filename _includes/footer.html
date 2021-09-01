@@ -1,26 +1,50 @@
-<!-- Footer -->
-<footer class="footer">
-  <div class="container">
-    <p class="text-muted text-center">
-      {% if page.language == 'en' %}
-        &copy;
-        {{ site.year }}, Carlos Rafael Fernandes Picanço.<br>
-        Hosted by
-        <a href="https://github.com/cpicanco/portfolio/">GitHub Pages</a>.<br>
-        Built with
-        <a href="https://getbootstrap.com/">Bootstrap</a>
-        and
-        <a href="https://jekyllrb.com/">Jekyll</a>.<br>
-      {% elsif page.language == 'pt-BR' %}
-        &copy;
-        {{ site.year }}, Carlos Rafael Fernandes Picanço.<br>
-        Hospedado pelo
-        <a href="https://github.com/cpicanco/portfolio/">GitHub Pages</a>.<br>
-        Construido com o
-        <a href="https://getbootstrap.com/">Bootstrap</a>
-        e o
-        <a href="https://jekyllrb.com/">Jekyll</a>.<br>
-      {% endif %}
-    </p>
+
+
+<div class="flex-column">
+  <div class="p-2">
+    <hr style="width:10%;margin: auto;">
   </div>
+  
+  <div class="p-2">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
+      <li class="ms-3">
+        <a class="text-muted" href="https://twitter.com/crpicanco">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-muted" href="https://instagram.com/orafaprof">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+      <li class="ms-3">
+        <a class="text-muted" href="https://github.com/cpicanco">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<footer class="py-3 my-4">
+  <p class="text-center text-muted">&copy; 2015-{{ 'now' | date: "%Y" }} Carlos Rafael Fernandes Picanço.<br>
+
+    {% if page.language == 'en' %}
+      Hosted by <a href="https://github.com/cpicanco/blog/">GitHub Pages</a>.<br>  
+      Built with <a href="https://github.com/features/actions">GitHub Actions</a>, <a href="https://getbootstrap.com/">Bootstrap</a> and <a href="https://jekyllrb.com/">Jekyll</a>.
+    {% elsif page.language == 'pt-BR' %}
+      Hospedado pelo <a href="https://github.com/cpicanco/blog/">GitHub Pages</a>.<br>  
+      Construído com o <a href="https://github.com/features/actions">GitHub Actions</a>, o <a href="https://getbootstrap.com/">Bootstrap</a> e o <a href="https://jekyllrb.com/">Jekyll</a>.
+    {% endif %}
+
+  </p> 
 </footer>

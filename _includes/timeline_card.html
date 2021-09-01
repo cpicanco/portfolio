@@ -2,96 +2,114 @@
 {% assign card = include.card[page.language] %}
 
 <li class="filter-item {{ include.card.category }}">
+  <section id="section-{{ include.filename }}">
+  {% case include.card.category %}
 
-{% case include.card.category %}
-  {% when 'achievement' %}
-    <div class="achievements ac-size-2x {{ card.icon }}">
-      <p class="achievements-title">{{ card.title }}</p>
-      <p>{{ card.subtitle }}</p>
-    </div>
-    <div class="timeline-panel">
-      <div class="timeline-heading">
-        <h4 class="timeline-title">{{ card.header }}</h4>
-        <p>
-          <small class="text-muted">
-            <i class="far fa-clock"></i>
-            {{ card.date-string }}</small>
-        </p>
+    {% when 'achievement' %}
+      
+      <div class="achievements ac-size-2x {{ card.icon }}">
+        <p class="achievements-title">{{ card.title }}</p>
+        <p>{{ card.subtitle }}</p>
       </div>
-      <div class="timeline-body">
-        {{ card.description | markdownify  }}
-        {% if card.widget != null %}
-          <hr>
-          {{ card.widget }}
+      <div class="timeline-panel">
+        <div class="timeline-heading">
+          <h4 class="timeline-title">{{ card.header }}</h4>
+          <p>
+            <small class="text-muted">
+              <i class="far fa-clock"></i>
+              {{ card.date-string }}</small>
+          </p>
+        </div>
+        <div class="timeline-body">
+          {{ card.description | markdownify  }}
+          {% if card.element_content != null %}
+            <hr>
+            {% include dropdown_button.html id=include.filename content=card.element_content %} 
+          {% endif %}
+          
+          {% if card.reference != null %}
+            <hr>
+            {{ card.reference }}
+          {% endif %} 
+        </div>
+      </div>
+
+    {% when 'project' %}
+
+    <div class="timeline-badge">
+      <i class="fas fa-check"></i>
+    </div>
+    <img src="{{ card.image }}" alt="{{ card.title }}" style="width: 200px; height: 200px;">
+    <div class="card" style="max-width: 600px">
+      <div class="card-body">
+      <h4 class="card-title">{{ card.title }}</h4>
+      <p class="text-muted">
+        <i class="far fa-clock">
+          {{ card.date-string }}
+        </i>    
+      </p>
+      <p class="card-text">{{ card.description }}</p>
+    
+      {% if card.element_content != null %}
+        {% include dropdown_button.html id=include.filename content=card.element_content %} 
+      {% endif %} 
+      {% if card.reference != null %}
+        {{ card.reference }}
+      {% endif %}
+
+    </div>
+
+    {% when 'software' %}
+      <div class="timeline-badge">
+        <i class="fas fa-check"></i>
+      </div>
+      <img src="{{ card.image }}" alt="{{ card.title }}" style="width: 200px; height: 200px;">
+      <div class="card" style="max-width: 600px">
+        <div class="card-body">
+        <h4 class="card-title">{{ card.title }}</h4>
+        <p class="text-muted">
+          <i class="far fa-clock">
+            {{ card.date-string }}
+          </i>    
+        </p>
+        <p class="card-text">{{ card.description }}</p>
+      
+        {% if card.element_content != null %}
+          {% include dropdown_button.html id=include.filename content=card.element_content %} 
+        {% endif %} 
+        {% if card.reference != null %}
+          {{ card.reference }}
         {% endif %}
       </div>
-    </div>
-    
 
-  {% when 'project' %}
-    <section id="id-{{ filename }}" class="{{ card.style }}">
-      <div class="page-header self-header-project">
-        <h4>{{ card.title }}</h4>
-        <h5 class="text-muted">
-          <i class="far fa-clock"></i>
-          {{ card.date-string }}</h5>
-      </div>
-      <img data-holder-rendered="true" src="{{ card.image }}" style="width: 200px; height: 200px;" data-src="holder.js/200x200" class="img-thumbnail" alt="200x200">
-      <div class="well">
-        <p>{{ card.description }}</p>
-      </div>
-      {% if card.extras != null %}
-        {{ card.extras }}
-      {% endif %}
-    </section><!--/#id-{{ filename }}-->
-
-
-  {% when 'publication' %}
-    {% case include.card.type %}
-      {% when 'article-journal', 'book-chapter' %}
-        <blockquote>
-          <div class="self-font">
-            <div>{{ card.html | replace: '..','.' | replace: '  ',' '}}</div>
-          </div>
-          <hr>
-          <ul class="list-inline">
-            <li>
-              <a href="{{ include.card.url }}">{{ intro.url }}</a>
-            </li>
-            {% if include.card.doi != null %}
-              <li>
-                <p>|</p>
-              </li>
-              <li>
-                <p>Altmetric:</p>
-              </li>
-              <li>
-                <div data-badge-popover="right" data-badge-type="bar" data-doi="{{ include.card.doi }}" data-hide-no-mentions="true" class="altmetric-embed"></div>
-              </li>
-            {% endif %}
-          </ul>
-        </blockquote>
-
-
-      {% when 'bachelor-thesis', 'master-thesis', 'doctoral-thesis' %}
-        <div class="Page-header">
-          <h3>{{ intro[include.card.type] }}</h3>
+    {% when 'publication' %}
+      <!-- 'article-journal', 'book-chapter', 'bachelor-thesis', 'master-thesis', 'doctoral-thesis' -->
+        <div class="timeline-badge">
+            <i class="fas fa-check"></i>
         </div>
-        <hr>
-        <blockquote>
-          <div class="self-font">
-            <div class="csl-entry">{{ card.html | replace: '..','.' | replace: '  ',' ' }}</div>
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-title">{{ card.title }}</h4>
           </div>
-          <hr>
-          <ul class="list-inline">
-            <li>
-              <a href="{{ include.card.url }}">{{ intro.url }}</a>
-            </li>
-          </ul>
-        </blockquote> 
+          <div class="card-body">
+            <blockquote>
+              <div class="self-font" >
+                <p class="card-text">
+                  {{ card.html | replace: '..','.' | replace: '  ',' '}}
+                </p>
+              </div>
+              <hr>
+              {% if include.card.doi != null %}
+                <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='{{ include.card.doi }}'></div>
+              {% endif %}
+              <br>
+              <footer class="blockquote-footer">
+                <cite><a href="{{ include.card.url }}">{{ intro.url }}</a></cite>  
+              </footer>
+            </blockquote>
+          </div>
+        </div>
 
-  {% endcase %} <!-- card.type -->
-
-{% endcase %} <!-- card.category -->
-
+  {% endcase %} <!-- card.category -->
+  </section>
 </li>

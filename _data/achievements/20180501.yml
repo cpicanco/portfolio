@@ -16,14 +16,9 @@ pt-BR:
     Prof. Dr. Denis Roberto Zamignani
     Maria Júlia Ferreira Xavier Ribeiro
     
-  widget: |
-    <div class="dropdown">
-      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fa fa-image"> Veja o Resultado</i> 
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dLabel">
-        <li><a href="/media/20180501_concurso_uefs.pdf">Resultado Final</a></li>
-        <li><a href="http://csa.uefs.br/index.php/professor181/inicial/">Website da Instituição</a></li>
-      </ul>
-    </div>
+  element_content: |
+    <li><a class="dropdown-item"href="/media/20180501_concurso_uefs.pdf">Resultado Final</a></li>
+    <li><a class="dropdown-item"href="http://csa.uefs.br/index.php/professor181/inicial/">Website da Instituição</a></li>
+
+en:
+  skip: True

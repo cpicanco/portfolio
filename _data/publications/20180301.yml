@@ -1,8 +1,11 @@
 category: publication
 pt-BR:
+  title: Capítulo de Livro
   html: >
     Pican&ccedil;o, C. R. F. (2018). Introdução ao desenvolvimento de interfaces gráficas com Lazarus e Free Pascal. In H. B. Neves Filho, L. A. B. Freitas, &amp; N. C. C. Quinta (Orgs.), <i>Introdução ao desenvolvimento de software para analistas do comportamento</i> (1<sup>o</sup> ed, p. 33–88). Campinas: ABPMC.
+
 en:
+  title: Book Chapter
   html: >
     Pican&ccedil;o, C. R. F. (2018). Introdução ao desenvolvimento de interfaces gráficas com Lazarus e Free Pascal. In H. B. Neves Filho, L. A. B. Freitas, &amp; N. C. C. Quinta (Orgs.), <i>Introdução ao desenvolvimento de software para analistas do comportamento</i> (1<sup>o</sup> ed, p. 33–88). Campinas: ABPMC.
 

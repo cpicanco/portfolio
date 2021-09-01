@@ -1,80 +1,64 @@
-<!-- Navigation Top -->
-    <nav class="navbar navbar-inverse navbar-fixed-top self-color">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            
-            {% if page.language == 'en' %}
-              <span class="sr-only">Alternar navegação</span>
-            {% elsif page.language == 'pt-BR' %}
-              <span class="sr-only">Alternar navegação</span>
-            {% endif %}
-            
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+{% case page.language %}
 
-          {% if page.language == 'en' %}
-            <a class="navbar-brand" href="../">Portfolio</a>
-          {% elsif page.language == 'pt-BR' %}
-            <a class="navbar-brand" href="../">Portfólio</a>
-          {% endif %}
-        </div>
-        
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            {% case page.title %}
-              {% when 'Serviços' %}
-                <li><a href="/pt-br/projects.html">Projetos</a></li>
-                <li><a href="/pt-br/publications.html">Publicações</a></li>
-                <li><a href="/pt-br/achievements.html">Conquistas</a></li>
-                <li><a href="https://blog.rafael.picanco.nom.br/pt-br/about/">Contato</a></li>    
+  {% when 'en' %}
+    {% assign toggle = 'More' %}
+    {% assign about = 'About me' %}
+    {% assign lattes = 'CV' %}
+    {% assign label = 'Timeline' %}
 
-              {% when 'Projetos' %}
-                <li class="self-active"><a class="page-scroll" href="#">Projetos</a></li>
-                <li><a href="/pt-br/publications.html">Publicações</a></li>
-                <li><a href="http://lattes.cnpq.br/9925169248427338">Currículo Lattes</a></li>
-                <li><a href="/pt-br/achievements.html">Conquistas</a></li>
-                <li><a href="https://blog.rafael.picanco.nom.br/pt-br/about/">Contato</a></li>
+  {% when 'pt-BR' %}  
+    {% assign toggle = 'Ver mais' %}
+    {% assign about = 'Sobre mim' %}
+    {% assign lattes = 'Lattes' %}
+    {% assign label = 'Linha do Tempo' %} 
+{% endcase %}
 
-              {% when 'Publicações' %}
-                <li><a href="/pt-br/projects.html">Projetos</a></li>
-                <li class="self-active"><a href="#">Publicações</a></li>
-                <li><a href="http://lattes.cnpq.br/9925169248427338">Currículo Lattes</a></li>
-                <li><a href="/pt-br/achievements.html">Conquistas</a></li>
-                <li><a href="https://blog.rafael.picanco.nom.br/pt-br/about/">Contato</a></li>
+{% assign intro = site.data.intros.filtering[page.language] %}
 
-              {% when 'Conquistas' %}
-                <li><a href="/pt-br/projects.html">Projetos</a></li>
-                <li><a href="/pt-br/publications.html">Publicações</a></li>
-                <li><a href="http://lattes.cnpq.br/9925169248427338">Currículo Lattes</a></li>
-                <li class="self-active"><a href="#">Conquistas</a></li>
-                <li><a href="https://blog.rafael.picanco.nom.br/pt-br/about/">Contato</a></li>    
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+  <div class="container-fluid">  
+    <a class="navbar-brand" href="https://blog.rafael.picanco.nom.br/pt-br/about/">&middot;&#32;{{ about }}</a>
+    <div id="filter-container" class="btn-group">
+      <button class="btn btn-outline-primary dropdown-toggle bg-dark text-white" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+        {{ label }}
+      </button>
+      <ul class="dropdown-menu bg-dark" aria-labelledby="defaultDropdown"> 
+        <section class="d-flex justify-content-center bg-dark text-white">
+          <div class="btn-group-vertical bg-dark" role="group" aria-label="Filtering group" id="filter-container">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" onchange="filterSelection('all')" >
+            <label class="btn btn-primary d-flex justify-content-center " for="btnradio1">{{ intro.all }}</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" onchange="filterSelection('software')" checked>
+            <label class="btn btn-primary d-flex justify-content-center" for="btnradio2">{{ intro.software }}</label>
+          
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" onchange="filterSelection('project')" >
+            <label class="btn btn-primary d-flex justify-content-center" for="btnradio3">{{ intro.project }}</label>
+  
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" onchange="filterSelection('achievement')">
+            <label class="btn btn-primary d-flex justify-content-center" for="btnradio4">{{ intro.achievement }}</label>
+  
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off" onchange="filterSelection('publication')">
+            <label class="btn btn-primary d-flex justify-content-center" for="btnradio5">{{ intro.publication }}</label>
+          </div>
+        </section>
+      </ul>
+    </div> 
 
-              {% when 'Projects' %}
-                <li class="self-active"><a class="page-scroll" href="#">Projects</a></li>
-                <li><a href="/en/publications.html">Publications</a></li>
-                <li><a href="/en/achievements.html">Achievements</a></li>
-                <li><a href="https://blog.rafael.picanco.nom.br/en/about/">Contact</a></li>
-                
-              {% when 'Publications' %}
-                <li><a href="/en/projects.html">Projects</a></li>
-                <li class="self-active"><a href="#">Publications</a></li>
-                <li><a href="/en/achievements.html">Achievements</a></li>
-                <li><a href="https://blog.rafael.picanco.nom.br/en/about/">Contact</a></li>
-              
-              {% when 'Achievements' %}
-                <li><a href="/en/projects.html">Projects</a></li>
-                <li><a href="/en/publications.html">Publications</a></li>
-                <li class="self-active"><a href="#">Achievements</a></li>
-                <li><a href="https://blog.rafael.picanco.nom.br/en/about/">Contact</a></li>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label={{ toggle }}>
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-            {% endcase %}
-            
-            <li><a href="http://blog.rafael.picanco.nom.br/{{ page.language | downcase }}/">Blog</a></li>
-
-          </ul>
-        </div><!--/.nav-collapse -->
+    <div class="collapse navbar-collapse" id="navbarToggle">
+      <div class="bg-dark p-4">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">  
+          <li class="nav-item">
+            <a class="nav-link" href="http://blog.rafael.picanco.nom.br/{{ page.language | downcase }}/">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://lattes.cnpq.br/9925169248427338">{{ lattes }}</a></li>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>    
+  </div>
+</nav>

@@ -39,29 +39,28 @@
     <meta content="850" name="twitter:image:width">
     <meta content="450" name="twitter:image:height">
 
-    <title>{{ page.author }}
-      |
-      {{ page.kind }}</title>
+    <title>{{ page.author }}|{{ page.kind }}</title>
 
     <link href="/media/favicon.ico" rel="icon">
     <link rel="canonical" href="{{ site.url }}{{ page.url | remove:'index.html' }}">
     <link rel="image_src" href="{{ site.url }}{{ page.image }}">
 
-    <!-- Bootstrap core CSS -->
-            <!-- Custom styles for this template -->
-    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link href="/css/cover.css" rel="stylesheet">
   </head>
 
   <body>
-    <div class="site-wrapper">
+    <div class="site-wrapper text-white"> 
       <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <div class="inner cover">
-            <h2 class="cover-heading">Bem vindo | Welcome</h2>
-            {{ content }}
-          </div>
-        </div>
+        <h1>Bem vindo</h1>
+        <a href="pt-br/" alt="Projects" class="btn btn-lg btn-outline-primary text-white">
+          Português
+        </a>
+        <hr>
+        <h1>Welcome</h1>
+        <a href="en/" alt="Projects" class="btn btn-lg btn-outline-primary text-white">
+          English
+        </a>
       </div>
     </div>
     {% include global_scripts.html %}

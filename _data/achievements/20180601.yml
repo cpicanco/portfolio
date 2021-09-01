@@ -16,14 +16,9 @@ pt-BR:
     Prof. Dr. Carlos Eduardo Costa
     Prof. Dr. Grauben José Alves de Assis
     
-  widget: |
-    <div class="dropdown">
-      <button id="dLabel" class='btn btn-primary btn-sm dropdown-toggle' type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <i class="fa fa-image"> Veja o Resultado</i> 
-        <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dLabel">
-        <li><a href="/media/20180601_concurso_ufpa.pdf">Resultado Final</a></li>
-        <li><a href="http://ceps.ufpa.br">Website da Instituição</a></li>
-      </ul>
-    </div>
+  element_content: |
+    <li><a class="dropdown-item" href="/media/20180601_concurso_ufpa.pdf">Resultado Final</a></li>
+    <li><a class="dropdown-item" href="http://ceps.ufpa.br">Website da Instituição</a></li>
+
+en:
+  skip: True

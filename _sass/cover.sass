@@ -4,7 +4,7 @@ $box-shadow-base: inset 0 0 300px rgba(0,0,0,.5)
 
 @mixin text-shadow($x: 2px, $y: 2px, $blur: 50px, $color: rgba(1,0,0,.5))
   text-shadow: $x $y $blur $color
-	
+
 @mixin base-structure
   height: 100%
   background-color: $background-color-base
@@ -13,16 +13,16 @@ html
   @include base-structure
 
 body
-  @include base-structure	
+  @include base-structure
   @include text-shadow
   text-align: center
-  
+
 .site-wrapper
-  @include base-structure	
+  @include base-structure
   display: table
   width: 100%
   min-height: 100%
-  -webkit-box-shadow: $box-shadow-base 
+  -webkit-box-shadow: $box-shadow-base
   box-shadow: $box-shadow-base
 
 .site-wrapper-inner

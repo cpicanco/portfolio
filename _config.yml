@@ -19,7 +19,8 @@ exclude: ['.gitignore',
           'python/',
           'vendor',
           'tests.html',
-          'nodejs'
+          'nodejs',
+          'workflow'
           ]
 defaults:
   -

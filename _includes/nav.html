@@ -6,43 +6,43 @@
     {% assign lattes = 'CV' %}
     {% assign label = 'Timeline' %}
 
-  {% when 'pt-BR' %}  
+  {% when 'pt-BR' %}
     {% assign toggle = 'Ver mais' %}
     {% assign about = 'Sobre mim' %}
     {% assign lattes = 'Lattes' %}
-    {% assign label = 'Linha do Tempo' %} 
+    {% assign label = 'Linha do Tempo' %}
 {% endcase %}
 
 {% assign intro = site.data.intros.filtering[page.language] %}
 
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-  <div class="container-fluid">  
+  <div class="container-fluid">
     <a class="navbar-brand" href="https://blog.rafael.picanco.nom.br/pt-br/about/">&middot;&#32;{{ about }}</a>
     <div id="filter-container" class="btn-group">
       <button class="btn btn-outline-primary dropdown-toggle bg-dark text-white" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
         {{ label }}
       </button>
-      <ul class="dropdown-menu bg-dark" aria-labelledby="defaultDropdown"> 
+      <ul class="dropdown-menu bg-dark" aria-labelledby="defaultDropdown">
         <section class="d-flex justify-content-center bg-dark text-white">
           <div class="btn-group-vertical bg-dark" role="group" aria-label="Filtering group" id="filter-container">
             <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" onchange="filterSelection('all')" checked>
             <label class="btn btn-primary d-flex justify-content-center " for="btnradio1">{{ intro.all }}</label>
-          
+
             <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" onchange="filterSelection('software')">
             <label class="btn btn-primary d-flex justify-content-center" for="btnradio2">{{ intro.software }}</label>
-          
+
             <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" onchange="filterSelection('project')" >
             <label class="btn btn-primary d-flex justify-content-center" for="btnradio3">{{ intro.project }}</label>
-  
+
             <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" onchange="filterSelection('achievement')">
             <label class="btn btn-primary d-flex justify-content-center" for="btnradio4">{{ intro.achievement }}</label>
-  
+
             <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off" onchange="filterSelection('publication')">
             <label class="btn btn-primary d-flex justify-content-center" for="btnradio5">{{ intro.publication }}</label>
           </div>
         </section>
       </ul>
-    </div> 
+    </div>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label={{ toggle }}>
       <span class="navbar-toggler-icon"></span>
@@ -50,7 +50,7 @@
 
     <div class="collapse navbar-collapse" id="navbarToggle">
       <div class="bg-dark p-4">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">  
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="http://blog.rafael.picanco.nom.br/{{ page.language | downcase }}/">Blog</a>
           </li>
@@ -59,6 +59,6 @@
           </li>
         </ul>
       </div>
-    </div>    
+    </div>
   </div>
 </nav>

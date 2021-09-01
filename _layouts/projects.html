@@ -5,27 +5,26 @@
   <body style="padding-top: 200px;">
     {% include nav.html %}
 
-
     <div class="container">
 
       {% assign timeline_data = "" | split: ',' %}
       {% for achievement in site.data.achievements %}
         {% assign timeline_data = timeline_data | push: achievement %}
       {% endfor %}
-  
+
       {% for project in site.data.projects %}
         {% assign timeline_data = timeline_data | push: project %}
-      {% endfor %}       
-  
+      {% endfor %}
+
       {% for publication in site.data.publications %}
         {% assign timeline_data = timeline_data | push: publication %}
       {% endfor %}
-      
+
       {% for software in site.data.softwares %}
         {% assign timeline_data = timeline_data | push: software %}
-      {% endfor %}  
-  
-      {% assign timeline_data = timeline_data | sort %}      
+      {% endfor %}
+
+      {% assign timeline_data = timeline_data | sort %}
 
       <div class="row">
         <div class="col-xs-10">
@@ -36,15 +35,15 @@
               {% if card[page.language].skip == true %}
                 <!-- do nothing -->
               {% else %}
-                {% include timeline_card.html card=card filename=filename %}  
+                {% include timeline_card.html card=card filename=filename %}
               {% endif %}
-              
+
             {% endfor %}
           </ul>
         </div>
-      </div>  
+      </div>
     </div>
-    
+
     <script src="/js/filtering.js"></script>
 
     {% include footer.html %}

@@ -1,13 +1,13 @@
 {% case page.language %}
   {% when 'en' %}
-    {% assign seeit = 'Preview' %}  
+    {% assign seeit = 'Preview' %}
   {% when 'pt-BR' %}
-    {% assign seeit = 'Veja' %} 
+    {% assign seeit = 'Veja' %}
 {% endcase %}
 
 <div class="dropdown">
   <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton{{ include.filename }}" data-bs-toggle="dropdown" aria-expanded="false">
-    <i class="fa fa-eye"></i> 
+    <i class="fa fa-eye"></i>
     <span class="caret">{{ seeit }}</span>
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton{{ include.filename }}">

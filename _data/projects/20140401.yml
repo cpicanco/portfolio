@@ -14,7 +14,7 @@ en:
     I am very proud to have been able to set up my own eye tracking laboratory based on the
     <a href="http://pupil-labs.com/">Pupil plataform</a>
     and have integrated my own
-    <a class="page-scroll" href="#id-20140310">stimulus presentation program</a>
+    <a href="#section-20140310">stimulus presentation program</a>
     to this platform. You can see the abstract of the thesis by clicking on the button below.
     
   element_content: |
@@ -55,7 +55,7 @@ pt-BR:
     cujo o objetivo era distinguir entre dois arranjos de figuras.
     Tenho muito orgulho de ter sido capaz de montar meu próprio laboratório de rastreamento
     ocular baseado na <a href="http://pupil-labs.com/">plataforma Pupil</a> e de ter integrado
-    o meu próprio <a class="page-scroll" href="#id-20140310">programa de apresentação de estímulos</a>
+    o meu próprio <a href="#section-20140310">programa de apresentação de estímulos</a>
     a essa plataforma. Você pode ver o resumo da tese clicando no botão abaixo.
 
   element_content: |

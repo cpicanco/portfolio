@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9
+            https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns:xhtml="https://www.w3.org/1999/xhtml">
 
-  
+
   <url>
-    <loc>http://portfolio.rafael.picanco.nom.br/css/cover.css</loc>
+    <loc>https://portfolio.rafael.picanco.nom.br/css/cover.css</loc>
   
-    <lastmod>2021-09-01T07:05:44+00:00</lastmod>
+    <lastmod>2021-09-01T08:34:30+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -20,11 +20,11 @@
   </url>
 
 
-  
+
   <url>
-    <loc>http://portfolio.rafael.picanco.nom.br/</loc>
+    <loc>https://portfolio.rafael.picanco.nom.br/</loc>
   
-    <lastmod>2021-09-01T07:05:44+00:00</lastmod>
+    <lastmod>2021-09-01T08:34:30+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -35,11 +35,11 @@
   </url>
 
 
-  
+
   <url>
-    <loc>http://portfolio.rafael.picanco.nom.br/pt-br/</loc>
+    <loc>https://portfolio.rafael.picanco.nom.br/pt-br/</loc>
   
-    <lastmod>2021-09-01T07:05:44+00:00</lastmod>
+    <lastmod>2021-09-01T08:34:30+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -49,19 +49,19 @@
   
     <xhtml:link rel="alternate"
                 hreflang="en"
-                href="http://portfolio.rafael.picanco.nom.br/portfolio/en/projects.html" />
+                href="https://portfolio.rafael.picanco.nom.br/portfolio/en/projects.html" />
     <xhtml:link rel="alternate"
                 hreflang="pt-BR"
-                href="http://portfolio.rafael.picanco.nom.br/pt-br/" />
+                href="https://portfolio.rafael.picanco.nom.br/pt-br/" />
   
   </url>
 
 
-  
+
   <url>
-    <loc>http://portfolio.rafael.picanco.nom.br/en/</loc>
+    <loc>https://portfolio.rafael.picanco.nom.br/en/</loc>
   
-    <lastmod>2021-09-01T07:05:44+00:00</lastmod>
+    <lastmod>2021-09-01T08:34:30+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -70,20 +70,20 @@
   
     <xhtml:link rel="alternate"
                 hreflang="pt-BR"
-                href="http://portfolio.rafael.picanco.nom.br/portfolio/pt-br/projects.html" />
+                href="https://portfolio.rafael.picanco.nom.br/portfolio/pt-br/projects.html" />
     <xhtml:link rel="alternate"
                 hreflang="en"
-                href="http://portfolio.rafael.picanco.nom.br/en/" />
+                href="https://portfolio.rafael.picanco.nom.br/en/" />
   
   
   </url>
 
 
-  
+
   <url>
-    <loc>http://portfolio.rafael.picanco.nom.br/css/portfolio.css</loc>
+    <loc>https://portfolio.rafael.picanco.nom.br/css/portfolio.css</loc>
   
-    <lastmod>2021-09-01T07:05:44+00:00</lastmod>
+    <lastmod>2021-09-01T08:34:30+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -94,11 +94,11 @@
   </url>
 
 
-  
+
   <url>
-    <loc>http://portfolio.rafael.picanco.nom.br/sitemap.xml</loc>
+    <loc>https://portfolio.rafael.picanco.nom.br/sitemap.xml</loc>
   
-    <lastmod>2021-09-01T07:05:44+00:00</lastmod>
+    <lastmod>2021-09-01T08:34:30+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   

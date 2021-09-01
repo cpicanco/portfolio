@@ -38,7 +38,7 @@ en:
     <p>For details about the macro and metacontingencies, please see:<p>
     <blockquote>
       <div class="self-font">Vichi, C., Andery, M. A. P. A., &amp; Glenn, S. S. (2009). A metacontingency experiment: the effects of contingent consequences on patterns of interlocking contingencies reinforcement.&#32;
-      <i>Behavioral and Social Issues</i>,&#32;<i>18</i>,&#32;41-57. <a href="http://dx.doi.org/10.5210/bsi.v18i1.2292">doi: 10.5210/bsi.v18i1.2292</a></div>
+      <i>Behavioral and Social Issues</i>,&#32;<i>18</i>,&#32;41-57. <a href="https://doi.org/10.5210/bsi.v18i1.2292">doi: 10.5210/bsi.v18i1.2292</a></div>
     </blockquote> 
 
 pt-BR:
@@ -66,7 +66,7 @@ pt-BR:
     Por meio dos arquivos de configuração, o programa <b><i>Runner</i></b> é usado para a apresentação de experimentos
     aos participantes de um pesquisa e para a interação entre eles por meio de um chat.
     O registro das escolhas e da interação é automático e em tempo real.
-    Por meio da magnífica biblioteca <a href="http://zeromq.org/">ZMQ</a>, o programa pode ser executado em um único computador, para testes por exemplo,
+    Por meio da magnífica biblioteca <a href="https://zeromq.org/">ZMQ</a>, o programa pode ser executado em um único computador, para testes por exemplo,
     ou pode ser facilmente configurado em uma rede local com múltiplos computadores.
     
     <br><br>
@@ -82,5 +82,5 @@ pt-BR:
     <p>Para mais detalhes sobre macro e metacontingências, ver:<p>
     <blockquote>
       <div class="self-font">Vichi, C., Andery, M. A. P. A., &amp; Glenn, S. S. (2009). A metacontingency experiment: the effects of contingent consequences on patterns of interlocking contingencies reinforcement.&#32;
-      <i>Behavioral and Social Issues</i>,&#32;<i>18</i>,&#32;41-57. <a href="http://dx.doi.org/10.5210/bsi.v18i1.2292">doi: 10.5210/bsi.v18i1.2292</a></div>
+      <i>Behavioral and Social Issues</i>,&#32;<i>18</i>,&#32;41-57. <a href="https://doi.org/10.5210/bsi.v18i1.2292">doi: 10.5210/bsi.v18i1.2292</a></div>
     </blockquote> 

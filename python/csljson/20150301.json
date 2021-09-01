@@ -1,35 +1,35 @@
 {
-    "DOI": "10.1007/s40732-014-0096-x", 
-    "URL": "http://link.springer.com/10.1007/s40732-014-0096-x", 
-    "abstract": "The successive matching-to-sample (go/no-go) procedure has been shown to be an effective procedure for reducing stimulus-control digressions in conditional-relation training with nonhuman subjects. In addition, comparison of acquisition between symmetrical and nonsymmetrical conditional discriminations may be one effective way to evaluate the properties of equivalence relations. This study evaluated symmetry (one of the properties of equivalence relations) using both of these methods with two capuchin monkeys (Sapajus spp.). The acquisition of symmetric (Condition A) and nonsymmetric (Condition B) conditional discriminations was compared. In both conditions, two forward (AB) and two backward (BA) relations were simultaneously trained. New stimuli were used in each condition. The data demonstrated that the method reported here was an efficient way to assess the property of symmetry, which was clearly present in the conditional relations learned by one of the subjects (Conditions A1 and A2) and possibly absent in the conditional relations learned by the other (Condition A1). The present study supports the argument that the comparison of the acquisition of forward and backward relations, that are trained simultaneously, is a promising procedure for evaluating the properties of equivalence relations in nonhuman subjects.", 
+    "DOI": "10.1007/s40732-014-0096-x",
+    "URL": "https://link.springer.com/10.1007/s40732-014-0096-x",
+    "abstract": "The successive matching-to-sample (go/no-go) procedure has been shown to be an effective procedure for reducing stimulus-control digressions in conditional-relation training with nonhuman subjects. In addition, comparison of acquisition between symmetrical and nonsymmetrical conditional discriminations may be one effective way to evaluate the properties of equivalence relations. This study evaluated symmetry (one of the properties of equivalence relations) using both of these methods with two capuchin monkeys (Sapajus spp.). The acquisition of symmetric (Condition A) and nonsymmetric (Condition B) conditional discriminations was compared. In both conditions, two forward (AB) and two backward (BA) relations were simultaneously trained. New stimuli were used in each condition. The data demonstrated that the method reported here was an efficient way to assess the property of symmetry, which was clearly present in the conditional relations learned by one of the subjects (Conditions A1 and A2) and possibly absent in the conditional relations learned by the other (Condition A1). The present study supports the argument that the comparison of the acquisition of forward and backward relations, that are trained simultaneously, is a promising procedure for evaluating the properties of equivalence relations in nonhuman subjects.",
     "accessed": {
         "raw": "2015-02-18"
-    }, 
+    },
     "author": [
         {
-            "family": "Pican&ccedil;o", 
+            "family": "Pican&ccedil;o",
             "given": "Carlos Rafael Fernandes"
-        }, 
+        },
         {
-            "family": "Barros", 
+            "family": "Barros",
             "given": "Romariz Silva"
         }
-    ], 
-    "container-title": "The Psychological Record", 
-    "id": "2025135/65VH9K4Q", 
-    "issue": "1", 
+    ],
+    "container-title": "The Psychological Record",
+    "id": "2025135/65VH9K4Q",
+    "issue": "1",
     "issued": {
         "date-parts": [
             [
                 "2015"
             ]
-        ], 
+        ],
         "raw": "2015-03-01"
-    }, 
-    "language": "en", 
-    "note": "{\"data-set\":\"http://dx.doi.org/10.13140/2.1.4712.7367\"}", 
-    "page": "131-139", 
-    "title": "Symmetry Evaluation by Comparing Acquisition of Conditional Relations in Successive (Go/No-Go) Matching-to-Sample Training", 
-    "type": "article-journal", 
+    },
+    "language": "en",
+    "note": "{\"data-set\":\"https://doi.org/10.13140/2.1.4712.7367\"}",
+    "page": "131-139",
+    "title": "Symmetry Evaluation by Comparing Acquisition of Conditional Relations in Successive (Go/No-Go) Matching-to-Sample Training",
+    "type": "article-journal",
     "volume": "65"
 }

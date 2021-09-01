@@ -19,7 +19,7 @@
 {% capture post_tags %}{% for tag in page.tags %}{{ tag }}, {% endfor %}{% endcapture %}
     <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
+      "@context": "https://schema.org",
       "@type": "Article",
       "author": "{{ page.author }}",
       "name": "{{ page.title }}",
@@ -36,7 +36,7 @@
 {% else %}
     <script type="application/ld+json">
     {
-      "@context" : "http://schema.org",
+      "@context" : "https://schema.org",
       "@type" : "Person",
       "name" : "{{ page.author }}",
       "jobTitle": "Doctoral student",
@@ -44,7 +44,7 @@
       "affiliation": "Universidade Federal do Pará",
       "url" : "{{ site.url }}{{ page.url | remove:'index.html' }}",
       "sameAs" : [
-          "https://plus.google.com/100568018502354753364",
+        "https://plus.google.com/100568018502354753364",
         "https://twitter.com/crpicanco",
         "https://www.facebook.com/rafael.picanco",
         "https://soundcloud.com/carlitusbatera",
@@ -52,7 +52,7 @@
         "https://geape-ufpa.academia.edu/CarlosRafael",
         "https://www.researchgate.net/profile/Carlos_Picanco",
         "https://www.zotero.org/cpicanco/",
-        "http://codereview.stackexchange.com/users/62263/cpicanco"
+        "https://codereview.stackexchange.com/users/62263/cpicanco"
       ]
     }
     </script>

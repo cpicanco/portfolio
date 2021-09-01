@@ -18,7 +18,7 @@ pt-BR:
     
   element_content: |
     <li><a class="dropdown-item" href="/media/20180601_concurso_ufpa.pdf">Resultado Final</a></li>
-    <li><a class="dropdown-item" href="http://ceps.ufpa.br">Website da Instituição</a></li>
+    <li><a class="dropdown-item" href="https://ceps.ufpa.br">Website da Instituição</a></li>
 
 en:
   skip: True

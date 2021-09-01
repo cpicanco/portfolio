@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap:http://portfolio.rafael.picanco.nom.br/sitemap.xml
+Sitemap:https://portfolio.rafael.picanco.nom.br/sitemap.xml

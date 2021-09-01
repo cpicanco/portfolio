@@ -1,38 +1,38 @@
 {
-    "URL": "http://www.periodicos.ufpa.br/index.php/rebac/article/view/991", 
-    "abstract": "Subtle differences between the stimulus control relations that are programmed by the experimenter and those effectively established in discriminative training are frequently found in non-human subjects or human participants with severe developmental disabilities. Most of the times, such differences are only identified through testing procedures. The present study evaluated the viability ofusing mask procedure to verify stimulus control relations in conditional discriminations (identity matching to sample) with monkeysas subjects. Two capuchin monkeys (Cebus cf. apella) participated. The procedure comprised identity matching to sample training andtests for stimulus control relations with a blank comparison (mask) replacing sometimes S+ sometimes S&ndash;. By selectively removingthose stimuli in probe trails, we evaluated their participation in determining different types of controlling relations: Control by S&ndash; orReject Control; Control by S+ or Select Control, or both, that is, Mixed Control. Results show that (1) baseline discriminations didnot deteriorate during the tests and (2) choice responses in probe trials let successfully infer the on-going stimulus control relations.Subject M09 presented initially Reject Control for one of the tested relations and Mixed Control for the other relations. Subject M16presented Mixed Control for all tested relations. The findings suggest that mask procedure is adequate to evaluate stimulus control inconditional relations with monkeys. We encourage its use in future studies on equivalence class formation with non-humans to verifyif in fact the arbitrary Sample-S+ conditional relations (i.e., Select or Mixed control) were established.", 
+    "URL": "https://www.periodicos.ufpa.br/index.php/rebac/article/view/991",
+    "abstract": "Subtle differences between the stimulus control relations that are programmed by the experimenter and those effectively established in discriminative training are frequently found in non-human subjects or human participants with severe developmental disabilities. Most of the times, such differences are only identified through testing procedures. The present study evaluated the viability ofusing mask procedure to verify stimulus control relations in conditional discriminations (identity matching to sample) with monkeysas subjects. Two capuchin monkeys (Cebus cf. apella) participated. The procedure comprised identity matching to sample training andtests for stimulus control relations with a blank comparison (mask) replacing sometimes S+ sometimes S&ndash;. By selectively removingthose stimuli in probe trails, we evaluated their participation in determining different types of controlling relations: Control by S&ndash; orReject Control; Control by S+ or Select Control, or both, that is, Mixed Control. Results show that (1) baseline discriminations didnot deteriorate during the tests and (2) choice responses in probe trials let successfully infer the on-going stimulus control relations.Subject M09 presented initially Reject Control for one of the tested relations and Mixed Control for the other relations. Subject M16presented Mixed Control for all tested relations. The findings suggest that mask procedure is adequate to evaluate stimulus control inconditional relations with monkeys. We encourage its use in future studies on equivalence class formation with non-humans to verifyif in fact the arbitrary Sample-S+ conditional relations (i.e., Select or Mixed control) were established.",
     "accessed": {
         "raw": "2015-02-18"
-    }, 
+    },
     "author": [
         {
-            "family": "Cruz", 
+            "family": "Cruz",
             "given": "Ilara Reis Nogueira"
-        }, 
+        },
         {
-            "family": "Pican&ccedil;o", 
+            "family": "Pican&ccedil;o",
             "given": "Carlos Rafael Fernandes"
-        }, 
+        },
         {
-            "family": "Barros", 
+            "family": "Barros",
             "given": "R. S."
         }
-    ], 
-    "container-title": "Revista Brasileira de An&aacute;lise do Comportamento", 
-    "id": "2025135/4KFHKTSP", 
-    "issue": "1", 
+    ],
+    "container-title": "Revista Brasileira de An&aacute;lise do Comportamento",
+    "id": "2025135/4KFHKTSP",
+    "issue": "1",
     "issued": {
         "date-parts": [
             [
                 "2012"
             ]
-        ], 
+        ],
         "raw": "2012-12-06"
-    }, 
-    "journalAbbreviation": "REBAC", 
-    "language": "pt-BR", 
-    "page": "55-66", 
-    "title": "Uso do procedimento de m&aacute;scara para verificar rela&ccedil;&otilde;es de controle de est&iacute;mulos em macacos-prego", 
-    "type": "article-journal", 
+    },
+    "journalAbbreviation": "REBAC",
+    "language": "pt-BR",
+    "page": "55-66",
+    "title": "Uso do procedimento de m&aacute;scara para verificar rela&ccedil;&otilde;es de controle de est&iacute;mulos em macacos-prego",
+    "type": "article-journal",
     "volume": "6"
 }

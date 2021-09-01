@@ -1,43 +1,43 @@
 {
-    "DOI": "10.5380/psi.v16i1.25197", 
-    "URL": "http://ojs.c3sl.ufpr.br/ojs2/index.php/psicologia/article/view/25197", 
-    "abstract": "Repeated acquisition of simple discrimination may determine an increasing efficiency in learning such\ndiscriminations. This effect is known as learning-set. The same effect can be observed on repeated\nreversals of the same discrimination or on repeated yoked reversals of simple discriminations\n(RYRSD). The present study reports the use of RYRSD with up to six stimuli (three positive and three\nnegative) simultaneously with a capuchin monkey (Cebus cf apella). Over the course of the repeated\nreversals, the learning-set effect was evaluated taking into account two variables: a) number of correct\nresponses processed until criterion of six consecutive correct responses is reached and b) number of\ntrials until the criterion is reached. The data indicate learning-set in simple discrimination on yoked\nreversals. We discuss the procedures that contributed the most to this demonstration.", 
+    "DOI": "10.5380/psi.v16i1.25197",
+    "URL": "https://doi.org/10.5380/psi.v16i1.25197",
+    "abstract": "Repeated acquisition of simple discrimination may determine an increasing efficiency in learning such\ndiscriminations. This effect is known as learning-set. The same effect can be observed on repeated\nreversals of the same discrimination or on repeated yoked reversals of simple discriminations\n(RYRSD). The present study reports the use of RYRSD with up to six stimuli (three positive and three\nnegative) simultaneously with a capuchin monkey (Cebus cf apella). Over the course of the repeated\nreversals, the learning-set effect was evaluated taking into account two variables: a) number of correct\nresponses processed until criterion of six consecutive correct responses is reached and b) number of\ntrials until the criterion is reached. The data indicate learning-set in simple discrimination on yoked\nreversals. We discuss the procedures that contributed the most to this demonstration.",
     "accessed": {
         "raw": "2015-02-18"
-    }, 
+    },
     "author": [
         {
-            "family": "Barros", 
+            "family": "Barros",
             "given": "Romariz Silva"
-        }, 
+        },
         {
-            "family": "Pican&ccedil;o", 
+            "family": "Pican&ccedil;o",
             "given": "Carlos Rafael Fernandes"
-        }, 
+        },
         {
-            "family": "Costa", 
+            "family": "Costa",
             "given": "Thiago Dias"
-        }, 
+        },
         {
-            "family": "Souza", 
+            "family": "Souza",
             "given": "Carlos Barbosa Alves"
         }
-    ], 
-    "container-title": "Intera&ccedil;&atilde;o em Psicologia", 
-    "id": "2025135/NVBX68JQ", 
-    "issue": "1", 
+    ],
+    "container-title": "Intera&ccedil;&atilde;o em Psicologia",
+    "id": "2025135/NVBX68JQ",
+    "issue": "1",
     "issued": {
         "date-parts": [
             [
                 "2013"
             ]
-        ], 
+        ],
         "raw": "2013-01-11"
-    }, 
-    "language": "pt-BR", 
-    "note": "Qualis/CAPES: A2", 
-    "page": "1-12", 
-    "title": "Learning-set de revers&otilde;es de discrimina&ccedil;&otilde;es simples em macaco-prego", 
-    "type": "article-journal", 
+    },
+    "language": "pt-BR",
+    "note": "Qualis/CAPES: A2",
+    "page": "1-12",
+    "title": "Learning-set de revers&otilde;es de discrimina&ccedil;&otilde;es simples em macaco-prego",
+    "type": "article-journal",
     "volume": "16"
 }

@@ -80,7 +80,7 @@ for item in items:
 
   # load json dictionary from xml
   xmle = ET.fromstring(itemFetched.content.encode('utf-8'))
-  csljson = xmle.find('{http://www.w3.org/2005/Atom}content').text
+  csljson = xmle.find('{https://www.w3.org/2005/Atom}content').text
   for cs in latin_chars:
     csljson = csljson.replace(cs[1],cs[0])
   json_dict = json.loads(csljson)
@@ -93,7 +93,6 @@ for item in items:
   # debug
   # print(json_dict['id'])
   # print('#######')
-  
   # save csljson
   with open(jsonname+'.json', 'w+') as f:
     json.dump(json_dict, f, indent=4, sort_keys=True, ensure_ascii=False)

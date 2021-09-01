@@ -26,13 +26,13 @@ $base-color: white
     border-left: $half solid transparent
     border-right: $half solid transparent
     border-bottom: $half solid $base-color
-  
+
   @if $direction == $left-direction // left
     border-top: $half solid transparent
     border-left: 0 solid $base-color
     border-right: $half solid $base-color
     border-bottom: $half solid transparent
-  
+
   @if $direction == $bottom-direction // bottom
     border-top: $half solid $base-color
     border-left: $half solid transparent
@@ -85,7 +85,7 @@ $base-color: white
       position: relative
       -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175)
       box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175)
-    
+
       &:before
         @include panel-pseudo-triangule($top-direction)
 

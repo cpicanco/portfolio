@@ -15,41 +15,41 @@ $achievement-base-color: #4d4d4d
 .achievements
   @include achievement_base($achievement-base-color)
   text-rendering: auto
-  -webkit-font-smoothing: antialiased 
+  -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
-  text-align: left 
-  color: white 
-  position: relative  
+  text-align: left
+  color: white
+  position: relative
   margin-top: auto
-  margin-bottom: auto 
+  margin-bottom: auto
 
   &:before
     @include achievement_pseudo_element
-    background-image: url('../media/achievements/achievement-border.png') 
-    background-repeat: no-repeat 
-    background-size: 90% 
+    background-image: url('../media/achievements/achievement-border.png')
+    background-repeat: no-repeat
+    background-size: 90%
 
   &:after
-    @include achievement_pseudo_element  
-    left: 100% 
-    right: auto 
+    @include achievement_pseudo_element
+    left: 100%
+    right: auto
 
   p
-    margin-top: 2px 
-    clear: both 
-    float: left 
-    &.achievements-title 
-      font-weight: 800 
-      font-size: 120% 
-      margin-top: 1.2em 
+    margin-top: 2px
+    clear: both
+    float: left
+    &.achievements-title
+      font-weight: 800
+      font-size: 120%
+      margin-top: 1.2em
       margin-bottom: 2px
 
 
-.ac-size-1x 
-  font-size: 0.6em 
-  min-height: 51px 
-  margin-left: 50px 
-  margin-right: 25px 
+.ac-size-1x
+  font-size: 0.6em
+  min-height: 51px
+  margin-left: 50px
+  margin-right: 25px
   &:before
     background-position: 3px 3px
     font-size: 2em

@@ -6,3 +6,4 @@ tests.html
 css/min/*
 nodejs
 .jekyll-cache/
+.vscode/

@@ -45,28 +45,11 @@
     npm install
 
 # tasks
-  # minify when necessary
-    # changes in js/src were made
-    grunt uglify:dynamic
-
-    # changes in css/src were made
-    grunt cssmin:dynamic
-
-  # concat when necessary
-    # covers
-    grunt concat:csscover
-
-    # portfolio
-    grunt concat:cssport
-
-    # portfolio/achievements
-    grunt concat:cssac
-
-    # blog
-    grunt concat:cssblog
-
   # fecth new publications when necessary
     python fetch_publication.py #ctrl+b ;)
+
+  # test html
+    bundle exec htmlproofer ./_site --disable-external --allow-hash-href  
 
 # misc
 

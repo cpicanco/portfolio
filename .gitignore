@@ -7,3 +7,4 @@ css/min/*
 nodejs
 .jekyll-cache/
 .vscode/
+_sass/dist/

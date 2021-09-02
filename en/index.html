@@ -1,16 +1,16 @@
 <!--Copyright (c) 2015-2021 Carlos Rafael Fernandes Picanço.-->
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Head -->
+  
 
 
 
 
-
+<!-- Head -->
 <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# profile: https://ogp.me/ns/article#">
   <meta charset="utf-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="
     Rafael Picanço's Portfolio,
     Projects, behavioral scientist, enthusiastic programmer and freelance drummer.
@@ -19,7 +19,7 @@
 
   <!-- Open Graph meta tags -->
   <meta property="og:title" content="Projects">
-  <meta content="profile" property="og:type">
+  <meta property="og:type" content="profile" >
   <meta property="og:description" content="
     Rafael Picanço's Portfolio,
     Projects, behavioral scientist, enthusiastic programmer and freelance drummer.
@@ -30,19 +30,19 @@
   <meta property="og:image" content="
   https://portfolio.rafael.picanco.nom.br/media/rafael-picanco-portfolio.jpg
 ">
-  <meta content="850" property="og:image:width">
-  <meta content="450" property="og:image:height">
-  
-    <meta content="en_US" property="og:locale">
-  
+  <meta property="og:image:width" content="850">
+  <meta property="og:image:height" content="450">
+  <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="Rafael Picanço's Portfolio">
-  <meta content="1651005333" property="fb:profile_id">
-  <meta content="179917338701622" property="fb:app_id"/>
+
+  <!-- Facebook properties -->
+  <meta property="fb:profile_id" content="1651005333">
+  <meta property="fb:app_id"content="179917338701622"/>
 
   <!-- Twitter Card properties -->
-  <meta content="summary_large_image" name="twitter:card">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Projects">
-  <meta content="@crpicanco" name="twitter:creator">
+  <meta name="twitter:creator" content="@crpicanco" >
   <meta name="twitter:description" content="
     Rafael Picanço's Portfolio,
     Projects, behavioral scientist, enthusiastic programmer and freelance drummer.
@@ -50,8 +50,8 @@
   <meta name="twitter:image" content="
   https://portfolio.rafael.picanco.nom.br/media/rafael-picanco-portfolio.jpg
 ">
-  <meta content="850" name="twitter:image:width">
-  <meta content="450" name="twitter:image:height">
+  <meta name="twitter:image:width" content="850" >
+  <meta name="twitter:image:height" content="450">
 
   <title>Rafael Picanço|Projects</title>
 
@@ -68,7 +68,8 @@
 
 </head>
 
-  <body style="padding-top: 200px;">
+
+  <body class="self-background-color" style="padding-top: 200px;">
     
 
 
@@ -77,14 +78,24 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="https://blog.rafael.picanco.nom.br/pt-br/about/">&middot;&#32;About me</a>
     <div id="filter-container" class="btn-group">
-      <button class="btn btn-outline-primary dropdown-toggle bg-dark text-white" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+      <button class="btn btn-outline-primary dropdown-toggle text-white" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
         Timeline
       </button>
+      <svg class="float" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="-25 -25 250 250">
+        <defs>
+        <linearGradient id="lgrad" x1="100%" y1="100%" x2="0%" y2="0%" >
+          <stop offset="0%" style="stop-color:#0c8eb2;stop-opacity:1.00" />
+          <stop offset="100%" style="stop-color:#153038;stop-opacity:1.00" />
+        </linearGradient>
+        </defs>
+        <!-- <path d="M130.3859722682716 4.7283216831369685 C102.65556702880701 -10.014990004081643 30.409845084647444 23.878420620662617 13.281009295636267 50.20224250815629 C-1.3873159445720837 72.74471916957583 -0.19737679714679146 138.14018077344815 18.299996319261822 157.66376157143554 C44.26100798000359 185.06505285567562 143.51458848893742 201.10718970142352 168.52238027172552 172.83325752633232 C197.07301012345232 140.55377523555887 168.4365106034311 24.95849652902564 130.3859722682716 4.7283216831369685Z" stroke="none" fill="url(#lgrad)"  /> -->
+        <circle cx="40%" cy="40%" r="50%" fill="url('#lgrad')"/>
+      </svg>
       <ul class="dropdown-menu bg-dark" aria-labelledby="defaultDropdown">
-        <section class="d-flex justify-content-center bg-dark text-white">
-          <div class="btn-group-vertical bg-dark" role="group" aria-label="Filtering group" id="filter-container">
+        <section class="d-flex justify-content-center text-white">
+          <div class="btn-group-vertical" role="group" aria-label="Filtering group" id="filter-container">
             <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" onchange="filterSelection('all')" checked>
-            <label class="btn btn-primary d-flex justify-content-center " for="btnradio1">All</label>
+            <label class="btn btn-primary d-flex justify-content-center" for="btnradio1">All</label>
 
             <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" onchange="filterSelection('software')">
             <label class="btn btn-primary d-flex justify-content-center" for="btnradio2">Software</label>
@@ -122,7 +133,6 @@
 </nav>
 
     <div class="container">
-
       
       
 
@@ -134,6 +144,7 @@
 
       
       <!-- <iframe src="https://rafael.picanco.nom.br/blog/pt-br/" width="100%" height="400" frameborder="0" scrolling="no">teste</iframe> -->
+
       <div class="row">
         <div class="col-xs-10">
           <ul class="timeline">
@@ -151,29 +162,29 @@
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card">
+        <div class="card" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">Journal Article</h4>
           </div>
           <div class="card-body">
-            <blockquote>
-              <div class="self-font" >
+            <blockquote style="display:inline-flex">
+              <div class="self-font" style="max-width: 600px">
                 <p class="card-text">
                   Ribeiro, D. C. M., Guimarães, T. M. M., Pican&ccedil;o, C. R., Caralho Neto, M. B. &amp; Tourinho, E. Z. (2021). Effects of an Analogue of Negative Reinforcement on the Selection of Culturants. <i>Psicologia: Teoria e Pesquisa</i>. https://doi.org/10.1590/0102.3772e3728
 
                 </p>
               </div>
-              <hr>
               
-                <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.1590/0102.3772e3728 
+              <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.1590/0102.3772e3728 
 '></div>
               
               <br>
-              <footer class="blockquote-footer">
-                <cite><a href="https://doi.org/10.1590/0102.3772e3728
-">Source</a></cite>
-              </footer>
+              <hr>
             </blockquote>
+            <footer class="blockquote-footer border-top">
+              <cite><a href="https://doi.org/10.1590/0102.3772e3728
+">Source</a></cite>
+            </footer>
           </div>
         </div>
 
@@ -196,26 +207,26 @@
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card">
+        <div class="card" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">Book Chapter</h4>
           </div>
           <div class="card-body">
-            <blockquote>
-              <div class="self-font" >
+            <blockquote style="display:inline-flex">
+              <div class="self-font" style="max-width: 600px">
                 <p class="card-text">
                   Pican&ccedil;o, C. R. F., &amp; Oliveira Filho, G. (2020). Inferindo eventos comportamentais e ambientais a partir de eventos do jogo Portal 2. In H. B. Neves Filho, M. R. P. Farias, M. L. B. S. Couto, P. Eiterer &amp; Yulla Knaus (Orgs.), <i>Re-Search: Recriando experimentos da Psicologia em videogames</i> (1<sup>o</sup> ed, pp. 169-170). Fortaleza, Imagine Publicações.
 
                 </p>
               </div>
-              <hr>
               
               <br>
-              <footer class="blockquote-footer">
-                <cite><a href="https://www.researchgate.net/publication/341611340_Re-Search_Recriando_experimentos_da_Psicologia_em_videogames
-">Source</a></cite>
-              </footer>
+              <hr>
             </blockquote>
+            <footer class="blockquote-footer border-top">
+              <cite><a href="https://www.researchgate.net/publication/341611340_Re-Search_Recriando_experimentos_da_Psicologia_em_videogames
+">Source</a></cite>
+            </footer>
           </div>
         </div>
 
@@ -238,26 +249,26 @@
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card">
+        <div class="card" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">Book Chapter</h4>
           </div>
           <div class="card-body">
-            <blockquote>
-              <div class="self-font" >
+            <blockquote style="display:inline-flex">
+              <div class="self-font" style="max-width: 600px">
                 <p class="card-text">
                   Lima, W. F., &amp; Pican&ccedil;o, C. R. F. (2020). Is the programmer an author? Developing software for research. In H. B. Neves Filho, L. A. B. Freitas, &amp; N. C. C. Quinta (Orgs.), <i>Introduction to software development for behavior analysts, Vol. 2</i> (1<sup>o</sup> ed, p. 94-103). Campinas: ABPMC.
 
                 </p>
               </div>
-              <hr>
               
               <br>
-              <footer class="blockquote-footer">
-                <cite><a href="http://abpmc.org.br/arquivos/publicacoes/1597761580cf56f542.pdf
-">Source</a></cite>
-              </footer>
+              <hr>
             </blockquote>
+            <footer class="blockquote-footer border-top">
+              <cite><a href="http://abpmc.org.br/arquivos/publicacoes/1597761580cf56f542.pdf
+">Source</a></cite>
+            </footer>
           </div>
         </div>
 
@@ -280,29 +291,29 @@
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card">
+        <div class="card" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">Journal Article</h4>
           </div>
           <div class="card-body">
-            <blockquote>
-              <div class="self-font" >
+            <blockquote style="display:inline-flex">
+              <div class="self-font" style="max-width: 600px">
                 <p class="card-text">
                   Neves Filho, H. B., Leite, F. L., Brito, N. A., &amp; Pican&ccedil;o, C. R. F. (2019). A Conceptual Framework for a Behavioral Study of Individual Development and Creativity: The Behavior Tree. <i>Revista Brasileira de Terapia Comportamental e Cognitiva</i>, <i>21</i>(3), 350-371. https://doi.org/10.31505/rbtcc.v21i3.1341
 
                 </p>
               </div>
-              <hr>
               
-                <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.31505/rbtcc.v21i3.1341
+              <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.31505/rbtcc.v21i3.1341
 '></div>
               
               <br>
-              <footer class="blockquote-footer">
-                <cite><a href="https://doi.org/10.31505/rbtcc.v21i3.1341 
-">Source</a></cite>
-              </footer>
+              <hr>
             </blockquote>
+            <footer class="blockquote-footer border-top">
+              <cite><a href="https://doi.org/10.31505/rbtcc.v21i3.1341 
+">Source</a></cite>
+            </footer>
           </div>
         </div>
 
@@ -325,29 +336,29 @@
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card">
+        <div class="card" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">Journal Article</h4>
           </div>
           <div class="card-body">
-            <blockquote>
-              <div class="self-font" >
+            <blockquote style="display:inline-flex">
+              <div class="self-font" style="max-width: 600px">
                 <p class="card-text">
                   Guimarães, T. M. M., Pican&ccedil;o, C. R., &amp; Tourinho, E. Z. (2019). Effects of negative punishment on culturants in a situation of concurrence between operant contingencies and metacontingencies. <i>Perspectives on Behavior Science</i>. https://doi.org/10.1007/s40614-019-00224-z
 
                 </p>
               </div>
-              <hr>
               
-                <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.1007/s40614-019-00224-z 
+              <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.1007/s40614-019-00224-z 
 '></div>
               
               <br>
-              <footer class="blockquote-footer">
-                <cite><a href="https://doi.org/10.1007/s40614-019-00224-z
-">Source</a></cite>
-              </footer>
+              <hr>
             </blockquote>
+            <footer class="blockquote-footer border-top">
+              <cite><a href="https://doi.org/10.1007/s40614-019-00224-z
+">Source</a></cite>
+            </footer>
           </div>
         </div>
 
@@ -370,26 +381,26 @@
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card">
+        <div class="card" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">Doctoral Thesis</h4>
           </div>
           <div class="card-body">
-            <blockquote>
-              <div class="self-font" >
+            <blockquote style="display:inline-flex">
+              <div class="self-font" style="max-width: 600px">
                 <p class="card-text">
                   Pican&ccedil;o, C. R. F. (2018). <i>Eye movements correlated with the feature-positive effect</i> (Doctoral thesis). Universidade Federal do Par&aacute;, Bel&eacute;m, PA, Brazil. https://doi.org/10.13140/RG.2.2.28480.23045
 
                 </p>
               </div>
-              <hr>
               
               <br>
-              <footer class="blockquote-footer">
-                <cite><a href="https://doi.org/10.13140/RG.2.2.28480.23045
-">Source</a></cite>
-              </footer>
+              <hr>
             </blockquote>
+            <footer class="blockquote-footer border-top">
+              <cite><a href="https://doi.org/10.13140/RG.2.2.28480.23045
+">Source</a></cite>
+            </footer>
           </div>
         </div>
 
@@ -586,29 +597,29 @@ The researcher sends a link of the experiment to participants. A participant mus
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card">
+        <div class="card" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">Journal Article</h4>
           </div>
           <div class="card-body">
-            <blockquote>
-              <div class="self-font" >
+            <blockquote style="display:inline-flex">
+              <div class="self-font" style="max-width: 600px">
                 <p class="card-text">
                   Pican&ccedil;o, C. R., &amp; Tonneau, J. F. (2018). A low‐cost platform for eye‐tracking research: Using Pupil© in behavior analysis. <i>Journal of the Experimental Analysis of Behavior</i>, <i>110</i> (2), 157-170. https://doi.org/10.1002/jeab.448
 
                 </p>
               </div>
-              <hr>
               
-                <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.1002/jeab.448
+              <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.1002/jeab.448
 '></div>
               
               <br>
-              <footer class="blockquote-footer">
-                <cite><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/jeab.448
-">Source</a></cite>
-              </footer>
+              <hr>
             </blockquote>
+            <footer class="blockquote-footer border-top">
+              <cite><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/jeab.448
+">Source</a></cite>
+            </footer>
           </div>
         </div>
 
@@ -645,26 +656,26 @@ The researcher sends a link of the experiment to participants. A participant mus
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card">
+        <div class="card" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">Book Chapter</h4>
           </div>
           <div class="card-body">
-            <blockquote>
-              <div class="self-font" >
+            <blockquote style="display:inline-flex">
+              <div class="self-font" style="max-width: 600px">
                 <p class="card-text">
                   Pican&ccedil;o, C. R. F. (2018). Introdução ao desenvolvimento de interfaces gráficas com Lazarus e Free Pascal. In H. B. Neves Filho, L. A. B. Freitas, &amp; N. C. C. Quinta (Orgs.), <i>Introdução ao desenvolvimento de software para analistas do comportamento</i> (1<sup>o</sup> ed, p. 33–88). Campinas: ABPMC.
 
                 </p>
               </div>
-              <hr>
               
               <br>
-              <footer class="blockquote-footer">
-                <cite><a href="https://blog.rafael.picanco.nom.br/2017/08/15/object-pascal.html
-">Source</a></cite>
-              </footer>
+              <hr>
             </blockquote>
+            <footer class="blockquote-footer border-top">
+              <cite><a href="https://blog.rafael.picanco.nom.br/2017/08/15/object-pascal.html
+">Source</a></cite>
+            </footer>
           </div>
         </div>
 
@@ -732,29 +743,29 @@ The researcher sends a link of the experiment to participants. A participant mus
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card">
+        <div class="card" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">Journal Article</h4>
           </div>
           <div class="card-body">
-            <blockquote>
-              <div class="self-font" >
+            <blockquote style="display:inline-flex">
+              <div class="self-font" style="max-width: 600px">
                 <p class="card-text">
                   Pican&ccedil;o, C. R. F., &amp; Barros, R. S. (2015). Symmetry Evaluation by Comparing Acquisition of Conditional Relations in Successive (Go/No-Go) Matching-to-Sample Training. <i>The Psychological Record</i>, <i>65</i>(1), 131–139. https://doi.org/10.1007/s40732-014-0096-x
 
                 </p>
               </div>
-              <hr>
               
-                <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.1007/s40732-014-0096-x
+              <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.1007/s40732-014-0096-x
 '></div>
               
               <br>
-              <footer class="blockquote-footer">
-                <cite><a href="https://link.springer.com/10.1007/s40732-014-0096-x
-">Source</a></cite>
-              </footer>
+              <hr>
             </blockquote>
+            <footer class="blockquote-footer border-top">
+              <cite><a href="https://link.springer.com/10.1007/s40732-014-0096-x
+">Source</a></cite>
+            </footer>
           </div>
         </div>
 
@@ -777,29 +788,29 @@ The researcher sends a link of the experiment to participants. A participant mus
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card">
+        <div class="card" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">Journal Article</h4>
           </div>
           <div class="card-body">
-            <blockquote>
-              <div class="self-font" >
+            <blockquote style="display:inline-flex">
+              <div class="self-font" style="max-width: 600px">
                 <p class="card-text">
                   Brino, A. L. F., Galv&atilde;o, O. F., Pican&ccedil;o, C. R. F., Barros, R. S., Souza, C. B. A., Goulart, P. R. K., &amp; McIlvane, W. J. (2014). Generalized Identity Matching-to-Sample After Multiple-Exemplar Training in Capuchin Monkeys. <i>The Psychological Record</i>, <i>64</i>(4), 693–702. https://doi.org/10.1007/s40732-014-0035-x
 
                 </p>
               </div>
-              <hr>
               
-                <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.1007/s40732-014-0035-x
+              <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.1007/s40732-014-0035-x
 '></div>
               
               <br>
-              <footer class="blockquote-footer">
-                <cite><a href="https://link.springer.com/article/10.1007/s40732-014-0035-x
-">Source</a></cite>
-              </footer>
+              <hr>
             </blockquote>
+            <footer class="blockquote-footer border-top">
+              <cite><a href="https://link.springer.com/article/10.1007/s40732-014-0035-x
+">Source</a></cite>
+            </footer>
           </div>
         </div>
 
@@ -921,7 +932,7 @@ occurred.
   <section id="section-20140128">
   
 
-      <div class="achievements ac-size-2x far fa-dot-circle">
+      <div class="achievements ac-size-2x far fa-dot-circle beating">
         <p class="achievements-title">DIY pupil!</p>
         <p>Assemble a Pupil Dev Headset.</p>
       </div>
@@ -979,7 +990,7 @@ Pupil Labs is a german company by Moritz Kassner, William Patera and Andreas Bul
   <section id="section-20131201">
   
 
-      <div class="achievements ac-size-2x fas fa-heart">
+      <div class="achievements ac-size-2x fas fa-heart beating">
         <p class="achievements-title">Music by heart</p>
         <p>Sing an inspiring song.</p>
       </div>
@@ -1036,26 +1047,26 @@ Pupil Labs is a german company by Moritz Kassner, William Patera and Andreas Bul
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card">
+        <div class="card" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">Master Thesis</h4>
           </div>
           <div class="card-body">
-            <blockquote>
-              <div class="self-font" >
+            <blockquote style="display:inline-flex">
+              <div class="self-font" style="max-width: 600px">
                 <p class="card-text">
                   Pican&ccedil;o, C. R. F. (2013). <i>Avalia&ccedil;&atilde;o de simetria por compara&ccedil;&atilde;o de treinos de emparelhamento ao modelo sucessivo (go/no-go)</i> (Disserta&ccedil;&atilde;o de mestrado). Universidade Federal do Par&aacute;, Bel&eacute;m, PA, Brasil. https://doi.org/10.13140/RG.2.1.1385.0082
 
                 </p>
               </div>
-              <hr>
               
               <br>
-              <footer class="blockquote-footer">
-                <cite><a href="https://doi.org/10.13140/RG.2.1.1385.0082
-">Source</a></cite>
-              </footer>
+              <hr>
             </blockquote>
+            <footer class="blockquote-footer border-top">
+              <cite><a href="https://doi.org/10.13140/RG.2.1.1385.0082
+">Source</a></cite>
+            </footer>
           </div>
         </div>
 
@@ -1075,7 +1086,7 @@ Pupil Labs is a german company by Moritz Kassner, William Patera and Andreas Bul
   <section id="section-20130601">
   
 
-      <div class="achievements ac-size-2x far fa-hand-peace">
+      <div class="achievements ac-size-2x far fa-hand-peace beating">
         <p class="achievements-title">Rock N' Drum</p>
         <p>Complete the drums of this full length album.</p>
       </div>
@@ -1133,29 +1144,29 @@ The album’s title “Música Popular Roqueira” can be translated to “Rocke
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card">
+        <div class="card" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">Journal Article</h4>
           </div>
           <div class="card-body">
-            <blockquote>
-              <div class="self-font" >
+            <blockquote style="display:inline-flex">
+              <div class="self-font" style="max-width: 600px">
                 <p class="card-text">
                   Barros, R. S., Pican&ccedil;o, C. R. F., Costa, T. D., &amp; Souza, C. B. A. (2013). Learning-set de revers&otilde;es de discrimina&ccedil;&otilde;es simples em macaco-prego. <i>Intera&ccedil;&atilde;o em psicologia</i>, <i>16</i>(1), 1–12. https://doi.org/10.5380/psi.v16i1.25197
 
                 </p>
               </div>
-              <hr>
               
-                <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.5380/psi.v16i1.25197
+              <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.5380/psi.v16i1.25197
 '></div>
               
               <br>
-              <footer class="blockquote-footer">
-                <cite><a href="https://doi.org/10.5380/psi.v16i1.25197
-">Source</a></cite>
-              </footer>
+              <hr>
             </blockquote>
+            <footer class="blockquote-footer border-top">
+              <cite><a href="https://doi.org/10.5380/psi.v16i1.25197
+">Source</a></cite>
+            </footer>
           </div>
         </div>
 
@@ -1225,29 +1236,29 @@ The album’s title “Música Popular Roqueira” can be translated to “Rocke
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card">
+        <div class="card" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">Journal Article</h4>
           </div>
           <div class="card-body">
-            <blockquote>
-              <div class="self-font" >
+            <blockquote style="display:inline-flex">
+              <div class="self-font" style="max-width: 600px">
                 <p class="card-text">
                   Cruz, I. R. N., Pican&ccedil;o, C. R. F., &amp; Barros, R. S. (2012). Uso do procedimento de m&aacute;scara para verificar rela&ccedil;&otilde;es de controle de est&iacute;mulos em macacos-prego. <i>Revista brasileira de an&aacute;lise do comportamento</i>, <i>6</i>(1), 55–66. https://doi.org/10.18542/rebac.v6i1.991
 
                 </p>
               </div>
-              <hr>
               
-                <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.18542/rebac.v6i1.991
+              <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='10.18542/rebac.v6i1.991
 '></div>
               
               <br>
-              <footer class="blockquote-footer">
-                <cite><a href="https://www.periodicos.ufpa.br/index.php/rebac/article/view/991
-">Source</a></cite>
-              </footer>
+              <hr>
             </blockquote>
+            <footer class="blockquote-footer border-top">
+              <cite><a href="https://www.periodicos.ufpa.br/index.php/rebac/article/view/991
+">Source</a></cite>
+            </footer>
           </div>
         </div>
 
@@ -1270,26 +1281,26 @@ The album’s title “Música Popular Roqueira” can be translated to “Rocke
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card">
+        <div class="card" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">Bachelor Thesis</h4>
           </div>
           <div class="card-body">
-            <blockquote>
-              <div class="self-font" >
+            <blockquote style="display:inline-flex">
+              <div class="self-font" style="max-width: 600px">
                 <p class="card-text">
                   Pican&ccedil;o, C. R. F. (2010). <i>Learning Set de Revers&otilde;es de Discrimina&ccedil;&otilde;es Simples Combinadas com Macaco-prego: Explorando Procedimentos para a Forma&ccedil;&atilde;o de Classes</i> (Trabalho de conclus&atilde;o de curso.). Universidade Federal do Par&aacute;, Bel&eacute;m, PA, Brasil. https://doi.org/10.13140/RG.2.1.3351.0889
 
                 </p>
               </div>
-              <hr>
               
               <br>
-              <footer class="blockquote-footer">
-                <cite><a href="https://doi.org/10.13140/RG.2.1.3351.0889
-">Source</a></cite>
-              </footer>
+              <hr>
             </blockquote>
+            <footer class="blockquote-footer border-top">
+              <cite><a href="https://doi.org/10.13140/RG.2.1.3351.0889
+">Source</a></cite>
+            </footer>
           </div>
         </div>
 
@@ -1309,7 +1320,7 @@ The album’s title “Música Popular Roqueira” can be translated to “Rocke
   <section id="section-20090622">
   
 
-      <div class="achievements ac-size-2x fas fa-code">
+      <div class="achievements ac-size-2x fas fa-code beating">
         <p class="achievements-title">Into the code.</p>
         <p>Start programming.</p>
       </div>
@@ -1365,7 +1376,7 @@ However, I am not a computer scientist, of course. I am a behavioral scientist w
   <section id="section-20090601">
   
 
-      <div class="achievements ac-size-2x fas fa-sun">
+      <div class="achievements ac-size-2x fas fa-sun beating">
         <p class="achievements-title">Le Matin des Magiciens.</p>
         <p>Complete the drums of this full length album.</p>
       </div>
@@ -1403,49 +1414,53 @@ By the way, ‘Le Matin des Magiciens’, in french, refers to the book written 
 
     <script src="/js/filtering.js"></script>
 
-    <div class="flex-column">
-  <div class="p-2">
-    <hr style="width:10%;margin: auto;">
-  </div>
-
-  <div class="p-2">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="ms-3">
-        <a class="text-muted" href="https://twitter.com/crpicanco">
-          <span class="fa-stack fa-lg">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      </li>
-      <li class="ms-3">
-        <a class="text-muted" href="https://instagram.com/orafaprof">
-          <span class="fa-stack fa-lg">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      </li>
-      <li class="ms-3">
-        <a class="text-muted" href="https://github.com/cpicanco">
-          <span class="fa-stack fa-lg">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      </li>
-    </ul>
+    <div class="container">
+  <div class="timeline-end">
+    <svg class="rotate at-timeline-end" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="-25 -25 250 250">
+      <defs>
+      <linearGradient id="lgrad" x1="100%" y1="100%" x2="0%" y2="0%" >
+        <stop offset="0%" style="stop-color:#0c8eb2;stop-opacity:1.00" />
+        <stop offset="100%" style="stop-color:#153038;stop-opacity:1.00" />
+      </linearGradient>
+      </defs>
+      <path d="M75.5034447659826 3.0468217041507444 C47.33616273656372 1.1273170876323613 6.66045077612633 60.09340934095562 0.7590416084129714 87.7023507319776 C-3.554354901892597 107.88199055441153 8.446861864593263 154.62651843069816 25.320417882607074 166.50533824266716 C56.96413748207665 188.78220998809414 162.42361598379637 194.51493403466128 179.97933992488385 160.02753689082937 C201.36549839502572 118.01543058204135 122.53653835174137 6.251967311480291 75.5034447659826 3.0468217041507444Z" stroke="none" fill="url(#lgrad)"  />
+    </svg>
   </div>
 </div>
-
+<hr class="self-muted">
 <footer class="py-3 my-4">
-  <p class="text-center text-muted">&copy; 2015-2021 Carlos Rafael Fernandes Picanço.<br>
+  <ul class="nav justify-content-center pb-3 mb-3">
+    <li class="ms-3">
+      <a class="text-muted" href="https://twitter.com/crpicanco">
+        <span class="fa-stack fa-lg">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </li>
+    <li class="ms-3">
+      <a class="text-muted" href="https://instagram.com/orafaprof">
+        <span class="fa-stack fa-lg">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </li>
+    <li class="ms-3">
+      <a class="text-muted" href="https://github.com/cpicanco">
+        <span class="fa-stack fa-lg">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </li>
+  </ul>
+  <p class="text-center">&copy; 2015-2021 Carlos Rafael Fernandes Picanço.<br>
 
     
       Hosted by <a href="https://github.com/cpicanco/blog/">GitHub Pages</a>.<br>
       Built with <a href="https://github.com/features/actions">GitHub Actions</a>, <a href="https://getbootstrap.com/">Bootstrap</a> and <a href="https://jekyllrb.com/">Jekyll</a>.
     
-
   </p>
 </footer>
     <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>

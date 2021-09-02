@@ -1,34 +1,44 @@
-<footer class="py-3 my-4 border-top">
-  <div class="flex-column">
-    <div class="p-2">
-      <ul class="nav justify-content-center pb-3 mb-3">
-        <li class="ms-3">
-          <a class="text-muted" href="https://twitter.com/crpicanco">
-            <span class="fa-stack fa-lg">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-        </li>
-        <li class="ms-3">
-          <a class="text-muted" href="https://instagram.com/orafaprof">
-            <span class="fa-stack fa-lg">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-        </li>
-        <li class="ms-3">
-          <a class="text-muted" href="https://github.com/cpicanco">
-            <span class="fa-stack fa-lg">
-              <i class="fas fa-circle fa-stack-2x"></i>
-              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-            </span>
-          </a>
-        </li>
-      </ul>
-    </div>
+<div class="container">
+  <div class="timeline-end">
+    <svg class="rotate at-timeline-end" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="-25 -25 250 250">
+      <defs>
+      <linearGradient id="lgrad" x1="100%" y1="100%" x2="0%" y2="0%" >
+        <stop offset="0%" style="stop-color:#0c8eb2;stop-opacity:1.00" />
+        <stop offset="100%" style="stop-color:#153038;stop-opacity:1.00" />
+      </linearGradient>
+      </defs>
+      <path d="M75.5034447659826 3.0468217041507444 C47.33616273656372 1.1273170876323613 6.66045077612633 60.09340934095562 0.7590416084129714 87.7023507319776 C-3.554354901892597 107.88199055441153 8.446861864593263 154.62651843069816 25.320417882607074 166.50533824266716 C56.96413748207665 188.78220998809414 162.42361598379637 194.51493403466128 179.97933992488385 160.02753689082937 C201.36549839502572 118.01543058204135 122.53653835174137 6.251967311480291 75.5034447659826 3.0468217041507444Z" stroke="none" fill="url(#lgrad)"  />
+    </svg>
   </div>
+</div>
+<hr class="self-muted">
+<footer class="py-3 my-4">
+  <ul class="nav justify-content-center pb-3 mb-3">
+    <li class="ms-3">
+      <a class="text-muted" href="https://twitter.com/crpicanco">
+        <span class="fa-stack fa-lg">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </li>
+    <li class="ms-3">
+      <a class="text-muted" href="https://instagram.com/orafaprof">
+        <span class="fa-stack fa-lg">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </li>
+    <li class="ms-3">
+      <a class="text-muted" href="https://github.com/cpicanco">
+        <span class="fa-stack fa-lg">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </li>
+  </ul>
   <p class="text-center">&copy; 2015-{{ 'now' | date: "%Y" }} Carlos Rafael Fernandes Picanço.<br>
 
     {% if page.language == 'en' %}

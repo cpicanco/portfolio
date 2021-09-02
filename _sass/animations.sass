@@ -1,0 +1,46 @@
+.float
+  animation-name: ani-float
+  animation-duration: 2s
+  animation-iteration-count: infinite
+  animation-direction: alternate-reverse
+  animation-timing-function: ease-out
+  z-index: 2
+  margin-left: 20px
+
+@keyframes ani-float
+  0%
+    transform: translate(0, 5px)
+  50%
+    transform: translate(0, 0px)
+  100%
+    transform: translate(0, -5px)
+
+.rotate
+  animation-name: ani-rotate
+  animation-duration: 20s
+  animation-timing-function: linear
+  animation-delay: 0s
+  animation-iteration-count: infinite
+  animation-direction: normal
+  animation-fill-mode: none
+  z-index: 2
+@keyframes ani-rotate
+  0%
+    transform: rotate(0)
+  100%
+    transform: rotate(360deg)
+
+.beating:before
+  animation-name: text-focus-in
+  animation-duration: 0.8s
+  animation-timing-function: ease-in
+  animation-delay: 0s
+  animation-iteration-count: infinite
+  animation-direction: alternate-reverse
+  animation-fill-mode: none
+@keyframes text-focus-in
+  0%
+    font-size: 2em
+
+  100%
+    font-size: 2.3em

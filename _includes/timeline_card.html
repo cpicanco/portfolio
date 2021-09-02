@@ -7,7 +7,7 @@
 
     {% when 'achievement' %}
 
-      <div class="achievements ac-size-2x {{ card.icon }}">
+      <div class="achievements ac-size-2x {{ card.icon }} beating">
         <p class="achievements-title">{{ card.title }}</p>
         <p>{{ card.subtitle }}</p>
       </div>
@@ -87,26 +87,26 @@
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card">
+        <div class="card" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">{{ card.title }}</h4>
           </div>
           <div class="card-body">
-            <blockquote>
-              <div class="self-font" >
+            <blockquote style="display:inline-flex">
+              <div class="self-font" style="max-width: 600px">
                 <p class="card-text">
                   {{ card.html | replace: '..','.' | replace: '  ',' '}}
                 </p>
               </div>
-              <hr>
               {% if include.card.doi != null %}
-                <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='{{ include.card.doi }}'></div>
+              <div class='altmetric-embed' data-badge-type='donut' data-condensed='true' data-badge-details='right' data-doi='{{ include.card.doi }}'></div>
               {% endif %}
               <br>
-              <footer class="blockquote-footer">
-                <cite><a href="{{ include.card.url }}">{{ intro.url }}</a></cite>
-              </footer>
+              <hr>
             </blockquote>
+            <footer class="blockquote-footer border-top">
+              <cite><a href="{{ include.card.url }}">{{ intro.url }}</a></cite>
+            </footer>
           </div>
         </div>
 

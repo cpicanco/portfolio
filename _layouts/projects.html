@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html lang="{{ page.language }}">
   {% include head.html %}
-  <body style="padding-top: 200px;">
+
+  <body class="self-background-color" style="padding-top: 200px;">
     {% include nav.html %}
 
     <div class="container">
-
       {% assign timeline_data = "" | split: ',' %}
       {% for achievement in site.data.achievements %}
         {% assign timeline_data = timeline_data | push: achievement %}
@@ -26,6 +26,7 @@
 
       {% assign timeline_data = timeline_data | sort %}
       <!-- <iframe src="https://rafael.picanco.nom.br/blog/pt-br/" width="100%" height="400" frameborder="0" scrolling="no">teste</iframe> -->
+
       <div class="row">
         <div class="col-xs-10">
           <ul class="timeline">

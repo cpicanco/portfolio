@@ -3,10 +3,37 @@ $left-direction: 1
 $bottom-direction: 2
 $right-direction: 3
 $base-color: white
+$background-badge-color: #275563
+$background-badge-color-end: #1a3a44
 
 @mixin link-base
   content: " "
   display: table
+
+@mixin timeline-before-base
+  background-color: #eeeeee
+  content: " "
+  position: absolute
+  margin-left: -1.5px
+  left: 50px
+  bottom: 0
+  width: 3px
+
+@mixin timeline-badge-base
+  color: $base-color
+  width: 50px
+  height: 50px
+  font-size: 2em
+  text-align: center
+  line-height: 50px
+  position: absolute
+  left: 50px
+  margin-left: -25px
+  z-index: 1
+  border-top-right-radius: 50%
+  border-top-left-radius: 50%
+  border-bottom-right-radius: 50%
+  border-bottom-left-radius: 50%
 
 @mixin panel-pseudo-triangule($direction, $size: 42px)
   @if $direction > 3
@@ -51,14 +78,8 @@ $base-color: white
   position: relative
 
   &:before
-    background-color: #eeeeee
-    content: ""
-    position: absolute
-    margin-left: -1.5px
+    @include timeline-before-base
     top: 0
-    left: 50px
-    bottom: 0
-    width: 3px
 
   & > li
     margin-bottom: 100px
@@ -89,26 +110,10 @@ $base-color: white
       &:before
         @include panel-pseudo-triangule($top-direction)
 
-      &:after
-        @include panel-pseudo-triangule($top-direction)
-
     & > .timeline-badge
-      color: $base-color
-      width: 50px
-      height: 50px
-      font-size: 2em
-      text-align: center
-      line-height: 50px
-      position: absolute
+      @include timeline-badge-base
+      background-color: $background-badge-color
       top: -55px
-      left: 50px
-      margin-left: -25px
-      background-color: #999999
-      z-index: 1
-      border-top-right-radius: 50%
-      border-top-left-radius: 50%
-      border-bottom-right-radius: 50%
-      border-bottom-left-radius: 50%
 
     &.timeline-inverted > .timeline-panel
       float: right
@@ -123,6 +128,26 @@ $base-color: white
         border-right-width: 14px
         left: -14px
         right: auto
+
+.timeline-end
+  list-style: none
+  padding: 20px 0 20px 0
+  position: relative
+  &:before
+    @include timeline-before-base
+    top: -20px
+
+  &:after
+    @include timeline-badge-base
+    content: " "
+    top: 30px
+    background-color: $background-badge-color-end
+
+.at-timeline-end
+  position: absolute
+  left: 50px
+  top: 30px
+  margin-left: -25px
 
 .timeline-badge
   .primary

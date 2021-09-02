@@ -1,18 +1,22 @@
 $base-background-color-darker: #071f26
 $base-background-color: #153038
+$base-background-color-light: #1a3a44
 $base-background-text-muted: #96b5be
 $base-background-link: #447483
 $base-background-active: #235c6e
 $base-background-active-inverse: #0e1f24
 
-body
-  background-color: $base-background-color
+.self-bg-dark
+  background-color: $base-background-color-darker
 
-.self-color
+.self-background-color
   background-color: $base-background-color
 
 .self-active
   background-color: $base-background-active-inverse
+
+.self-muted
+  color: $base-background-text-muted
 
 .self-font
   line-height: 1.7
@@ -21,7 +25,7 @@ body
 
 span
   &.fa-stack
-    color: $base-background-color-darker
+    color: $base-background-color-light
     &:hover
       color: $base-background-active
 

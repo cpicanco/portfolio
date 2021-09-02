@@ -1,44 +1,33 @@
+$base-background-color-darker: #071f26
+$base-background-color: #153038
+$base-background-text-muted: #96b5be
+$base-background-link: #447483
+$base-background-active: #235c6e
+$base-background-active-inverse: #0e1f24
+
 body
-  background-color: #153038
+  background-color: $base-background-color
 
 .self-color
-  background-color: #153038
+  background-color: $base-background-color
 
 .self-active
-  background-color: #0e1f24
+  background-color: $base-background-active-inverse
 
 .self-font
   line-height: 1.7
   text-indent: -3em
   padding-left: 3em
 
-.self-margin-top
-  height: 100%
-  padding-top: 15em
-  padding-bottom: 10em
-
-.self-margin-end
-  height: 100%
-  padding-top: 8em
-  padding-bottom: 3em
-
-.section-top, .section-end
-  height: 100%
-  padding-top: 3.5em
-  padding-bottom: 10em
-
-.section-end
-  padding-bottom: 3em
-
 span
   &.fa-stack
-    color: #071f26
+    color: $base-background-color-darker
     &:hover
-      color: #235c6e
+      color: $base-background-active
 
 footer > p
-  color: #96b5be
+  color: $base-background-text-muted
 
   & > a
-    color: #447483
+    color: $base-background-link
     text-decoration: none

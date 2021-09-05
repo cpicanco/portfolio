@@ -21,7 +21,7 @@ en:
     that inspired the name of the album.
     There is an english translation too: 'The Morning of the Magicians'.
 
-  widget: |
+  element_content: |
     <li><a class="fab fa-soundcloud dropdown-item" href="https://soundcloud.com/malachai"> Soundcloud</a></li>
     <li class="divider"></li>
     <li><iframe width="200" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/54962736&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe></li>

@@ -8,3 +8,4 @@ nodejs
 .jekyll-cache/
 .vscode/
 _sass/dist/
+js/dist/

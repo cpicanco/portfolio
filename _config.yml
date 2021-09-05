@@ -3,6 +3,7 @@ mpaginate: 3
 author: 'Rafael Picanço'
 url: https://portfolio.rafael.picanco.nom.br
 exclude: ['.gitignore',
+          '.liquidrc',
           'CNAME',
           'portfolio.sublime-project',
           'portfolio.sublime-workspace',
@@ -12,8 +13,9 @@ exclude: ['.gitignore',
           'LICENSE.md',
           'README.md',
           'package.json',
-          'css/min/',
+          'css/dist/',
           'js/src/',
+          'js/dist/',
           'node_modules/',
           'python/',
           'vendor',

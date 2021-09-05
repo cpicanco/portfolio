@@ -1,3 +1,22 @@
+{% assign timeline_data = "" | split: ',' %}
+{% for achievement in site.data.achievements %}
+  {% assign timeline_data = timeline_data | push: achievement %}
+{% endfor %}
+
+{% for project in site.data.projects %}
+  {% assign timeline_data = timeline_data | push: project %}
+{% endfor %}
+
+{% for publication in site.data.publications %}
+  {% assign timeline_data = timeline_data | push: publication %}
+{% endfor %}
+
+{% for software in site.data.softwares %}
+  {% assign timeline_data = timeline_data | push: software %}
+{% endfor %}
+
+{% assign timeline_data = timeline_data | sort %}
+<!-- <iframe src="https://rafael.picanco.nom.br/blog/pt-br/" width="100%" height="400" frameborder="0" scrolling="no">teste</iframe> -->
 <!--Copyright (c) 2015-2021 Carlos Rafael Fernandes Picanço.-->
 <!DOCTYPE html>
 <html lang="{{ page.language }}">
@@ -5,31 +24,16 @@
 
   <body class="self-background-color" style="padding-top: 200px;">
     {% include nav.html %}
-
+    <header>
+      <div class="container">
+        <h1 class="z-index-over-particles text-white">Dr. Rafael Picanço</h1>
+      <div class="container">
+    </header>
     <div class="container">
-      {% assign timeline_data = "" | split: ',' %}
-      {% for achievement in site.data.achievements %}
-        {% assign timeline_data = timeline_data | push: achievement %}
-      {% endfor %}
-
-      {% for project in site.data.projects %}
-        {% assign timeline_data = timeline_data | push: project %}
-      {% endfor %}
-
-      {% for publication in site.data.publications %}
-        {% assign timeline_data = timeline_data | push: publication %}
-      {% endfor %}
-
-      {% for software in site.data.softwares %}
-        {% assign timeline_data = timeline_data | push: software %}
-      {% endfor %}
-
-      {% assign timeline_data = timeline_data | sort %}
-      <!-- <iframe src="https://rafael.picanco.nom.br/blog/pt-br/" width="100%" height="400" frameborder="0" scrolling="no">teste</iframe> -->
-
       <div class="row">
         <div class="col-xs-10">
           <ul class="timeline">
+            <div id="particles-js"></div>
             {% for data in timeline_data reversed %}
               {% assign filename = data[0] %}
               {% assign card = data[1] %}
@@ -38,7 +42,6 @@
               {% else %}
                 {% include timeline_card.html card=card filename=filename %}
               {% endif %}
-
             {% endfor %}
           </ul>
         </div>
@@ -46,9 +49,10 @@
     </div>
 
     <script src="/js/filtering.js"></script>
+    <script src="/js/particles.js"></script>
+    <script src="/js/particles-init.js"></script>
 
     {% include footer.html %}
     {% include global_scripts.html %}
-
   </body>
 </html>

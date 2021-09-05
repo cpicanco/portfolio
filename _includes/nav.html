@@ -15,16 +15,16 @@
 
 {% assign intro = site.data.intros.filtering[page.language] %}
 
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg fixed-top self-nav-bar">
   <div class="container-fluid">
     <a class="navbar-brand" href="https://blog.rafael.picanco.nom.br/pt-br/about/">&middot;&#32;{{ about }}</a>
-    <div id="filter-container" class="btn-group">
-      <button class="btn btn-outline-primary dropdown-toggle text-white" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+    <div class="btn-group">
+      <button class="btn btn-outline-primary dropdown-toggle" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
         {{ label }}
       </button>
       <ul class="dropdown-menu bg-dark" aria-labelledby="defaultDropdown">
-        <section class="d-flex justify-content-center text-white">
-          <div class="btn-group-vertical" role="group" aria-label="Filtering group" id="filter-container">
+        <section class="d-flex justify-content-center">
+          <div id="filter-container" class="btn-group-vertical" role="group" aria-label="Filtering group" id="filter-container">
             <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" onchange="filterSelection('all')" checked>
             <label class="btn btn-primary d-flex justify-content-center" for="btnradio1">{{ intro.all }}</label>
 
@@ -49,7 +49,7 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarToggle">
-      <div class="bg-dark p-4">
+      <div class="p-4">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="https://blog.rafael.picanco.nom.br/{{ page.language | downcase }}/">Blog</a>

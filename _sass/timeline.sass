@@ -18,6 +18,7 @@ $background-badge-color-end: #1a3a44
   left: 50px
   bottom: 0
   width: 3px
+  z-index: 0
 
 @mixin timeline-badge-base
   color: $base-color
@@ -73,6 +74,7 @@ $background-badge-color-end: #1a3a44
     border-bottom: $half solid transparent
 
 .timeline
+  left: 0px
   list-style: none
   padding: 20px 0 20px 0
   position: relative
@@ -106,6 +108,7 @@ $background-badge-color-end: #1a3a44
       position: relative
       -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175)
       box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175)
+      z-index: 4
 
       &:before
         @include panel-pseudo-triangule($top-direction)
@@ -181,3 +184,7 @@ $background-badge-color-end: #1a3a44
 
 .timeline-body br
   margin-bottom: 15px
+
+.timeline-filter-item
+  display: none
+  margin-top: 200px;

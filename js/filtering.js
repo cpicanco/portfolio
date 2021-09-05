@@ -1,7 +1,7 @@
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
-  x = document.getElementsByClassName("filter-item");
+  x = document.getElementsByClassName("timeline-filter-item");
   if (c == "all") c = "";
   // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
   for (i = 0; i < x.length; i++) {
@@ -37,11 +37,14 @@ function w3RemoveClass(element, name) {
 
 // Add active class to the current control button (highlight it)
 var btnContainer = document.getElementById("filter-container");
-var btns = btnContainer.getElementsByClassName("btn");
+var btns = btnContainer.getElementsByClassName("btn-primary");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
+    if (!current) {
+      console.log(current);
+      current[0].className = current[0].className.replace(" active", "");
+    };
     this.className += " active";
   });
 }

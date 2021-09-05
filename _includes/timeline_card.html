@@ -1,7 +1,7 @@
 {% assign intro = site.data.intros.publications[page.language] %}
 {% assign card = include.card[page.language] %}
 
-<li class="filter-item {{ include.card.category }}">
+<li class="timeline-filter-item {{ include.card.category }}">
   <section id="section-{{ include.filename }}">
   {% case include.card.category %}
 
@@ -39,8 +39,10 @@
     <div class="timeline-badge">
       <i class="fas fa-check"></i>
     </div>
-    <img src="{{ card.image }}" alt="{{ card.title }}" style="width: 200px; height: 200px;">
-    <div class="card" style="max-width: 600px">
+    <div class="z-index-over-particles" >
+      <img src="{{ card.image }}" alt="{{ card.title }}" style="width: 200px; height: 200px;">
+    </div>
+    <div class="card z-index-over-particles" style="max-width: 600px">
       <div class="card-body">
       <h4 class="card-title">{{ card.title }}</h4>
       <p class="text-muted">
@@ -63,8 +65,10 @@
       <div class="timeline-badge">
         <i class="fas fa-check"></i>
       </div>
-      <img src="{{ card.image }}" alt="{{ card.title }}" style="width: 200px; height: 200px;">
-      <div class="card" style="max-width: 600px">
+      <div class="z-index-over-particles" >
+        <img src="{{ card.image }}" alt="{{ card.title }}" style="width: 200px; height: 200px;">
+      </div>
+      <div class="card z-index-over-particles" style="max-width: 600px">
         <div class="card-body">
         <h4 class="card-title">{{ card.title }}</h4>
         <p class="text-muted">
@@ -87,7 +91,7 @@
         <div class="timeline-badge">
             <i class="fas fa-check"></i>
         </div>
-        <div class="card" style="max-width: 936px">
+        <div class="card z-index-over-particles" style="max-width: 936px">
           <div class="card-header">
             <h5 class="card-title">{{ card.title }}</h4>
           </div>

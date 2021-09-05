@@ -1,10 +1,21 @@
+@use 'sass:map'
+
+$bootstrap-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px)
 $base-background-color-darker: #071f26
 $base-background-color: #153038
 $base-background-color-light: #1a3a44
+$base-text-color: #ffffff
 $base-background-text-muted: #96b5be
 $base-background-link: #447483
 $base-background-active: #235c6e
 $base-background-active-inverse: #0e1f24
+
+@mixin responsive-to($breakpoint)
+  @if map-has-key($bootstrap-breakpoints, $breakpoint)
+    @media (min-width: map-get($bootstrap-breakpoints, $breakpoint))
+      @content
+  @else
+    @warn "`#{$breakpoint}` does not exist. Available breakpoints are: #{map-keys($breakpoints)}."
 
 .self-bg-dark
   background-color: $base-background-color-darker
@@ -35,3 +46,64 @@ footer > p
   & > a
     color: $base-background-link
     text-decoration: none
+
+.self-nav-bar
+  color: $base-text-color
+  background-color: rgba(21, 48, 56, .7)
+  button
+    color: $base-text-color
+
+  & > ul
+    background-color: rgba(21, 48, 56, .7)
+  a
+    &.navbar-brand
+      color: $base-text-color
+      &:hover
+        color: $base-background-active
+
+    &.nav-link
+      color: $base-background-text-muted
+
+      &:hover
+        color: $base-background-active
+
+.z-index-over-particles
+  display: block
+  z-index: 100
+
+.relative-left
+  left: 100px
+  position: relative
+
+canvas
+  display: block
+  vertical-align: inherit
+  z-index: 0
+
+#particles-js
+  position: fixed
+  top: 0px
+  bottom: 0px
+  background-color: transparent
+  background-repeat: no-repeat
+  height: 100%
+  left: 0px
+  width: 150px
+  @include responsive-to(xs)
+    left: 0px
+    width: 125px
+  @include responsive-to(sm)
+    left: 7vw
+    width: 150px
+  @include responsive-to(md)
+    left: 7vw
+    width: 175px
+  @include responsive-to(lg)
+    left: 7vw
+    width: 200px
+  @include responsive-to(xl)
+    left: 7vw
+    width: 225px
+  @include responsive-to(xxl)
+    left: 7vw
+    width: 250px

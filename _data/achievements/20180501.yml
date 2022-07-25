@@ -18,7 +18,7 @@ pt-BR:
 
   element_content: |
     <li><a class="dropdown-item"href="/media/20180501_concurso_uefs.pdf">Resultado Final</a></li>
-    <li><a class="dropdown-item"href="http://csa.uefs.br/index.php/professor181/inicial/">Website da Instituição</a></li>
+    <li><a class="dropdown-item"href="https://csa.uefs.br/index.php/professor181/inicial/">Website da Instituição</a></li>
 
 en:
   skip: True

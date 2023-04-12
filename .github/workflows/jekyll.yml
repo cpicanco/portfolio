@@ -61,9 +61,10 @@ jobs:
           ### If you need to specify any Jekyll build options, enable the above input
           ### Flags accepted can be found here https://jekyllrb.com/docs/configuration/options/#build-command-options
 
-      - uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
 
       - name: HTMLProofer

@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 gem 'html-proofer'
-gem 'webrick', '~> 1.7'
+gem 'webrick', '~> 1.8'
 gem "font-awesome-sass", '~> 5.15.1'
 gem 'autoprefixer-rails', '~> 10.3.1.0'
 gem 'sprockets-rails', '~> 3.2.2', :require => 'sprockets/railtie'
